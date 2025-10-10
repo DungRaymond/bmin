@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hướng Dẫn Căng Cước Vợt Cầu Lông</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 20px;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            overflow: hidden;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+        }
+
+        .header p {
+            font-size: 1.1em;
+            opacity: 0.9;
+        }
+
+        .content {
+            padding: 30px;
+        }
+
+        .racket-card {
+            background: #f8f9fa;
+            border-radius: 15px;
+            padding: 25px;
+            margin-bottom: 25px;
+            border-left: 5px solid #667eea;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .racket-card:hover {
+            transform: translateX(5px);
+            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.3);
+        }
+
+        .racket-name {
+            font-size: 1.8em;
+            color: #667eea;
+            margin-bottom: 15px;
+            font-weight: bold;
+        }
+
+        .string-option {
+            background: white;
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 10px;
+            border: 2px solid #e9ecef;
+            transition: border-color 0.3s ease;
+        }
+
+        .string-option:hover {
+            border-color: #667eea;
+        }
+
+        .main-string {
+            font-weight: bold;
+            color: #2c3e50;
+            font-size: 1.1em;
+            margin-bottom: 8px;
+        }
+
+        .tension {
+            color: #e74c3c;
+            font-weight: bold;
+        }
+
+        .variants {
+            margin-top: 10px;
+            padding-left: 20px;
+        }
+
+        .variant-item {
+            margin: 5px 0;
+            color: #495057;
+        }
+
+        .variant-item::before {
+            content: "→ ";
+            color: #667eea;
+            font-weight: bold;
+        }
+
+        .note {
+            color: #16a085;
+            font-style: italic;
+            margin-top: 5px;
+        }
+
+        .badge {
+            display: inline-block;
+            background: #667eea;
+            color: white;
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-size: 0.85em;
+            margin-right: 8px;
+            margin-top: 5px;
+        }
+
+        .backup {
+            background: #fff3cd;
+            border-left-color: #ffc107;
+        }
+
+        @media (max-width: 768px) {
+            .header h1 {
+                font-size: 1.8em;
+            }
+
+            .racket-name {
+                font-size: 1.5em;
+            }
+
+            .content {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🏸 Hướng Dẫn Căng Cước Vợt Cầu Lông</h1>
+            <p>Tổng hợp cấu hình cước và độ căng tối ưu cho từng dòng vợt</p>
+        </div>
+
+        <div class="content">
+            <!-- Titan 7 -->
+            <div class="racket-card">
+                <div class="racket-name">Titan 7</div>
+                <div class="string-option">
+                    <div class="main-string">
+                        Cước chính: Gosen Ryzonic 65 (0.65 mm) <span class="tension">@ 26 lbs</span>
+                    </div>
+                    <div class="variants">
+                        <div class="variant-item">Li-Ning L67 (0.67 mm) @ 26 lbs</div>
+                        <div class="note">→ êm tay, dễ điều cầu, drive mượt</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Blade 8300 -->
+            <div class="racket-card">
+                <div class="racket-name">Blade 8300</div>
+                <div class="string-option">
+                    <div class="main-string">
+                        Cước chính: VBS66 Nano <span class="tension">@ 26.5–27 lbs</span>
+                    </div>
+                    <div class="variants">
+                        <div class="variant-item">Li-Ning L67 @ 26.5–27 lbs</div>
+                        <div class="note">→ êm tay, ổn định</div>
+                        <div class="variant-item">Victor VS-100 @ 27–28 lbs</div>
+                        <div class="note">→ bền, drive ổn định</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Titan 9 -->
+            <div class="racket-card">
+                <div class="racket-name">Titan 9</div>
+                <div class="string-option">
+                    <div class="main-string">
+                        Cước chính: Zymax 66 FP <span class="tension">@ 27 lbs</span>
+                    </div>
+                    <div class="variants">
+                        <div class="variant-item">Li-Ning L67 @ 26.5–27.5 lbs</div>
+                        <div class="note">→ êm tay, power-control cân bằng</div>
+                        <div class="variant-item">Victor VS-100 @ 28 lbs</div>
+                        <div class="note">→ ổn định đằm cầu</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Titan 1000 (1) -->
+            <div class="racket-card">
+                <div class="racket-name">Titan 1000 <span class="badge">Cấu hình 1</span></div>
+                <div class="string-option">
+                    <div class="main-string">
+                        Cước chính: Kizuna Z69T <span class="tension">@ 28.5–29.5 lbs</span>
+                    </div>
+                    <div class="variants">
+                        <div class="variant-item">Li-Ning L67 @ 28 lbs</div>
+                        <div class="note">→ mềm hóa khung cứng</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Titan 1000 (2) -->
+            <div class="racket-card">
+                <div class="racket-name">Titan 1000 <span class="badge">Cấu hình 2</span></div>
+                <div class="string-option">
+                    <div class="main-string">
+                        Cước chính: VBS66 Nano <span class="tension">@ 26.5 lbs</span>
+                    </div>
+                    <div class="variants">
+                        <div class="variant-item">Li-Ning No.1 @ 26.5 lbs</div>
+                        <div class="note">→ âm sáng, cầu thoát nhanh</div>
+                        <div class="variant-item">Li-Ning L67 @ 26.5 lbs</div>
+                        <div class="note">→ mượt và êm hơn</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Dự phòng -->
+            <div class="racket-card backup">
+                <div class="racket-name">Vợt Dự Phòng 🔄</div>
+                <div class="string-option">
+                    <div class="main-string">
+                        Cước chính: VBS66 Nano <span class="tension">@ 26 lbs</span>
+                    </div>
+                    <div class="variants">
+                        <div class="variant-item">L67 @ 26 lbs</div>
+                        <div class="note">→ ổn định, mềm tay khi mỏi</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
