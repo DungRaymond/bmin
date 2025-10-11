@@ -1,132 +1,186 @@
-<!doctype html>
-<html lang="vi">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Bộ cấu hình vợt & cước — bản chuẩn và cấu hình tạm</title>
-  <style>
-    :root { --bg:#0e0e0e; --fg:#eaeaea; --muted:#a7a7a7; --card:#161616; --accent:#27c29d; --accent2:#7ac6ff; }
-    html,body{background:var(--bg);color:var(--fg);font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;line-height:1.5;margin:0;padding:0}
-    .wrap{max-width:1100px;margin:24px auto;padding:0 16px}
-    h1{font-size:28px;margin:0 0 12px}
-    h2{font-size:22px;margin:28px 0 12px}
-    p.lead{color:var(--muted);margin-top:0}
-    .card{background:var(--card);border:1px solid #2a2a2a;border-radius:16px;padding:16px;margin:12px 0}
-    table{width:100%;border-collapse:separate;border-spacing:0;overflow:hidden;border-radius:12px;border:1px solid #2a2a2a}
-    th,td{padding:12px 10px;text-align:left;vertical-align:top}
-    thead th{background:#1d1d1d;color:#dcdcdc;position:sticky;top:0}
-    tbody tr:nth-child(odd){background:#151515}
-    tbody tr:nth-child(even){background:#121212}
-    code{background:#1b1b1b;border:1px solid #2a2a2a;border-radius:6px;padding:0 6px}
-    .muted{color:var(--muted)}
-    .small{font-size:12px}
-    .note{border-left:3px solid var(--accent);padding:8px 12px;background:#0f1614;border-radius:8px;margin:12px 0}
-  </style>
-</head>
-<body>
-  <div class="wrap">
-    <h1>📋 Bộ cấu hình vợt & cước</h1>
-    <p class="lead">Gồm hai phần: <b>cấu hình chuẩn hiện tại</b> và <b>cấu hình tạm</b> (thực tế, tiết kiệm chi phí và đang sử dụng).</p>
+<!-- CẤU HÌNH VỢT & CƯỚC — cập nhật: 2025-10-11 -->
+<!-- Ghi chú: Đã chuyển ATK/CTRL sang hiển thị sao (⭐/☆) 2 dòng. Thêm CSS nhẹ cho tính thẩm mỹ. -->
 
-    <h2>I. Cấu hình chuẩn hiện tại</h2>
-    <table>
-      <thead>
-        <tr>
-          <th>Vợt</th>
-          <th>Cước</th>
-          <th>Mức căng tối ưu</th>
-          <th>Vai trò</th>
-        </tr>
-      </thead>
-      <tbody>
-        <!-- TITAN 7 -->
-        <tr>
-          <td>Titan 7</td>
-          <td>Gosen Ryzonic 65 (0.65 mm)</td>
-          <td>26–26.5 lbs</td>
-          <td>Control / Precision</td>
-        </tr>
-        <tr class="small muted"><td colspan="4"><i>Biến thể:</i> <b>Li-Ning L67 (0.67 mm) @ 26 lbs</b> — êm tay, ôm cầu, điều cầu & lưới mượt, phù hợp đánh đôi.</td></tr>
+<style>
+  :root{
+    --bg:#0f0f10; --fg:#eaeaea; --muted:#a3a3a3; --card:#17181a; --line:#2a2b2e;
+    --accent:#6ee7ff; --soft:#1f2125;
+  }
+  .cfg-wrap{max-width:1080px;margin:28px auto;padding:0 14px;font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,"Apple Color Emoji","Segoe UI Emoji";color:var(--fg)}
+  .cfg-wrap h2{margin:20px 0 10px;font-size:20px;line-height:1.3}
+  .cfg-note{font-size:12px;color:var(--muted);margin:2px 0 14px}
 
-        <!-- BLADE 8300 -->
-        <tr>
-          <td>Blade 8300</td>
-          <td>Victor VBS66 Nano (0.66 mm)</td>
-          <td>26.5–27 lbs</td>
-          <td>Speed / All-round chuyển tiếp</td>
-        </tr>
-        <tr class="small muted"><td colspan="4"><i>Biến thể:</i> <b>Li-Ning L67 @ 26.5–27 lbs</b> — êm, ổn định, bớt khô tay; <b>Victor VS-100 (0.70 mm) @ 27–28 lbs</b> — bền & đằm hơn, drive ổn định (đổi lấy ít repulsion).</td></tr>
+  .cfg-table{width:100%;border-collapse:separate;border-spacing:0;font-size:14px;background:var(--card);border:1px solid var(--line);border-radius:14px;overflow:hidden;box-shadow:0 10px 30px rgba(0,0,0,.25)}
+  .cfg-table thead th{background:linear-gradient(180deg,rgba(255,255,255,.04),rgba(255,255,255,.02));text-align:left;font-weight:600;color:var(--fg);border-bottom:1px solid var(--line)}
+  .cfg-table th,.cfg-table td{padding:10px 12px;vertical-align:top}
+  .cfg-table tbody tr:not(:last-child)>td{border-bottom:1px solid var(--soft)}
+  .cfg-table tbody tr:hover{background:rgba(255,255,255,.02)}
+  .cfg-table td small{color:var(--muted)}
 
-        <!-- TITAN 9 -->
-        <tr>
-          <td>Titan 9</td>
-          <td>Ashaway Zymax 66 Fire Power (0.66 mm)</td>
-          <td>27 lbs</td>
-          <td>All-round / Transition</td>
-        </tr>
-        <tr class="small muted"><td colspan="4"><i>Biến thể:</i> <b>Li-Ning L67 @ 26.5–27.5 lbs</b> — all‑round êm tay, smash sáng vừa; <b>Victor VS-100 @ 28 lbs</b> — ổn định, cầu đằm hơn cho điều tiết nhịp.</td></tr>
+  .w-rod{width:12%}
+  .w-str{width:16%}
+  .w-dia{width:8%}
+  .w-ten{width:12%}
+  .w-rtg{width:12%}
+  .w-play{width:27%}
+  .w-note{width:12%}
+  .w-alt{width:35%}
 
-        <!-- TITAN 1000 (1) -->
-        <tr>
-          <td>Titan 1000 (1)</td>
-          <td>Kizuna Z69T (0.69 mm)</td>
-          <td><b>28.5–29.5 lbs</b></td>
-          <td>Power / Back-court</td>
-        </tr>
-        <tr class="small muted"><td colspan="4"><i>Biến thể:</i> <b>Li-Ning L67 @ 28 lbs</b> — mềm hóa khung cứng, êm tay hơn khi rally dài (đổi lại bớt lực nổ).</td></tr>
+  .stars{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;letter-spacing:.5px;line-height:1.15}
+  .stars b{display:inline-block;min-width:38px;color:var(--muted);font-weight:600;margin-right:4px}
 
-        <!-- TITAN 1000 (2) -->
-        <tr>
-          <td>Titan 1000 (2)</td>
-          <td>Victor VBS66 Nano (0.66 mm)</td>
-          <td><b>27 lbs</b></td>
-          <td>Power–Control</td>
-        </tr>
-        <tr class="small muted"><td colspan="4"><i>Biến thể:</i> <b>Li-Ning No.1 @ 27.5 lbs</b> — âm sáng, repulsion mạnh hơn; <b>Li-Ning L67 @ 27 lbs</b> — mượt & êm tay, giữ nhịp ổn định.</td></tr>
+  @media (max-width:720px){.cfg-table{font-size:13px}.w-play{width:auto}}
+  body{background:var(--bg)}
+</style>
 
-        <!-- DỰ PHÒNG -->
-        <tr>
-          <td>Dự phòng</td>
-          <td>Victor VBS66 Nano (0.66 mm)</td>
-          <td>26–26.5 lbs</td>
-          <td>Stable Backup</td>
-        </tr>
-        <tr class="small muted"><td colspan="4"><i>Biến thể:</i> <b>Li-Ning L67 @ 26 lbs</b> — êm tay khi mỏi, giữ kiểm soát tốt.</td></tr>
-      </tbody>
-    </table>
+<div class="cfg-wrap">
+  <h2>Bộ cấu hình <strong>chuẩn</strong> hiện tại</h2>
+  <div class="cfg-note">Đặt làm mốc so sánh. Đã bổ sung <em>lối chơi phù hợp</em> + <em>cách vận lực khi tấn công</em> và cột <strong>ATK/CTRL</strong> hiển thị bằng sao.</div>
+  <table class="cfg-table">
+    <thead>
+      <tr>
+        <th class="w-rod">Vợt</th>
+        <th class="w-str">Cước</th>
+        <th class="w-dia">ĐK</th>
+        <th class="w-ten">Mức căng</th>
+        <th class="w-rtg">ATK / CTRL</th>
+        <th class="w-play">Lối chơi phù hợp</th>
+        <th class="w-note">Ghi chú</th>
+        <th class="w-alt">Thay thế</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>Titan 7</strong></td>
+        <td>Gosen Ryzonic 65</td>
+        <td>0.65 mm</td>
+        <td>27 lbs <small>(≈ 12.2 kg)</small></td>
+        <td class="stars">
+          <div><b>ATK</b> ⭐⭐☆☆☆</div>
+          <div><b>CTRL</b> ⭐⭐⭐⭐☆</div>
+        </td>
+        <td>
+          <strong>Kiểu chơi:</strong> phản tạt – kiểm soát – đầu lưới; giữ cầu thấp, đẩy nhịp nhanh trong đôi.<br>
+          <strong>Vận lực tấn công:</strong> ưu tiên <em>bật cổ tay + xoay cẳng tay</em> (pronation), vung gọn; tránh lấy toàn thân lâu để không trễ nhịp.
+        </td>
+        <td>Vợt nhẹ đầu, linh hoạt; ưu tiên nhịp nhanh.</td>
+        <td>Exbolt 65 / VBS66 Nano</td>
+      </tr>
+      <tr>
+        <td><strong>Titan 9</strong></td>
+        <td>Lining No.1</td>
+        <td>0.65 mm</td>
+        <td><strong>12.0 kg</strong> <small>(≈ 26.5 lbs)</small></td>
+        <td class="stars">
+          <div><b>ATK</b> ⭐⭐⭐☆☆</div>
+          <div><b>CTRL</b> ⭐⭐⭐⭐☆</div>
+        </td>
+        <td>
+          <strong>Kiểu chơi:</strong> toàn diện – ép nhịp – phản tạt chủ động; dựng cầu chính xác, phản công khi có khoảng trống.<br>
+          <strong>Vận lực tấn công:</strong> <em>cổ tay nhanh + pronation</em> làm chính, thêm <em>hông–vai</em> mức vừa khi kết thúc pha bóng; tránh cố “nện” quá tay.
+        </td>
+        <td>Sweet-spot 26–28 lbs; giảm rung tốt.</td>
+        <td>Exbolt 65 (giữ độ nhạy), Nanogy 98</td>
+      </tr>
+      <tr>
+        <td><strong>Titan 1000 (1)</strong></td>
+        <td>Kizuna Z69T</td>
+        <td>0.69 mm</td>
+        <td><strong>29 lbs</strong> <small>(≈ 13.2 kg)</small></td>
+        <td class="stars">
+          <div><b>ATK</b> ⭐⭐⭐⭐⭐</div>
+          <div><b>CTRL</b> ⭐⭐⭐☆☆</div>
+        </td>
+        <td>
+          <strong>Kiểu chơi:</strong> tấn công mạnh – smash nặng – ép cầu nhanh từ cuối sân.<br>
+          <strong>Vận lực tấn công:</strong> dùng <em>chuỗi động học đầy đủ</em> <small>(chân→hông→core→vai→cẳng tay→cổ tay)</small>, vung dài và chém qua cầu; khai thác tối đa độ cứng mặt vợt.
+        </td>
+        <td>Căng cao để giảm "ì"; chịu căng cao (tối đa danh định 36 lbs).</td>
+        <td>Nanogy 98 / Felet NPT 66+ <small>(-1~1.5 lbs)</small></td>
+      </tr>
+      <tr>
+        <td><strong>Titan 1000 (2)</strong></td>
+        <td>VBS66 Nano</td>
+        <td>0.66 mm</td>
+        <td>27.5 lbs <small>(≈ 12.4 kg)</small></td>
+        <td class="stars">
+          <div><b>ATK</b> ⭐⭐⭐☆☆</div>
+          <div><b>CTRL</b> ⭐⭐⭐⭐☆</div>
+        </td>
+        <td>
+          <strong>Kiểu chơi:</strong> toàn sân – kiểm soát nhịp – phản công thông minh; drive nhanh + điều cầu chính xác.<br>
+          <strong>Vận lực tấn công:</strong> nhấn <em>tốc độ cổ tay</em>, thêm <em>hông–vai mức vừa</em> để kết thúc; tập trung vào <em>điểm tiếp xúc cao</em> và góc vung sạch.
+        </td>
+        <td>Âm sạch, đàn hồi nhanh; lực đều.</td>
+        <td>Mizuno MX66 / MX66S / MT68</td>
+      </tr>
+      <tr>
+        <td><strong>Blade 8300</strong></td>
+        <td>VBS66 Nano</td>
+        <td>0.66 mm</td>
+        <td>27 lbs <small>(≈ 12.2 kg)</small></td>
+        <td class="stars">
+          <div><b>ATK</b> ⭐⭐☆☆☆</div>
+          <div><b>CTRL</b> ⭐⭐⭐⭐☆</div>
+        </td>
+        <td>
+          <strong>Kiểu chơi:</strong> toàn sân – điều cầu – kiểm soát nhịp; ép góc, chặn–đẩy nhanh, dựng cầu chính xác.<br>
+          <strong>Vận lực tấn công:</strong> <em>tốc độ cổ tay + góc vung</em> là chủ đạo; <em>không dùng sức toàn thân</em> vì setup không sinh lực; ưu tiên tiếp xúc sớm, swing gọn.
+        </td>
+        <td>Khung cứng vừa, cân bằng đầu; ưu tiên độ chính xác.</td>
+        <td>Exbolt 65 / Nanogy 98</td>
+      </tr>
+      <tr>
+        <td><strong>Backup</strong></td>
+        <td>VBS66 Nano</td>
+        <td>—</td>
+        <td>—</td>
+        <td class="stars">
+          <div><b>ATK</b> ⭐⭐⭐☆☆</div>
+          <div><b>CTRL</b> ⭐⭐⭐⭐☆</div>
+        </td>
+        <td>Dự phòng đa dụng: êm, đàn hồi cao; thiên kiểm soát mềm mại.</td>
+        <td>Phù hợp đa số vợt cân bằng/cứng vừa.</td>
+        <td>—</td>
+      </tr>
+    </tbody>
+  </table>
 
-    <h2>II. Cấu hình tạm (thực tế hiện tại)</h2>
-    <div class="note small">Bao gồm vợt vừa nhận Titan 1000(2) căng sẵn Venson BG7 (~10kg). Mục tiêu: duy trì cảm giác công mạnh và kiểm soát đủ dùng, chi phí thấp.</div>
-    <table>
-      <thead>
-        <tr>
-          <th>Vợt</th><th>Cước hiện tại</th><th>Mức căng</th><th>Vai trò</th><th>Ghi chú</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr><td>Titan 7</td><td>Venson V3 (0.63 mm)</td><td>26 lbs (~11.8 kg)</td><td>Control / phản tạt</td><td>Khô, phản nhanh, tiết kiệm.</td></tr>
-        <tr><td>Blade 8300</td><td><b>Đề xuất: Victor VBS66 Nano (0.66 mm)</b></td><td>26.5–27 lbs (~12.0–12.2 kg)</td><td>All-round / chuyển tiếp</td><td>✅ Cầu mượt, dễ kiểm soát, liền cảm giác với Titan 7 & Titan 9.</td></tr>
-        <tr><td>Titan 9</td><td>Kizuna Z69T (0.69 mm)</td><td>11 kg (~24.3 lbs)</td><td>Power / Back-court</td><td>Smash sâu, cầu nặng, ít repulsion.</td></tr>
-        <tr><td>Titan 1000 (1)</td><td>Yonex BG80 Power (0.68 mm)</td><td>11.5 kg (~25.3 lbs)</td><td>Power thuần</td><td>Âm sáng, smash nổ, hơi khô tay.</td></tr>
-        <tr><td>Titan 1000 (2)</td><td>Venson BG7</td><td>10 kg (~22 lbs)</td><td>Power–Control nhẹ</td><td>Cầu mềm, thiên bền, phù hợp luyện tập nhẹ.</td></tr>
-        <tr><td>Dự phòng</td><td>Victor VBS66 Nano (0.66 mm)</td><td>26–26.5 lbs</td><td>Stable Backup</td><td>Không đổi.</td></tr>
-      </tbody>
-    </table>
-
-    <h2>III. Gợi ý lựa chọn cước cho Blade 8300 (nếu chưa căng)</h2>
-    <table>
-      <thead>
-        <tr><th>Cước</th><th>Đặc tính</th><th>Ưu điểm</th><th>Khuyến nghị</th></tr>
-      </thead>
-      <tbody>
-        <tr><td><b>Victor VBS66 Nano</b></td><td>Mượt, tuyến tính, dễ điều khiển.</td><td>Ổn định, bền, cảm giác liền mạch.</td><td><b>🥇 Nên chọn @26.5–27 lbs</b></td></tr>
-        <tr><td>Ashaway Zymax 66 FP</td><td>Bật mạnh, âm sáng.</td><td>Phù hợp nếu muốn tốc độ ra cầu.</td><td>@26.5 lbs, có thể giảm 0.5 lbs nếu sắc tay.</td></tr>
-        <tr><td>Li-Ning No.1</td><td>Đàn hồi cao, cầu sáng.</td><td>Chuẩn all-round chuyên nghiệp.</td><td>@26.5–27 lbs, chi phí cao hơn.</td></tr>
-        <tr><td>Venson V3</td><td>Khô, tốc độ cao.</td><td>Tiết kiệm, đồng cảm giác với Titan 7.</td><td>@26 lbs, không khuyến khích cho all-round dài hạn.</td></tr>
-      </tbody>
-    </table>
-
-    <p class="small muted">Tóm gọn: <b>VBS66 Nano</b> vẫn là lựa chọn tối ưu cho Blade 8300 trong cấu hình tạm. Titan 1000(1) sử dụng Z69T ở 28.5–29.5 lbs cho thi đấu, Titan 1000(2) dùng BG7 cho luyện tập nhẹ.</p>
-  </div>
-</body>
-</html>
+  <h2 style="margin-top:28px">Cấu hình <strong>tạm</strong> (đang dùng)</h2>
+  <div class="cfg-note">Phản ánh setup thực tế hiện tại của bạn; dùng để test/đối chiếu khi chơi.</div>
+  <table class="cfg-table">
+    <thead>
+      <tr>
+        <th class="w-rod">Vợt</th>
+        <th class="w-str">Cước</th>
+        <th class="w-dia">ĐK</th>
+        <th class="w-ten">Mức căng</th>
+        <th class="w-rtg">ATK / CTRL</th>
+        <th class="w-play">Lối chơi phù hợp</th>
+        <th class="w-note">Ghi chú</th>
+        <th class="w-alt">Thay thế</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>Blade 8300</strong></td>
+        <td>VBS66 Nano</td>
+        <td>0.66 mm</td>
+        <td><strong>26 lbs</strong> <small>(≈ 11.8 kg)</small></td>
+        <td class="stars">
+          <div><b>ATK</b> ⭐⭐☆☆☆</div>
+          <div><b>CTRL</b> ⭐⭐⭐⭐☆</div>
+        </td>
+        <td>
+          <strong>Kiểu chơi:</strong> toàn sân – điều cầu nhạy – phản tạt chính xác; kéo cầu sát lưới, giữ rally dài, ép nhịp từ giữa sân.<br>
+          <strong>Vận lực tấn công:</strong> ưu tiên <em>tốc độ cổ tay</em> và <em>góc vung</em>; <em>không dùng sức toàn thân</em>; đánh theo thời điểm (timing) và tiếp xúc sớm để cầu thoát nhanh.
+        </td>
+        <td>
+          Cầu êm, không quá bật; ưu tiên điều nhịp & ép góc.<br>
+          Không tối ưu cho smash nặng; dùng tốc độ cổ tay.
+        </td>
+        <td>Exbolt 65 (26.5–26.8 lbs) / Nanogy 98 (≈27 lbs)</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
