@@ -1,311 +1,505 @@
-<!-- CẤU HÌNH VỢT & CƯỚC — cập nhật: 2025-10-13
-     Quy ước: 
-     - CHUẨN dùng Main/Cross = 27/28 lbs (Cross = Main +1).
-     - TẠM & THỬ NGHIỆM giữ nguyên mức căng gốc nếu đã định, trừ nhóm test mới thay Exbolt 68.
-     - Titan 9 trong CHUẨN có 2 cấu hình cước ngang hàng: Li-Ning No.1 & Yonex BG80.
--->
 <!doctype html>
 <html lang="vi">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Bộ cấu hình vợt & cước — bản chuẩn, tạm và thử nghiệm</title>
-  <style>
-    :root{
-      --bg:#0f0f10; --fg:#ffffff; --muted:#a3a3a3; --card:#17181a; --line:#2a2b2e;
-      --accent:#6ee7ff; --soft:#1f2125; --hi:#0e151a; --hiLine:#22424f; --hiText:#8ad7ff;
-    }
-    html,body{background:var(--bg);color:var(--fg);font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,"Apple Color Emoji","Segoe UI Emoji";line-height:1.5;margin:0;padding:0}
-    .wrap{max-width:1080px;margin:28px auto;padding:0 14px}
-    h1{font-size:28px;margin:0 0 12px;color:var(--fg)}
-    h2{margin:20px 0 10px;font-size:20px;line-height:1.3;color:var(--fg)}
-    p.lead{color:var(--muted);margin-top:0;font-size:14px;margin-bottom:14px}
-
-    table{width:100%;border-collapse:separate;border-spacing:0;font-size:14px;background:var(--card);border:1px solid var(--line);border-radius:14px;overflow:hidden;box-shadow:0 10px 30px rgba(0,0,0,.25)}
-    thead th{background:linear-gradient(180deg,rgba(255,255,255,.04),rgba(255,255,255,.02));text-align:left;font-weight:600;color:var(--fg);border-bottom:1px solid var(--line);padding:10px 12px;vertical-align:top}
-    tbody td{padding:10px 12px;vertical-align:top;color:var(--fg)}
-    tbody tr:not(:last-child)>td{border-bottom:1px solid var(--soft)}
-    tbody tr:hover{background:rgba(255,255,255,.02)}
-    tbody td small{color:var(--muted)}
-
-    .stars{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;letter-spacing:.5px;line-height:1.15}
-    .stars b{display:inline-block;min-width:38px;color:var(--muted);font-weight:600;margin-right:4px}
-
-    strong{color:var(--accent)}
-    @media (max-width:720px){table{font-size:13px}}
-
-    /* Hàng phân tích */
-    .row-diff{background:#16222a;color:#bfe9ff}
-    .row-diff .tag{display:inline-block;margin-right:8px;padding:2px 6px;border-radius:6px;background:var(--hi);color:var(--hiText);border:1px solid var(--hiLine);font-size:11px}
-    .row-diff b{color:var(--hiText)}
-
-    /* Bảng so sánh nhanh */
-    .quick{margin-top:16px}
-    .quick td,.quick th{border-bottom:1px solid var(--soft)}
-    .quick thead th{background:linear-gradient(180deg,rgba(255,255,255,.06),rgba(255,255,255,.02))}
-    .badge{display:inline-block;padding:2px 6px;border:1px solid var(--line);border-radius:6px;font-size:11px}
-  </style>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bộ cấu hình vợt & cước — bản chuẩn, tạm và thử nghiệm</title>
+    <style>
+        /* Định nghĩa Màu sắc cố định (Hardcoded Hex Colors) để tránh lỗi cú pháp biến CSS */
+        
+        /* Màu nền và chữ */
+        body {
+            background: #0f0f10; /* --bg */
+            color: #ffffff; /* --fg */
+            font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+            line-height: 1.5;
+            margin: 0;
+            padding: 0;
+        }
+        
+        /* Màu chữ phụ, viền và card */
+        .wrap {
+            max-width: 1080px;
+            margin: 28px auto;
+            padding: 0 14px;
+        }
+        h1 {
+            font-size: 28px;
+            margin: 0 0 12px;
+            color: #ffffff;
+        }
+        h2 {
+            margin: 20px 0 10px;
+            font-size: 20px;
+            line-height: 1.3;
+            color: #ffffff;
+        }
+        p.lead {
+            color: #a3a3a3; /* --muted */
+            margin-top: 0;
+            font-size: 14px;
+            margin-bottom: 14px;
+        }
+        
+        /* Bảng */
+        table {
+            width: 100%;
+            border-collapse: separate;
+            border-spacing: 0;
+            font-size: 14px;
+            background: #17181a; /* --card */
+            border: 1px solid #2a2b2e; /* --line */
+            border-radius: 14px;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, .25);
+        }
+        
+        /* Header của bảng */
+        thead th {
+            background: linear-gradient(180deg, rgba(255, 255, 255, .04), rgba(255, 255, 255, .02));
+            text-align: left;
+            font-weight: 600;
+            color: #ffffff;
+            border-bottom: 1px solid #2a2b2e;
+            padding: 10px 12px;
+            vertical-align: top;
+        }
+        
+        /* Nội dung bảng */
+        tbody td {
+            padding: 10px 12px;
+            vertical-align: top;
+            color: #ffffff;
+        }
+        tbody tr:not(:last-child)>td {
+            border-bottom: 1px solid #1f2125; /* --soft */
+        }
+        tbody tr:hover {
+            background: rgba(255, 255, 255, .02);
+        }
+        tbody td small {
+            color: #a3a3a3;
+        }
+        
+        /* Màu chữ accent và ngôi sao */
+        .stars {
+            font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+            letter-spacing: .5px;
+            line-height: 1.15;
+        }
+        .stars b {
+            display: inline-block;
+            min-width: 38px;
+            color: #a3a3a3; /* --muted */
+            font-weight: 600;
+            margin-right: 4px;
+        }
+        strong {
+            color: #6ee7ff; /* --accent */
+        }
+        
+        /* Hàng phân tích/highlight */
+        .row-diff {
+            background: #16222a;
+            color: #bfe9ff;
+        }
+        .row-diff .tag {
+            display: inline-block;
+            margin-right: 8px;
+            padding: 2px 6px;
+            border-radius: 6px;
+            background: #0e151a; /* --hi */
+            color: #8ad7ff; /* --hiText */
+            border: 1px solid #22424f; /* --hiLine */
+            font-size: 11px;
+        }
+        .row-diff b {
+            color: #8ad7ff; /* --hiText */
+        }
+        
+        /* Bảng so sánh nhanh */
+        .quick {
+            margin-top: 16px;
+        }
+        .quick td,
+        .quick th {
+            border-bottom: 1px solid #1f2125;
+        }
+        .quick thead th {
+            background: linear-gradient(180deg, rgba(255, 255, 255, .06), rgba(255, 255, 255, .02));
+        }
+        .badge {
+            display: inline-block;
+            padding: 2px 6px;
+            border: 1px solid #2a2b2e;
+            border-radius: 6px;
+            font-size: 11px;
+        }
+        
+        /* Responsive */
+        @media (max-width: 720px) {
+            table {
+                font-size: 13px;
+            }
+        }
+    </style>
 </head>
 <body>
-  <div class="wrap">
-    <h1>📋 Bộ cấu hình vợt & cước</h1>
-    <p class="lead">
-      CHUẨN: <b>27/28 lbs</b> (Cross = Main +1).&nbsp; 
-      TẠM & THỬ NGHIỆM: giữ nguyên mức căng gốc.&nbsp;
-      Titan 9 (CHUẨN): <b>2 cấu hình</b> No.1 & BG80.
-    </p>
+    <div class="wrap">
+        <h1>📋 Bộ cấu hình vợt & cước</h1>
+        <p class="lead">
+            CHUẨN: <b>27/28 lbs</b> (Cross = Main +1).&nbsp;
+            TẠM & THỬ NGHIỆM: giữ nguyên mức căng gốc.&nbsp;
+            Titan 9 (CHUẨN): <b>2 cấu hình</b> No.1 & BG80.
+        </p>
 
-    <!-- =========================
-         BẢNG 1 — CẤU HÌNH CHUẨN
-         ========================= -->
-    <h2>Bộ cấu hình <strong>chuẩn</strong> hiện tại</h2>
-    <table>
-      <thead>
-        <tr>
-          <th style="width:12%">Vợt</th>
-          <th style="width:16%">Cước</th>
-          <th style="width:8%">ĐK</th>
-          <th style="width:12%">Mức căng</th>
-          <th style="width:12%">ATK / CTRL</th>
-          <th style="width:27%">Lối chơi phù hợp</th>
-          <th style="width:12%">Ghi chú</th>
-          <th style="width:13%">Thay thế</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><strong>Titan 7</strong></td>
-          <td>Gosen Ryzonic 65</td>
-          <td>0.65 mm</td>
-          <td><strong>27/28 lbs</strong></td>
-          <td class="stars"><div><b>ATK</b> ⭐⭐☆☆☆</div><div><b>CTRL</b> ⭐⭐⭐⭐☆</div></td>
-          <td><strong>Kiểu chơi:</strong> phản tạt – kiểm soát – đầu lưới; giữ cầu thấp, đẩy nhịp nhanh trong đôi.<br><strong>Vận lực:</strong> bật cổ tay + pronation; swing gọn; tránh toàn thân lâu để không trễ nhịp.</td>
-          <td>Vợt nhẹ đầu, linh hoạt; ưu tiên nhịp nhanh.</td>
-          <td>Exbolt 65 / VBS66 Nano</td>
-        </tr>
-        <tr>
-          <td><strong>Blade 8300</strong></td>
-          <td>VBS66 Nano</td>
-          <td>0.66 mm</td>
-          <td><strong>27/28 lbs</strong></td>
-          <td class="stars"><div><b>ATK</b> ⭐⭐☆☆☆</div><div><b>CTRL</b> ⭐⭐⭐⭐☆</div></td>
-          <td><strong>Kiểu chơi:</strong> toàn sân – điều cầu – kiểm soát nhịp; ép góc, chặn–đẩy nhanh, dựng cầu chính xác.<br><strong>Vận lực:</strong> tốc độ cổ tay + góc vung; tiếp xúc sớm, swing gọn.</td>
-          <td>Khung cứng vừa, cân bằng đầu; ưu tiên độ chính xác.</td>
-          <td>Exbolt 65 / Nanogy 98</td>
-        </tr>
-        <!-- Titan 9 có 2 cấu hình CHUẨN -->
-        <tr>
-          <td rowspan="2"><strong>Titan 9</strong></td>
-          <td><b>Li-Ning No.1</b></td>
-          <td>0.65 mm</td>
-          <td><strong>27/28 lbs</strong></td>
-          <td class="stars"><div><b>ATK</b> ⭐⭐⭐⭐☆</div><div><b>CTRL</b> ⭐⭐⭐⭐☆</div></td>
-          <td><strong>Kiểu chơi:</strong> all-around vũ bão – ép nhịp cao, phản tạt chủ động, drive đổi hướng liên hoàn.<br><strong>Vận lực:</strong> cổ tay nhanh + pronation gọn; thêm hông–vai vừa để nén lực; swing trung bình-ngắn.</td>
-          <td>Thoát cầu nhanh, giữ nhịp tốt ở căng chuẩn.</td>
-          <td>—</td>
-        </tr>
-        <tr>
-          <td><b>Yonex BG80</b></td>
-          <td>0.68 mm</td>
-          <td><strong>27/28 lbs</strong></td>
-          <td class="stars"><div><b>ATK</b> ⭐⭐⭐⭐⭐</div><div><b>CTRL</b> ⭐⭐⭐☆</div></td>
-          <td><strong>Kiểu chơi:</strong> công đanh, tì lực; drive nặng, phản công trực diện.<br><strong>Vận lực:</strong> chuỗi động học toàn thân; follow-through dứt khoát.</td>
-          <td>Đanh, bám cầu; smash đè tốt hơn No.1.</td>
-          <td>—</td>
-        </tr>
-        <tr>
-          <td><strong>Titan 1000 xám</strong></td>
-          <td>BG65 Ti</td>
-          <td>0.70 mm</td>
-          <td><strong>27/28 lbs</strong></td>
-          <td class="stars"><div><b>ATK</b> ⭐⭐⭐⭐☆</div><div><b>CTRL</b> ⭐⭐⭐⭐☆</div></td>
-          <td><strong>Kiểu chơi:</strong> công kiểm soát – smash tì, drive nặng – điều cầu sâu.<br><strong>Vận lực:</strong> toàn thân nén lực; chuyển trọng tâm chân–hông–vai; cổ tay kết thúc nhẹ.</td>
-          <td>Cầu trầm, nặng; ổn định, bền cao ở 27/28.</td>
-          <td>BG80 / N98</td>
-        </tr>
-        <tr>
-          <td><strong>Titan 1000 hồng</strong></td>
-          <td>Kizuna Z69T</td>
-          <td>0.69 mm</td>
-          <td><strong>27/28 lbs</strong></td>
-          <td class="stars"><div><b>ATK</b> ⭐⭐⭐⭐⭐</div><div><b>CTRL</b> ⭐⭐⭐☆</div></td>
-          <td><strong>Kiểu chơi:</strong> công nặng – smash dốc – phản công nhanh; cầu sâu, bật mạnh.<br><strong>Vận lực:</strong> chuỗi động học toàn thân; swing dài, chém cầu xuống, timing sớm.</td>
-          <td>Mặt dây cứng, phản lực cao; yêu cầu kỹ thuật và timing tốt.</td>
-          <td>N98 / Felet NPT 66+</td>
-        </tr>
-      </tbody>
-    </table>
+        <h2>Bộ cấu hình <strong>chuẩn</strong> hiện tại</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th style="width:12%">Vợt</th>
+                    <th style="width:16%">Cước</th>
+                    <th style="width:8%">ĐK</th>
+                    <th style="width:12%">Mức căng</th>
+                    <th style="width:12%">ATK / CTRL</th>
+                    <th style="width:27%">Lối chơi phù hợp</th>
+                    <th style="width:12%">Ghi chú</th>
+                    <th style="width:13%">Thay thế</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><strong>Titan 7</strong></td>
+                    <td><strong>Li-Ning N65</strong></td>
+                    <td>0.65 mm</td>
+                    <td><strong>27/28 lbs</strong></td>
+                    <td class="stars">
+                        <div><b>ATK</b> ⭐⭐⭐⭐⭐</div>
+                        <div><b>CTRL</b> ⭐⭐⭐☆</div>
+                    </td>
+                    <td><strong>Kiểu chơi:</strong> <strong>Tấn công tốc độ</strong> – phản công bùng nổ, **smash nhanh/dồn ép**; ưu tiên lực nảy và âm thanh.<br><strong>Vận lực:</strong> Bật cổ tay cực nhanh, dứt điểm ngắn; tránh nén lực quá sâu.</td>
+                    <td>Cấu hình Max Speed/Pop. Titan 7 (nhẹ đầu) + N65 (siêu nảy) = Tốc độ tối đa.</td>
+                    <td>BG66UM / Li-Ning No.1</td>
+                </tr>
+                <tr>
+                    <td><strong>Blade 8300</strong></td>
+                    <td><strong>Zymax 66 Fire Power</strong></td>
+                    <td>0.66 mm</td>
+                    <td><strong>27/28 lbs</strong></td>
+                    <td class="stars">
+                        <div><b>ATK</b> ⭐⭐⭐☆☆</div>
+                        <div><b>CTRL</b> ⭐⭐⭐⭐☆</div>
+                    </td>
+                    <td><strong>Kiểu chơi:</strong> toàn sân – <strong>kiểm soát tốc độ</strong> – <strong>phản tạt sắc bén</strong>; ép góc, drive nhanh, dựng cầu chính xác.<br><strong>Vận lực:</strong> Tốc độ cổ tay + góc vung; tiếp xúc sớm, swing gọn.</td>
+                    <td>Cước Fire Power tăng tốc độ và âm thanh, phù hợp với vợt cân bằng để chơi tốc độ cao.</td>
+                    <td>Exbolt 65 / Nanogy 98</td>
+                </tr>
+                <tr>
+                    <td><strong>Blade 8300</strong></td>
+                    <td><strong>Li-Ning L67</strong></td>
+                    <td>0.67 mm</td>
+                    <td><strong>26/27 lbs</strong></td>
+                    <td class="stars">
+                        <div><b>ATK</b> ⭐⭐⭐☆☆</div>
+                        <div><b>CTRL</b> ⭐⭐⭐⭐☆</div>
+                    </td>
+                    <td><strong>Kiểu chơi:</strong> <strong>Toàn diện bền bỉ</strong> – kiểm soát đa năng, drive ổn định, công nhẹ có độ đanh.<br><strong>Vận lực:</strong> Cổ tay linh hoạt, chuyển lực nhẹ nhàng; yêu cầu timing ổn định.</td>
+                    <td>Cước trung tính + căng thấp hơn: Cấu hình dễ dùng, độ bền cao cho tập luyện và đánh đôi.</td>
+                    <td>BG65 Ti / NBG95</td>
+                </tr>
+                <tr>
+                    <td rowspan="2"><strong>Titan 9</strong></td>
+                    <td><b>Li-Ning No.1</b></td>
+                    <td>0.65 mm</td>
+                    <td><strong>27/28 lbs</strong></td>
+                    <td class="stars">
+                        <div><b>ATK</b> ⭐⭐⭐⭐☆</div>
+                        <div><b>CTRL</b> ⭐⭐⭐⭐☆</div>
+                    </td>
+                    <td><strong>Kiểu chơi:</strong> all-around vũ bão – ép nhịp cao, phản tạt chủ động, drive đổi hướng liên hoàn.<br><strong>Vận lực:</strong> cổ tay nhanh + pronation gọn; thêm hông–vai vừa để nén lực; swing trung bình-ngắn.</td>
+                    <td>Thoát cầu nhanh, giữ nhịp tốt ở căng chuẩn.</td>
+                    <td>—</td>
+                </tr>
+                <tr>
+                    <td><b>Yonex BG80</b></td>
+                    <td>0.68 mm</td>
+                    <td><strong>27/28 lbs</strong></td>
+                    <td class="stars">
+                        <div><b>ATK</b> ⭐⭐⭐⭐⭐</div>
+                        <div><b>CTRL</b> ⭐⭐⭐☆</div>
+                    </td>
+                    <td><strong>Kiểu chơi:</strong> công đanh, tì lực; drive nặng, phản công trực diện.<br><strong>Vận lực:</strong> chuỗi động học toàn thân; follow-through dứt khoát.</td>
+                    <td>Đanh, bám cầu; smash đè tốt hơn No.1.</td>
+                    <td>—</td>
+                </tr>
+                <tr>
+                    <td rowspan="2"><strong>Titan 1000 xám</strong></td>
+                    <td><strong>VBS66 Nano</strong></td>
+                    <td>0.66 mm</td>
+                    <td><strong>27/28 lbs</strong></td>
+                    <td class="stars">
+                        <div><b>ATK</b> ⭐⭐⭐⭐☆</div>
+                        <div><b>CTRL</b> ⭐⭐⭐⭐⭐</div>
+                    </td>
+                    <td><strong>Kiểu chơi:</strong> <strong>Công Kiểm soát toàn diện</strong> – điều cầu chính xác, gài lưới, smash đè/tỉa góc.<br><strong>Vận lực:</strong> Toàn thân nén lực, cổ tay kết thúc tinh tế; tập trung vào độ chính xác.</td>
+                    <td>Cấu hình mới. Cước êm, chính xác cao, giúp vợt nặng đầu này có <strong>cảm giác cầu sắc nét</strong> hơn BG65 Ti.</td>
+                    <td>Nanogy 98 / BG80</td>
+                </tr>
+                <tr>
+                    <td>BG65 Ti</td>
+                    <td>0.70 mm</td>
+                    <td><strong>27/28 lbs</strong></td>
+                    <td class="stars">
+                        <div><b>ATK</b> ⭐⭐⭐⭐☆</div>
+                        <div><b>CTRL</b> ⭐⭐⭐⭐☆</div>
+                    </td>
+                    <td><strong>Kiểu chơi:</strong> công kiểm soát – smash tì, drive nặng – điều cầu sâu.<br><strong>Vận lực:</strong> toàn thân nén lực; chuyển trọng tâm chân–hông–vai; cổ tay kết thúc nhẹ.</td>
+                    <td>Cầu trầm, nặng; ổn định, bền cao ở 27/28.</td>
+                    <td>BG80 / N98</td>
+                </tr>
+                <tr>
+                    <td><strong>Titan 1000 hồng</strong></td>
+                    <td>Kizuna Z69T</td>
+                    <td>0.69 mm</td>
+                    <td><strong>27/28 lbs</strong></td>
+                    <td class="stars">
+                        <div><b>ATK</b> ⭐⭐⭐⭐⭐</div>
+                        <div><b>CTRL</b> ⭐⭐⭐☆</div>
+                    </td>
+                    <td><strong>Kiểu chơi:</strong> công nặng – smash dốc – phản công nhanh; cầu sâu, bật mạnh.<br><strong>Vận lực:</strong> chuỗi động học toàn thân; swing dài, chém cầu xuống, timing sớm.</td>
+                    <td>Mặt dây cứng, phản lực cao; yêu cầu kỹ thuật và timing tốt.</td>
+                    <td>N98 / Felet NPT 66+</td>
+                </tr>
+            </tbody>
+        </table>
 
-    <!-- =======================
-         BẢNG 2 — CẤU HÌNH TẠM
-         ======================= -->
-    <h2 style="margin-top:28px">Cấu hình <strong>tạm</strong> (đang dùng)</h2>
-    <table>
-      <thead>
-        <tr>
-          <th style="width:12%">Vợt</th>
-          <th style="width:16%">Cước</th>
-          <th style="width:8%">ĐK</th>
-          <th style="width:12%">Mức căng</th>
-          <th style="width:12%">ATK / CTRL</th>
-          <th style="width:27%">Lối chơi phù hợp</th>
-          <th style="width:12%">Ghi chú</th>
-          <th style="width:13%">Thay thế</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr><td><strong>Titan 7</strong></td><td>Venson V3</td><td>0.63 mm</td><td><strong>26 lbs</strong></td><td class="stars"><div><b>ATK</b> ⭐⭐☆☆☆</div><div><b>CTRL</b> ⭐⭐⭐⭐☆</div></td><td><strong>Kiểu chơi:</strong> phản tạt – kiểm soát – đầu lưới; bật cổ tay; swing gọn.<br><strong>Vận lực:</strong> cổ tay nhanh, điểm tiếp xúc thấp, follow-through ngắn.</td><td>V3 khô, tốc độ; cảm giác gần R65.</td><td>Exbolt 65 / VBS66N</td></tr>
-        <tr><td><strong>Blade 8300</strong></td><td>VBS66 Nano</td><td>0.66 mm</td><td><strong>26 lbs</strong></td><td class="stars"><div><b>ATK</b> ⭐⭐☆☆☆</div><div><b>CTRL</b> ⭐⭐⭐⭐☆</div></td><td><strong>Kiểu chơi:</strong> toàn sân – điều cầu nhạy – phản tạt chính xác.<br><strong>Vận lực:</strong> tốc độ cổ tay, swing ngắn, tiếp xúc sớm.</td><td>Cầu êm, điều nhịp tốt.</td><td>Exbolt 65 / Nanogy 98</td></tr>
-        <tr><td><strong>Titan 9</strong></td><td>Zymax 66 Fire Power</td><td>0.66 mm</td><td><strong>27 lbs</strong></td><td class="stars"><div><b>ATK</b> ⭐⭐⭐⭐☆</div><div><b>CTRL</b> ⭐⭐⭐⭐☆</div></td><td><strong>Kiểu chơi:</strong> all-round thiên công; phản tạt nhanh.<br><strong>Vận lực:</strong> cổ tay + pronation mạnh, swing vừa.</td><td>Bật mạnh, âm sáng.</td><td>Exbolt 65 / Li-Ning No.1</td></tr>
-        <tr><td><strong>Titan 1000 xám</strong></td><td>BG80 Power</td><td>0.68 mm</td><td><strong>25.6 lbs</strong></td><td class="stars"><div><b>ATK</b> ⭐⭐⭐⭐☆</div><div><b>CTRL</b> ⭐⭐⭐☆</div></td><td><strong>Kiểu chơi:</strong> công chủ động – drive sau sân – chêm cầu nặng.<br><strong>Vận lực:</strong> toàn thân phối hợp, cổ tay chém nhẹ để tạo áp lực.</td><td>Đanh, nhám; lực ra tốt dù căng thấp.</td><td>BG80 / N98</td></tr>
-        <tr><td><strong>Titan 1000 hồng</strong></td><td>Venson BG7</td><td>~0.67 mm</td><td><strong>23.5 lbs</strong></td><td class="stars"><div><b>ATK</b> ⭐⭐☆☆☆</div><div><b>CTRL</b> ⭐⭐⭐☆</div></td><td><strong>Kiểu chơi:</strong> luyện nhịp – kiểm soát mềm.<br><strong>Vận lực:</strong> cổ tay gọn, timing sớm, điểm tiếp xúc thấp.</td><td>Thiên training; hợp căng thấp.</td><td>VBS66N / V3</td></tr>
-      </tbody>
-    </table>
+        <h2 style="margin-top:28px">Cấu hình <strong>tạm</strong> (đang dùng)</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th style="width:12%">Vợt</th>
+                    <th style="width:16%">Cước</th>
+                    <th style="width:8%">ĐK</th>
+                    <th style="width:12%">Mức căng</th>
+                    <th style="width:12%">ATK / CTRL</th>
+                    <th style="width:27%">Lối chơi phù hợp</th>
+                    <th style="width:12%">Ghi chú</th>
+                    <th style="width:13%">Thay thế</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><strong>Titan 7</strong></td>
+                    <td>Venson V3</td>
+                    <td>0.63 mm</td>
+                    <td><strong>26 lbs</strong></td>
+                    <td class="stars">
+                        <div><b>ATK</b> ⭐⭐☆☆☆</div>
+                        <div><b>CTRL</b> ⭐⭐⭐⭐☆</div>
+                    </td>
+                    <td><strong>Kiểu chơi:</strong> phản tạt – kiểm soát – đầu lưới; bật cổ tay; swing gọn.<br><strong>Vận lực:</strong> cổ tay nhanh, điểm tiếp xúc thấp, follow-through ngắn.</td>
+                    <td>V3 khô, tốc độ; cảm giác gần R65.</td>
+                    <td>Exbolt 65 / VBS66N</td>
+                </tr>
+                <tr>
+                    <td><strong>Blade 8300</strong></td>
+                    <td>VBS66 Nano</td>
+                    <td>0.66 mm</td>
+                    <td><strong>26 lbs</strong></td>
+                    <td class="stars">
+                        <div><b>ATK</b> ⭐⭐☆☆☆</div>
+                        <div><b>CTRL</b> ⭐⭐⭐⭐☆</div>
+                    </td>
+                    <td><strong>Kiểu chơi:</strong> toàn sân – điều cầu nhạy – phản tạt chính xác.<br><strong>Vận lực:</strong> tốc độ cổ tay, swing ngắn, tiếp xúc sớm.</td>
+                    <td>Cầu êm, điều nhịp tốt.</td>
+                    <td>Exbolt 65 / Nanogy 98</td>
+                </tr>
+                <tr>
+                    <td><strong>Titan 9</strong></td>
+                    <td>Zymax 66 Fire Power</td>
+                    <td>0.66 mm</td>
+                    <td><strong>27 lbs</strong></td>
+                    <td class="stars">
+                        <div><b>ATK</b> ⭐⭐⭐⭐☆</div>
+                        <div><b>CTRL</b> ⭐⭐⭐⭐☆</div>
+                    </td>
+                    <td><strong>Kiểu chơi:</strong> all-round thiên công; phản tạt nhanh.<br><strong>Vận lực:</strong> cổ tay + pronation mạnh, swing vừa.</td>
+                    <td>Bật mạnh, âm sáng.</td>
+                    <td>Exbolt 65 / Li-Ning No.1</td>
+                </tr>
+                <tr>
+                    <td><strong>Titan 1000 xám</strong></td>
+                    <td>BG80 Power</td>
+                    <td>0.68 mm</td>
+                    <td><strong>25.6 lbs</strong></td>
+                    <td class="stars">
+                        <div><b>ATK</b> ⭐⭐⭐⭐☆</div>
+                        <div><b>CTRL</b> ⭐⭐⭐☆</div>
+                    </td>
+                    <td><strong>Kiểu chơi:</strong> công chủ động – drive sau sân – chêm cầu nặng.<br><strong>Vận lực:</strong> toàn thân phối hợp, cổ tay chém nhẹ để tạo áp lực.</td>
+                    <td>Đanh, nhám; lực ra tốt dù căng thấp.</td>
+                    <td>BG80 / N98</td>
+                </tr>
+                <tr>
+                    <td><strong>Titan 1000 hồng</strong></td>
+                    <td>Venson BG7</td>
+                    <td>~0.67 mm</td>
+                    <td><strong>23.5 lbs</strong></td>
+                    <td class="stars">
+                        <div><b>ATK</b> ⭐⭐☆☆☆</div>
+                        <div><b>CTRL</b> ⭐⭐⭐☆</div>
+                    </td>
+                    <td><strong>Kiểu chơi:</strong> luyện nhịp – kiểm soát mềm.<br><strong>Vận lực:</strong> cổ tay gọn, timing sớm, điểm tiếp xúc thấp.</td>
+                    <td>Thiên training; hợp căng thấp.</td>
+                    <td>VBS66N / V3</td>
+                </tr>
+            </tbody>
+        </table>
 
-    <!-- =============================
-         BẢNG 3 — CẤU HÌNH THỬ NGHIỆM
-         ============================= -->
-    <h2 style="margin-top:28px">Cấu hình <strong>thử nghiệm</strong> (thay Exbolt 68)</h2>
-    <table>
-      <thead>
-        <tr>
-          <th style="width:12%">Vợt</th>
-          <th style="width:16%">Cước</th>
-          <th style="width:8%">ĐK</th>
-          <th style="width:12%">Mức căng</th>
-          <th style="width:12%">ATK / CTRL</th>
-          <th style="width:27%">Lối chơi phù hợp</th>
-          <th style="width:12%">Ghi chú</th>
-          <th style="width:13%">Thay thế</th>
-        </tr>
-      </thead>
-      <tbody>
-        <!-- No.5 -->
-        <tr>
-          <td><strong>Titan 1000 hồng</strong></td>
-          <td>Li-Ning No.5</td>
-          <td>0.69 mm</td>
-          <td><strong>27/28 lbs</strong></td>
-          <td class="stars"><div><b>ATK</b> ⭐⭐⭐⭐☆</div><div><b>CTRL</b> ⭐⭐⭐⭐☆</div></td>
-          <td><strong>Kiểu chơi:</strong> công nặng – smash dốc – kiểm soát chặt cầu.<br><strong>Vận lực:</strong> toàn thân nén lực, cổ tay chốt mạnh, follow-through dài.</td>
-          <td>Cực bền, cầu trầm nhưng bật tốt khi nén đúng; điều cầu chính xác nhờ mặt hơi bám.</td>
-          <td>Z69T / BG80</td>
-        </tr>
-        <tr class="row-diff">
-          <td colspan="8">
-            <span class="tag">Phân tích</span>
-            <ul style="margin:8px 0 10px 18px;padding:0">
-              <li><b>Độ bền:</b> ★★★★★ — đường kính 0.69 mm, chịu mài mòn và va đập tốt.</li>
-              <li><b>Smash:</b> đè, cắm sâu; cầu nặng đầu, tốc độ thoát trung bình-khá.</li>
-              <li><b>Điều cầu:</b> ổn định, gài/ép chuẩn; ít trượt.</li>
-              <li><b>Âm thanh:</b> trầm, ít chói tai.</li>
-              <li><b>Phù hợp:</b> thiên công tì lực, chuộng độ bền cao.</li>
-            </ul>
-          </td>
-        </tr>
+        <h2 style="margin-top:28px">Cấu hình <strong>thử nghiệm</strong> (thay Exbolt 68)</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th style="width:12%">Vợt</th>
+                    <th style="width:16%">Cước</th>
+                    <th style="width:8%">ĐK</th>
+                    <th style="width:12%">Mức căng</th>
+                    <th style="width:12%">ATK / CTRL</th>
+                    <th style="width:27%">Lối chơi phù hợp</th>
+                    <th style="width:12%">Ghi chú</th>
+                    <th style="width:13%">Thay thế</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><strong>Titan 1000 hồng</strong></td>
+                    <td>Li-Ning No.5</td>
+                    <td>0.69 mm</td>
+                    <td><strong>27/28 lbs</strong></td>
+                    <td class="stars">
+                        <div><b>ATK</b> ⭐⭐⭐⭐☆</div>
+                        <div><b>CTRL</b> ⭐⭐⭐⭐☆</div>
+                    </td>
+                    <td><strong>Kiểu chơi:</strong> công nặng – smash dốc – kiểm soát chặt cầu.<br><strong>Vận lực:</strong> toàn thân nén lực, cổ tay chốt mạnh, follow-through dài.</td>
+                    <td>Cực bền, cầu trầm nhưng bật tốt khi nén đúng; điều cầu chính xác nhờ mặt hơi bám.</td>
+                    <td>Z69T / BG80</td>
+                </tr>
+                <tr class="row-diff">
+                    <td colspan="8">
+                        <span class="tag">Phân tích</span>
+                        <ul style="margin:8px 0 10px 18px;padding:0">
+                            <li><b>Độ bền:</b> ★★★★★ — đường kính 0.69 mm, chịu mài mòn và va đập tốt.</li>
+                            <li><b>Smash:</b> đè, cắm sâu; cầu nặng đầu, tốc độ thoát trung bình-khá.</li>
+                            <li><b>Điều cầu:</b> ổn định, gài/ép chuẩn; ít trượt.</li>
+                            <li><b>Âm thanh:</b> trầm, ít chói tai.</li>
+                            <li><b>Phù hợp:</b> thiên công tì lực, chuộng độ bền cao.</li>
+                        </ul>
+                    </td>
+                </tr>
 
-        <!-- Z69T -->
-        <tr>
-          <td><strong>Titan 1000 hồng</strong></td>
-          <td>Kizuna Z69T</td>
-          <td>0.69 mm</td>
-          <td><strong>27/28 lbs</strong></td>
-          <td class="stars"><div><b>ATK</b> ⭐⭐⭐⭐⭐</div><div><b>CTRL</b> ⭐⭐⭐☆</div></td>
-          <td><strong>Kiểu chơi:</strong> công đè, smash cắm sâu; timing chuẩn.<br><strong>Vận lực:</strong> chuỗi toàn thân, chém cầu xuống nhanh, cổ tay khóa chặt.</td>
-          <td>Mặt dây cứng, phản lực cao; yêu cầu kỹ thuật và timing tốt.</td>
-          <td>No.5 / BG80</td>
-        </tr>
-        <tr class="row-diff">
-          <td colspan="8">
-            <span class="tag">Phân tích</span>
-            <ul style="margin:8px 0 10px 18px;padding:0">
-              <li><b>Độ bền:</b> ★★★★☆ — cao, kém No.5 chút ít.</li>
-              <li><b>Smash:</b> cực cắm, lực đè mạnh; phản lực “sắc”.</li>
-              <li><b>Điều cầu:</b> vừa phải; cần cảm giác tốt khi gài/lốp ngắn.</li>
-              <li><b>Âm thanh:</b> “ping” cao, sắc.</li>
-              <li><b>Phù hợp:</b> tay công chủ động, kỹ thuật cao, muốn đè cầu tối đa.</li>
-            </ul>
-          </td>
-        </tr>
+                <tr>
+                    <td><strong>Titan 1000 hồng</strong></td>
+                    <td>Kizuna Z69T</td>
+                    <td>0.69 mm</td>
+                    <td><strong>27/28 lbs</strong></td>
+                    <td class="stars">
+                        <div><b>ATK</b> ⭐⭐⭐⭐⭐</div>
+                        <div><b>CTRL</b> ⭐⭐⭐☆</div>
+                    </td>
+                    <td><strong>Kiểu chơi:</strong> công đè, smash cắm sâu; timing chuẩn.<br><strong>Vận lực:</strong> chuỗi toàn thân, chém cầu xuống nhanh, cổ tay khóa chặt.</td>
+                    <td>Mặt dây cứng, phản lực cao; yêu cầu kỹ thuật và timing tốt.</td>
+                    <td>No.5 / BG80</td>
+                </tr>
+                <tr class="row-diff">
+                    <td colspan="8">
+                        <span class="tag">Phân tích</span>
+                        <ul style="margin:8px 0 10px 18px;padding:0">
+                            <li><b>Độ bền:</b> ★★★★☆ — cao, kém No.5 chút ít.</li>
+                            <li><b>Smash:</b> cực cắm, lực đè mạnh; phản lực “sắc”.</li>
+                            <li><b>Điều cầu:</b> vừa phải; cần cảm giác tốt khi gài/lốp ngắn.</li>
+                            <li><b>Âm thanh:</b> “ping” cao, sắc.</li>
+                            <li><b>Phù hợp:</b> tay công chủ động, kỹ thuật cao, muốn đè cầu tối đa.</li>
+                        </ul>
+                    </td>
+                </tr>
 
-        <!-- BG80 -->
-        <tr>
-          <td><strong>Titan 1000 hồng</strong></td>
-          <td>Yonex BG80</td>
-          <td>0.68 mm</td>
-          <td><strong>27/28 lbs</strong></td>
-          <td class="stars"><div><b>ATK</b> ⭐⭐⭐⭐☆</div><div><b>CTRL</b> ⭐⭐⭐⭐⭐</div></td>
-          <td><strong>Kiểu chơi:</strong> công chính xác, điều cầu chặt, smash đanh.<br><strong>Vận lực:</strong> chuyển lực hông–vai–cổ tay đều, follow-through vừa.</td>
-          <td>Đanh, bám cầu, điều cầu chuẩn; smash lực tốt và dễ kiểm soát hơn Z69T.</td>
-          <td>No.5 / Z69T</td>
-        </tr>
-        <tr class="row-diff">
-          <td colspan="8">
-            <span class="tag">Phân tích</span>
-            <ul style="margin:8px 0 0 18px;padding:0">
-              <li><b>Độ bền:</b> ★★★★☆ — khá cao & ổn định (kém No.5 một bậc).</li>
-              <li><b>Smash:</b> đanh, gọn; không “cắm” như Z69T nhưng ra lực dễ.</li>
-              <li><b>Điều cầu:</b> xuất sắc; bề mặt bám điểm rơi chuẩn.</li>
-              <li><b>Âm thanh:</b> trong, rõ.</li>
-              <li><b>Phù hợp:</b> all-around thiên công kỹ thuật, ưu tiên độ chính xác.</li>
-            </ul>
-          </td>
-        </tr>
-      </tbody>
-    </table>
+                <tr>
+                    <td><strong>Titan 1000 hồng</strong></td>
+                    <td>Yonex BG80</td>
+                    <td>0.68 mm</td>
+                    <td><strong>27/28 lbs</strong></td>
+                    <td class="stars">
+                        <div><b>ATK</b> ⭐⭐⭐⭐☆</div>
+                        <div><b>CTRL</b> ⭐⭐⭐⭐⭐</div>
+                    </td>
+                    <td><strong>Kiểu chơi:</strong> công chính xác, điều cầu chặt, smash đanh.<br><strong>Vận lực:</strong> chuyển lực hông–vai–cổ tay đều, follow-through vừa.</td>
+                    <td>Đanh, bám cầu, điều cầu chuẩn; smash lực tốt và dễ kiểm soát hơn Z69T.</td>
+                    <td>No.5 / Z69T</td>
+                </tr>
+                <tr class="row-diff">
+                    <td colspan="8">
+                        <span class="tag">Phân tích</span>
+                        <ul style="margin:8px 0 0 18px;padding:0">
+                            <li><b>Độ bền:</b> ★★★★☆ — khá cao & ổn định (kém No.5 một bậc).</li>
+                            <li><b>Smash:</b> đanh, gọn; không “cắm” như Z69T nhưng ra lực dễ.</li>
+                            <li><b>Điều cầu:</b> xuất sắc; bề mặt bám điểm rơi chuẩn.</li>
+                            <li><b>Âm thanh:</b> trong, rõ.</li>
+                            <li><b>Phù hợp:</b> công kỹ thuật + kiểm soát.</li>
+                        </ul>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
 
-    <!-- ============================
-         BẢNG SO SÁNH NHANH 3 LỰA CHỌN
-         ============================ -->
-    <h2 class="quick">So sánh nhanh — No.5 vs Z69T vs BG80</h2>
-    <table class="quick">
-      <thead>
-        <tr>
-          <th>Tiêu chí</th>
-          <th>Li-Ning No.5 <span class="badge">0.69</span></th>
-          <th>Kizuna Z69T <span class="badge">0.69</span></th>
-          <th>Yonex BG80 <span class="badge">0.68</span></th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>Độ bền</td>
-          <td>★★★★★ (trâu nhất nhóm)</td>
-          <td>★★★★☆ (rất bền)</td>
-          <td>★★★★☆ (khá bền)</td>
-        </tr>
-        <tr>
-          <td>Smash (độ cắm/đè)</td>
-          <td>★★★★☆ (đè mạnh, nặng cầu)</td>
-          <td>★★★★★ (cắm sâu, sắc)</td>
-          <td>★★★★☆ (đanh, ra lực dễ)</td>
-        </tr>
-        <tr>
-          <td>Điều cầu / gài lưới</td>
-          <td>★★★★☆ (bám vừa, ổn định)</td>
-          <td>★★★☆☆ (cần tay cảm nhận tốt)</td>
-          <td>★★★★★ (bám & chính xác cao)</td>
-        </tr>
-        <tr>
-          <td>Cảm giác</td>
-          <td>Trầm, êm chắc</td>
-          <td>Cứng, sắc, “ping” cao</td>
-          <td>Đanh, rõ, kiểm soát tốt</td>
-        </tr>
-        <tr>
-          <td>Khuyến nghị dùng</td>
-          <td>Ưu tiên độ bền + công tì lực</td>
-          <td>Max công, tay kỹ thuật</td>
-          <td>Công kỹ thuật + kiểm soát</td>
-        </tr>
-        <tr>
-          <td>Set căng gợi ý</td>
-          <td>27/28 (Cross +1)</td>
-          <td>27/28 (Cross +1)</td>
-          <td>27/28 (Cross +1)</td>
-        </tr>
-      </tbody>
-    </table>
-  </div>
+        <h2 class="quick">So sánh nhanh — No.5 vs Z69T vs BG80</h2>
+        <table class="quick">
+            <thead>
+                <tr>
+                    <th>Tiêu chí</th>
+                    <th>Li-Ning No.5 <span class="badge">0.69</span></th>
+                    <th>Kizuna Z69T <span class="badge">0.69</span></th>
+                    <th>Yonex BG80 <span class="badge">0.68</span></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Độ bền</td>
+                    <td>★★★★★ (trâu nhất nhóm)</td>
+                    <td>★★★★☆ (rất bền)</td>
+                    <td>★★★★☆ (khá bền)</td>
+                </tr>
+                <tr>
+                    <td>Smash (độ cắm/đè)</td>
+                    <td>★★★★☆ (đè mạnh, nặng cầu)</td>
+                    <td>★★★★★ (cắm sâu, sắc)</td>
+                    <td>★★★★☆ (đanh, ra lực dễ)</td>
+                </tr>
+                <tr>
+                    <td>Điều cầu / gài lưới</td>
+                    <td>★★★★☆ (bám vừa, ổn định)</td>
+                    <td>★★★☆☆ (cần tay cảm nhận tốt)</td>
+                    <td>★★★★★ (bám & chính xác cao)</td>
+                </tr>
+                <tr>
+                    <td>Cảm giác</td>
+                    <td>Trầm, êm chắc</td>
+                    <td>Cứng, sắc, “ping” cao</td>
+                    <td>Đanh, rõ, kiểm soát tốt</td>
+                </tr>
+                <tr>
+                    <td>Khuyến nghị dùng</td>
+                    <td>Ưu tiên độ bền + công tì lực</td>
+                    <td>Max công, tay kỹ thuật</td>
+                    <td>Công kỹ thuật + kiểm soát</td>
+                </tr>
+                <tr>
+                    <td>Set căng gợi ý</td>
+                    <td>27/28 (Cross +1)</td>
+                    <td>27/28 (Cross +1)</td>
+                    <td>27/28 (Cross +1)</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
 </body>
 </html>
