@@ -1,0 +1,171 @@
+/* Định nghĩa Màu sắc cố định (Hardcoded Hex Colors) để tránh lỗi cú pháp biến CSS */
+
+/* Màu nền và chữ */
+body {
+    background: #0f0f10; /* --bg */
+    color: #ffffff; /* --fg */
+    font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+}
+
+/* Màu chữ phụ, viền và card */
+.wrap {
+    max-width: 1080px;
+    margin: 28px auto;
+    padding: 0 14px;
+}
+h1 {
+    font-size: 28px;
+    margin: 0 0 12px;
+    color: #ffffff;
+}
+h2 {
+    margin: 20px 0 10px;
+    font-size: 20px;
+    line-height: 1.3;
+    color: #ffffff;
+}
+p.lead {
+    color: #a3a3a3; /* --muted */
+    margin-top: 0;
+    font-size: 14px;
+    margin-bottom: 14px;
+}
+
+/* Bảng */
+table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    font-size: 14px;
+    background: #17181a; /* --card */
+    border: 1px solid #2a2b2e; /* --line */
+    border-radius: 14px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, .25);
+}
+
+/* Header của bảng */
+thead th {
+    background: linear-gradient(180deg, rgba(255, 255, 255, .04), rgba(255, 255, 255, .02));
+    text-align: left;
+    font-weight: 600;
+    color: #ffffff;
+    border-bottom: 1px solid #2a2b2e;
+    padding: 10px 12px;
+    vertical-align: top;
+}
+
+/* Nội dung bảng */
+tbody td {
+    padding: 10px 12px;
+    vertical-align: top;
+    color: #ffffff;
+}
+tbody tr:not(:last-child)>td {
+    border-bottom: 1px solid #1f2125; /* --soft */
+}
+tbody tr:hover {
+    background: rgba(255, 255, 255, .02);
+}
+tbody td small {
+    color: #a3a3a3;
+}
+
+/* Màu chữ accent và ngôi sao */
+.stars {
+    font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+    letter-spacing: .5px;
+    line-height: 1.15;
+}
+.stars b {
+    display: inline-block;
+    min-width: 38px;
+    color: #a3a3a3; /* --muted */
+    font-weight: 600;
+    margin-right: 4px;
+}
+strong {
+    color: #6ee7ff; /* --accent */
+}
+
+/* Hàng phân tích/highlight */
+.row-diff {
+    background: #16222a;
+    color: #bfe9ff;
+}
+/* Style cho phân tích cước Hybrid */
+.row-hybrid {
+    background: #24162a; /* Nền tím than */
+    color: #d1bfff; /* Chữ tím nhạt */
+    border-top: 2px solid #5d357a; /* Viền trên nổi bật */
+}
+.row-hybrid b {
+    color: #c99fff;
+}
+
+.row-diff .tag {
+    display: inline-block;
+    margin-right: 8px;
+    padding: 2px 6px;
+    border-radius: 6px;
+    background: #0e151a; /* --hi */
+    color: #8ad7ff; /* --hiText */
+    border: 1px solid #22424f; /* --hiLine */
+    font-size: 11px;
+}
+.row-diff b {
+    color: #8ad7ff; /* --hiText */
+}
+
+.row-hybrid .tag {
+    display: inline-block;
+    margin-right: 8px;
+    padding: 2px 6px;
+    border-radius: 6px;
+    background: #150e1a;
+    color: #c99fff;
+    border: 1px solid #3f224f;
+    font-size: 11px;
+}
+
+/* Bảng so sánh nhanh */
+.quick {
+    margin-top: 16px;
+}
+.quick td,
+.quick th {
+    border-bottom: 1px solid #1f2125;
+}
+.quick thead th {
+    background: linear-gradient(180deg, rgba(255, 255, 255, .06), rgba(255, 255, 255, .02));
+}
+.badge {
+    display: inline-block;
+    padding: 2px 6px;
+    border: 1px solid #2a2b2e;
+    border-radius: 6px;
+    font-size: 11px;
+}
+.text-bold {
+    font-weight: 600;
+}
+
+/* Dòng Highlight Cấu Hình Mới Căng */
+.row-new {
+    background: #201a11;
+    color: #ffddb0;
+    border-top: 2px solid #a37c4e;
+}
+.row-new .stars b {
+    color: #ffddb0;
+}
+
+/* Responsive */
+@media (max-width: 720px) {
+    table {
+        font-size: 13px;
+    }
+}
