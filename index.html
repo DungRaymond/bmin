@@ -103,6 +103,21 @@
             background: #16222a;
             color: #bfe9ff;
         }
+        /* Style cho phân tích cước Hybrid */
+        .row-hybrid {
+            background: #24162a; /* Nền tím than */
+            color: #d1bfff; /* Chữ tím nhạt */
+            border-top: 2px solid #5d357a; /* Viền trên nổi bật */
+        }
+        .row-hybrid .tag {
+            background: #150e1a;
+            color: #c99fff;
+            border: 1px solid #3f224f;
+        }
+        .row-hybrid b {
+            color: #c99fff;
+        }
+
         .row-diff .tag {
             display: inline-block;
             margin-right: 8px;
@@ -134,6 +149,9 @@
             border: 1px solid #2a2b2e;
             border-radius: 6px;
             font-size: 11px;
+        }
+        .text-bold {
+            font-weight: 600;
         }
         
         /* Responsive */
@@ -371,7 +389,7 @@
                     <td><strong>23.5 lbs</strong></td>
                     <td class="stars">
                         <div><b>ATK</b> ⭐⭐☆☆☆</div>
-                        <div><b>CTRL</strong> ⭐⭐⭐☆</div>
+                        <div><b>CTRL</b> ⭐⭐⭐☆</div>
                     </td>
                     <td><strong>Kiểu chơi:</strong> luyện nhịp – kiểm soát mềm.<br><strong>Vận lực:</strong> cổ tay gọn, timing sớm, điểm tiếp xúc thấp.</td>
                     <td>Thiên training; hợp căng thấp.</td>
@@ -395,6 +413,84 @@
                 </tr>
             </thead>
             <tbody>
+                <tr>
+                    <td><strong>Titan 1000 hồng</strong></td>
+                    <td><b>Zymax 66FP (Main) / Venson V3 (Cross)</b></td>
+                    <td>0.66 / 0.63 mm</td>
+                    <td><strong>27 lbs (Đồng)</strong></td>
+                    <td class="stars">
+                        <div><b>ATK</b> ⭐⭐⭐⭐⭐</div>
+                        <div><b>CTRL</b> ⭐⭐⭐⭐☆</div>
+                    </td>
+                    <td><strong>Kiểu chơi:</strong> <b>Tấn công Bùng nổ & Tốc độ</b> – Smash mạnh, phản tạt nhanh, ép nhịp liên tục.<br><strong>Vận lực:</strong> Cổ tay mạnh, pronation nhanh; chuỗi động học toàn thân.</td>
+                    <td>Hybrid: Cấu hình Max Power/Sound. Main 0.66FP giữ tension & lực đanh; Cross 0.63V3 tăng âm thanh/trợ lực tối đa.</td>
+                    <td>Aerobite Boost / BG66UM</td>
+                </tr>
+                <tr class="row-hybrid">
+                    <td colspan="8">
+                        <span class="tag">Phân tích HYBRID</span>
+                        <ul style="margin:8px 0 10px 18px;padding:0">
+                            <li><b>Lực đập/Smash:</b> ★★★★★ — Cực kỳ mạnh mẽ. Lực phản hồi nhanh, âm thanh rất lớn.</li>
+                            <li><b>Kiểm soát:</b> ★★★★☆ — Tốt, do Main (0.66FP) đanh, bám cầu. Dây Cross 0.63mm không làm mất quá nhiều kiểm soát.</li>
+                            <li><b>Độ bền:</b> ★★★★☆ — Tốt hơn hybrid thông thường. Main 0.66mm bền, chỉ cần thay Cross (V3) thường xuyên hơn.</li>
+                            <li><b>Âm thanh:</b> Rất lớn, nổ (Pop/Crisp).</li>
+                            <li><b>Phù hợp:</b> Tay công, thích cảm giác đanh và âm thanh vang, muốn tối ưu chi phí cho dây Cross.</li>
+                        </ul>
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td><strong>Titan 1000 hồng</strong></td>
+                    <td><b>Li-Ning No.5 (Main) / Venson V3 (Cross)</b></td>
+                    <td>0.69 / 0.63 mm</td>
+                    <td><strong>27 lbs (Đồng)</strong></td>
+                    <td class="stars">
+                        <div><b>ATK</b> ⭐⭐⭐⭐⭐</div>
+                        <div><b>CTRL</b> ⭐⭐⭐⭐☆</div>
+                    </td>
+                    <td><strong>Kiểu chơi:</strong> <b>Tấn công Bền bỉ & Lực nảy</b> – Smash tì lực/dốc cầu, điều cầu ổn định.<br><strong>Vận lực:</strong> Vận lực toàn thân, cổ tay nhanh, tốc độ vung vừa.</td>
+                    <td>Hybrid: Cấu hình **Bền + Nảy**. Main 0.69mm (No.5) cực bền, giữ tension. Cross 0.63mm (V3) tăng lực nảy và tiếng nổ tối đa.</td>
+                    <td>Li-Ning No.5 / N95 / BG80P</td>
+                </tr>
+                <tr class="row-hybrid">
+                    <td colspan="8">
+                        <span class="tag">Phân tích HYBRID</span>
+                        <ul style="margin:8px 0 10px 18px;padding:0">
+                            <li><b>Lực đập/Smash:</b> ★★★★★ — Cầu ra nặng (do Main 0.69), có lực nảy mạnh (do Cross 0.63).</li>
+                            <li><b>Kiểm soát:</b> ★★★★☆ — Rất tốt. Main dày giữ khung dây ổn định, Cross mảnh không làm mất quá nhiều cảm giác.</li>
+                            <li><b>Độ bền:</b> ★★★★★ — **Cực cao** (nhờ No.5 Main $0.69 \text{ mm}$). Lựa chọn bền nhất trong các cấu hình hybrid.</li>
+                            <li><b>Âm thanh:</b> Lớn, rõ, "Pop".</li>
+                            <li><b>Phù hợp:</b> Tay công thích cảm giác cầu nặng, muốn độ bền **tuyệt đối** cho dây Main ở mức căng cao.</li>
+                        </ul>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><strong>Titan 1000 hồng</strong></td>
+                    <td><b>Li-Ning No.5 (Main) / EXBOLT 63 (Cross)</b></td>
+                    <td>0.69 / 0.63 mm</td>
+                    <td><strong>27/28 lbs</strong></td>
+                    <td class="stars">
+                        <div><b>ATK</b> ⭐⭐⭐⭐⭐</div>
+                        <div><b>CTRL</b> ⭐⭐⭐⭐⭐</div>
+                    </td>
+                    <td><strong>Kiểu chơi:</strong> <b>Công Kiểm soát & Max Nảy</b> – Smash chính xác, gài lưới sắc bén, phông/thủ sâu.<br><strong>Vận lực:</strong> Kỹ thuật cao, tốc độ cổ tay nhanh, yêu cầu timing chính xác.</td>
+                    <td>Hybrid: Cấu hình **Đỉnh cao**. Main 0.69mm bền và kiểm soát. Cross 0.63mm (Exbolt 63) dùng **Forged Fiber** tăng tối đa lực nảy/kiểm soát.</td>
+                    <td>BG80P / N98 / Z61</td>
+                </tr>
+                <tr class="row-hybrid">
+                    <td colspan="8">
+                        <span class="tag">Phân tích HYBRID</span>
+                        <ul style="margin:8px 0 10px 18px;padding:0">
+                            <li><b>Lực đập/Smash:</b> ★★★★★ — Lực đè nặng, thoát cầu cực nhanh, cho cảm giác **cứng và sắc** hơn No.5/V3.</li>
+                            <li><b>Kiểm soát:</b> ★★★★★ — Xuất sắc. Cross Exbolt 63 có khả năng kiểm soát đáng kinh ngạc.</li>
+                            <li><b>Độ bền:</b> ★★★★☆ — Rất bền (do Main dày), tổng thể bền hơn Aerobite Boost.</li>
+                            <li><b>Âm thanh:</b> Rất lớn, trong trẻo.</li>
+                            <li><b>Phù hợp:</b> Vận động viên/Người chơi cao cấp muốn độ bền tuyệt đối của No.5, kết hợp với công nghệ trợ lực và kiểm soát tốt nhất của Exbolt 63.</li>
+                        </ul>
+                    </td>
+                </tr>
+
                 <tr>
                     <td><strong>Titan 1000 hồng</strong></td>
                     <td>Li-Ning No.5</td>
