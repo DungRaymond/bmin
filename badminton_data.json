@@ -1,0 +1,205 @@
+{
+    "tieu_de": "Bộ cấu hình vợt & cước — bản chuẩn, tạm và thử nghiệm",
+    "quy_tac_chung": {
+        "muc_cang_chuan": "26/27.6 lbs (Cross = Main +1.6)",
+        "muc_cang_tam_thu_nghiem": "Giữ nguyên mức căng gốc",
+        "titan_9_chuẩn": "2 cấu hình: Li-Ning No.1 & Yonex BG80"
+    },
+    "bo_cau_hinh_chuẩn": [
+        {
+            "vot": "Titan 7",
+            "cuoc": "Li-Ning N65",
+            "duong_kinh": "0.65 mm",
+            "muc_cang": "26/27.6 lbs",
+            "danh_gia": { "ATK": 5, "CTRL": 3 },
+            "loi_choi_phu_hop": "Tấn công tốc độ – phản công bùng nổ, smash nhanh/dồn ép; ưu tiên lực nảy và âm thanh.",
+            "ghi_chu": "Cấu hình Max Speed/Pop. Titan 7 (nhẹ đầu) + N65 (siêu nảy) = Tốc độ tối đa.",
+            "thay_the": "BG66UM / Li-Ning No.1"
+        },
+        {
+            "vot": "Blade 8300",
+            "cuoc": "Zymax 66 Fire Power",
+            "duong_kinh": "0.66 mm",
+            "muc_cang": "26/27.6 lbs",
+            "danh_gia": { "ATK": 4, "CTRL": 4 },
+            "loi_choi_phu_hop": "Toàn sân – kiểm soát tốc độ – phản tạt sắc bén; ép góc, drive nhanh, dựng cầu chính xác.",
+            "ghi_chu": "Giảm 1/1.4 lbs giúp tăng trợ lực rõ; FP vẫn giữ độ đanh và âm.",
+            "thay_the": "Exbolt 65 / Nanogy 98"
+        },
+        {
+            "vot": "Blade 8300",
+            "cuoc": "Li-Ning L67",
+            "duong_kinh": "0.67 mm",
+            "muc_cang": "26/27 lbs",
+            "danh_gia": { "ATK": 3, "CTRL": 4 },
+            "loi_choi_phu_hop": "Toàn diện bền bỉ – kiểm soát đa năng, drive ổn định, công nhẹ có độ đanh.",
+            "ghi_chu": "Cước trung tính + căng thấp hơn: Cấu hình dễ dùng, độ bền cao cho tập luyện và đánh đôi.",
+            "thay_the": "BG65 Ti / NBG95"
+        },
+        {
+            "vot": "Titan 9",
+            "cuoc": "Li-Ning No.1",
+            "duong_kinh": "0.65 mm",
+            "muc_cang": "26/27.6 lbs",
+            "danh_gia": { "ATK": 5, "CTRL": 4 },
+            "loi_choi_phu_hop": "All-around vũ bão – ép nhịp cao, phản tạt chủ động, drive đổi hướng liên hoàn.",
+            "ghi_chu": "Thoát cầu nhanh, giữ nhịp tốt ở căng chuẩn mới.",
+            "thay_the": "—"
+        },
+        {
+            "vot": "Titan 9",
+            "cuoc": "Yonex BG80",
+            "duong_kinh": "0.68 mm",
+            "muc_cang": "26/27.6 lbs",
+            "danh_gia": { "ATK": 5, "CTRL": 3 },
+            "loi_choi_phu_hop": "Công đanh, tì lực; drive nặng, phản công trực diện.",
+            "ghi_chu": "Bám cầu rõ, bớt khô hơn so với 27/28.",
+            "thay_the": "—"
+        },
+        {
+            "vot": "Titan 9",
+            "cuoc": "Li-Ning L67 (Main) / Venson V3 (Cross)",
+            "duong_kinh": "0.67 / 0.63 mm",
+            "muc_cang": "27 lbs (Đồng)",
+            "danh_gia": { "ATK": 4, "CTRL": 4 },
+            "loi_choi_phu_hop": "Tốc độ & Trợ lực – phản tạt/thủ ổn định, smash nhanh; phù hợp đánh đôi.",
+            "ghi_chu": "Hybrid cân bằng, độ bền tốt hơn Aerobite. Căng đồng 27 lbs giúp trợ lực tối đa và giữ âm thanh lớn.",
+            "thay_thể": "Aerobite / N65 / No.1"
+        },
+        {
+            "vot": "Titan 1000 xám",
+            "cuoc": "VBS66 Nano",
+            "duong_kinh": "0.66 mm",
+            "muc_cang": "26/27.6 lbs",
+            "danh_gia": { "ATK": 5, "CTRL": 4 },
+            "loi_choi_phu_hop": "Công Kiểm soát toàn diện – điều cầu chính xác, gài lưới, smash đè/tỉa góc.",
+            "ghi_chu": "Hạ căng giúp trợ lực rõ rệt, vẫn kiểm soát tốt.",
+            "thay_the": "Nanogy 98 / BG80"
+        },
+        {
+            "vot": "Titan 1000 xám",
+            "cuoc": "BG65 Ti",
+            "duong_kinh": "0.70 mm",
+            "muc_cang": "26/27.6 lbs",
+            "danh_gia": { "ATK": 4, "CTRL": 4 },
+            "loi_choi_phu_hop": "Công kiểm soát – smash tì, drive nặng – điều cầu sâu.",
+            "ghi_chu": "Clear dễ hơn một nhịp, vẫn trầm và ổn định.",
+            "thay_the": "BG80 / N98"
+        },
+        {
+            "vot": "Titan 1000 hồng",
+            "cuoc": "BG65 Ti (Main) / Zymax 66FP (Cross)",
+            "duong_kinh": "0.70 / 0.66 mm",
+            "muc_cang": "26/27.6 lbs",
+            "danh_gia": { "ATK": 5, "CTRL": 4 },
+            "loi_choi_phu_hop": "CÔNG KIỂM SOÁT TỐI ĐA – Smash đè/tỉa góc, drive tấn công, gài lưới chính xác.",
+            "ghi_chu": "Giảm căng giúp bớt khô, smash vẫn đè.",
+            "thay_the": "NBG95 / BG80"
+        },
+        {
+            "vot": "Titan 1000 hồng",
+            "cuoc": "Kizuna Z69T",
+            "duong_kinh": "0.69 mm",
+            "muc_cang": "26/27.6 lbs",
+            "danh_gia": { "ATK": 5, "CTRL": 3 },
+            "loi_choi_phu_hop": "Công nặng – smash dốc – phản công nhanh; cầu sâu, bật mạnh.",
+            "ghi_chu": "Sweet-spot rộng hơn, timing dễ hơn.",
+            "thay_the": "N98 / Felet NPT 66+"
+        }
+    ],
+    "bo_cau_hinh_tam_dang_dung": [
+        {
+            "vot": "Titan 7",
+            "cuoc": "Venson V3",
+            "duong_kinh": "0.63 mm",
+            "muc_cang": "26 lbs",
+            "danh_gia": { "ATK": 2, "CTRL": 4 },
+            "loi_choi_phu_hop": "Phản tạt – kiểm soát – đầu lưới; bật cổ tay; swing gọn.",
+            "ghi_chu": "V3 khô, tốc độ; cảm giác gần R65.",
+            "thay_the": "Exbolt 65 / VBS66N"
+        },
+        {
+            "vot": "Blade 8300",
+            "cuoc": "VBS66 Nano",
+            "duong_kinh": "0.66 mm",
+            "muc_cang": "26 lbs",
+            "danh_gia": { "ATK": 2, "CTRL": 4 },
+            "loi_choi_phu_hop": "Toàn sân – điều cầu nhạy – phản tạt chính xác.",
+            "ghi_chu": "Cầu êm, điều nhịp tốt.",
+            "thay_the": "Exbolt 65 / Nanogy 98"
+        },
+        {
+            "vot": "Titan 9",
+            "cuoc": "Zymax 66 Fire Power",
+            "duong_kinh": "0.66 mm",
+            "muc_cang": "27 lbs",
+            "danh_gia": { "ATK": 4, "CTRL": 4 },
+            "loi_choi_phu_hop": "All-round thiên công; phản tạt nhanh.",
+            "ghi_chu": "Bật mạnh, âm sáng.",
+            "thay_the": "Exbolt 65 / Li-Ning No.1"
+        },
+        {
+            "vot": "Titan 1000 xám",
+            "cuoc": "BG80 Power",
+            "duong_kinh": "0.68 mm",
+            "muc_cang": "25.6 lbs",
+            "danh_gia": { "ATK": 4, "CTRL": 3 },
+            "loi_choi_phu_hop": "Công chủ động – drive sau sân – chêm cầu nặng.",
+            "ghi_chu": "Đanh, nhám; lực ra tốt dù căng thấp.",
+            "thay_the": "BG80 / N98"
+        },
+        {
+            "vot": "Titan 1000 hồng",
+            "cuoc": "BG65 Ti (Main) / Zymax 66FP (Cross)",
+            "duong_kinh": "0.70 / 0.66 mm",
+            "muc_cang": "28/28 lbs (Đồng)",
+            "danh_gia": { "ATK": 5, "CTRL": 5 },
+            "loi_choi_phu_hop": "CÔNG KIỂM SOÁT TỐI ĐA – Smash đè/tỉa góc, drive tấn công, gài lưới siêu chính xác.",
+            "ghi_chu": "Căng đồng 28/28 lbs theo thực tế sử dụng hiện tại.",
+            "thay_the": "NBG95 / BG80"
+        }
+    ],
+    "bo_cau_hinh_thu_nghiem": [
+        {
+            "vot": "Titan 1000 hồng",
+            "cuoc": "BG65 Ti (Main) / Zymax 66 Fire Power (Cross)",
+            "duong_kinh": "0.70 / 0.66 mm",
+            "muc_cang": "25/27 lbs (Cross = Main +2)",
+            "danh_gia": { "ATK": 4, "CTRL": 4 },
+            "loi_choi_phu_hop": "Công kiểm soát mềm hơn – smash đầm, drive chắc, phản thủ ổn định.",
+            "ghi_chu": "Bản hạ căng từ cấu hình cũ 28/28; đã cải thiện độ bật, cảm giác êm tay hơn."
+        },
+        {
+            "vot": "Titan 1000 hồng",
+            "cuoc": "Yonex NBG95 (Main) / EXBOLT 63 (Cross)",
+            "duong_kinh": "0.69 / 0.63 mm",
+            "muc_cang": "26/27.6 lbs",
+            "danh_gia": { "ATK": 5, "CTRL": 5 },
+            "loi_choi_phu_hop": "Công Kiểm soát Bền bỉ – Phông cầu sâu, smash đanh & nhanh, điều cầu chính xác.",
+            "ghi_chu": "Hybrid: Main NBG95 (bền) + Cross EXBOLT 63 (nảy, kiểm soát).",
+            "thay_the": "BG80 / N98"
+        }
+    ],
+    "bo_thu_nghiem_that_bai": [
+        {
+            "vot": "Titan 1000 hồng",
+            "cuoc": "Felet NPT 66+",
+            "duong_kinh": "0.66 mm",
+            "muc_cang": "26/28 lbs",
+            "danh_gia": { "ATK": 4, "CTRL": 3 },
+            "loi_choi_phu_hop": "Công nặng, smash dốc, độ nảy tốt.",
+            "ghi_chu": "Dây rất khô (ít bám cầu), dễ bị hụt lực; cảm giác cứng. PHẢN HỒI: Dễ đứt khi va chạm. (Ngày thử: 15/10/2025)",
+            "ngay_du_doan": "15/10/2025"
+        },
+        {
+            "vot": "Titan 9",
+            "cuoc": "Lining No.1",
+            "duong_kinh": "0.65 mm",
+            "muc_cang": "27/28 lbs",
+            "danh_gia": { "ATK": 5, "CTRL": 4 },
+            "loi_choi_phu_hop": "Tấn công tốc độ, âm thanh lớn.",
+            "ghi_chu": "Dễ đứt sau 1-2 tuần sử dụng; độ bám cầu thấp ở mức căng này. PHẢN HỒI: Lực nảy quá mạnh khó kiểm soát. (Ngày thử: 10/10/2025)",
+            "ngay_du_doan": "10/10/2025"
+        }
+    ]
+}

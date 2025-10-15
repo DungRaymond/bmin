@@ -1,0 +1,43 @@
+/* Thiết lập font Inter mặc định */
+:root {
+    font-family: 'Inter', sans-serif;
+}
+/* Sử dụng cấu hình màu và font từ tệp cũ */
+.card-shadow {
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.06);
+}
+.section-header {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+    padding-left: 1rem;
+    border-left-width: 4px;
+}
+.config-card { 
+    transition: all 0.3s ease; 
+}
+.config-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -4px rgba(0, 0, 0, 0.05);
+}
+.rating-star {
+    display: inline-block;
+    width: 1rem;
+    height: 1rem;
+    background-color: #e5e7eb; /* Gray for empty */
+    border-radius: 2px;
+    margin-right: 0.125rem;
+}
+.rating-star.filled-atk {
+    background-color: #f97316; /* Orange - ATK */
+}
+.rating-star.filled-ctrl {
+    background-color: #10b981; /* Green - CTRL */
+}
+/* Custom styles for visual rating (e.g., ATK/CTRL) - retained for compatibility */
+.rating-box {
+    display: inline-flex;
+    gap: 0.5rem;
+    font-weight: bold;
+    font-size: 0.875rem; /* text-sm */
+}
