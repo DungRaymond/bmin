@@ -62,7 +62,17 @@
       "danh_gia": { "ATK": 5, "CTRL": 4 },
       "loi_choi_phu_hop": "CÔNG KIỂM SOÁT TỐI ĐA – Smash đè/tỉa góc, drive tấn công, gài lưới chính xác.",
       "ghi_chu": "Chuyển từ bản hồng cũ sang xám để duy trì cảm giác đanh và dễ kiểm soát."
+    },
+    {
+      "vot": "Titan 1000 hồng",
+      "cuoc": "Kawasaki KSB65 Ti (Main) / Gosen Ryzonic 65 (Cross)",
+      "duong_kinh": "0.68 / 0.65 mm",
+      "muc_cang": "26/26 lbs (Căng đồng)",
+      "danh_gia": { "ATK": 4.2, "CTRL": 5.0, "Comfort": 4.8, "Durability": 5.0 },
+      "loi_choi_phu_hop": "Đánh đôi – phản thủ – điều cầu chính xác – phản tạt chủ động. Tay êm, drive chắc, drop/lưới cực chuẩn.",
+      "ghi_chu": "KSB65Ti giữ form và phản hồi nhanh; GR65 tăng grip và cảm giác. Cấu hình phòng thủ – kiểm soát tối ưu, cực bền và dễ xoay chuyển."
     }
+
   ],
   "bo_cau_hinh_tam_dang_dung": [
     {
@@ -134,15 +144,6 @@
       "danh_gia": { "ATK": 5, "CTRL": 5 },
       "loi_choi_phu_hop": "Precision–Grip Hybrid — kiểm soát đường cầu và chém/drop tinh tế, vẫn giữ smash và drive mạnh.",
       "ghi_chu": "Ryzonic 65 tăng đàn & grip, cảm giác tự nhiên, điều cầu sắc."
-    },
-    {
-      "vot": "Titan 1000 hồng",
-      "cuoc": "Kawasaki KSB65 Ti (Main) / Gosen Ryzonic 65 (Cross)",
-      "duong_kinh": "0.68 / 0.65 mm",
-      "muc_cang": "26/27.6 lbs",
-      "danh_gia": { "ATK": 4.5, "CTRL": 5 },
-      "loi_choi_phu_hop": "Công–Control cao cấp — smash đè nặng, drive chắc, chém/drop cực chuẩn và giữ cầu tự nhiên.",
-      "ghi_chu": "Main KSB65Ti đanh & phản hồi nhanh; Cross Ryzonic65 tăng grip & điều cầu — combo công-control đỉnh."
     }
 
   ],
