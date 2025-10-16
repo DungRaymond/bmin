@@ -27,14 +27,13 @@
       "thay_the": "Exbolt 65 / Nanogy 98"
     },
     {
-      "vot": "Titan 9",
+      "vot": "Titan 7 Pro",
       "cuoc": "Li-Ning No.1",
       "duong_kinh": "0.65 mm",
-      "muc_cang": "26/27.6 lbs",
-      "danh_gia": { "ATK": 5, "CTRL": 4 },
-      "loi_choi_phu_hop": "All-around vũ bão – ép nhịp cao, phản tạt chủ động, drive đổi hướng liên hoàn.",
-      "ghi_chu": "Thoát cầu nhanh, giữ nhịp tốt ở căng chuẩn mới.",
-      "thay_the": "—"
+      "muc_cang": "27/27 lbs (Căng đồng)",
+      "danh_gia": { "ATK": 4.8, "CTRL": 4.3 },
+      "loi_choi_phu_hop": "All-round tốc độ cao – phản công mạnh – smash thoát nhanh – drive chính xác.",
+      "ghi_chu": "Cấu hình cân bằng giữa công và tốc độ. No.1 giữ căng tốt, repulsion cao, phù hợp vợt nhẹ đầu thiên công."
     },
     {
       "vot": "Titan 9",
@@ -63,8 +62,7 @@
       "muc_cang": "26/27.6 lbs",
       "danh_gia": { "ATK": 5, "CTRL": 4 },
       "loi_choi_phu_hop": "CÔNG KIỂM SOÁT TỐI ĐA – Smash đè/tỉa góc, drive tấn công, gài lưới chính xác.",
-      "ghi_chu": "Chuyển từ bản hồng cũ sang xám để duy trì cảm giác đanh và dễ kiểm soát.",
-      "thay_the": "NBG95 / BG80"
+      "ghi_chu": "Chuyển từ bản hồng cũ sang xám để duy trì cảm giác đanh và dễ kiểm soát."
     }
   ],
   "bo_cau_hinh_tam_dang_dung": [
