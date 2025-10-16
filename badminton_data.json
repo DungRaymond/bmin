@@ -27,14 +27,16 @@
       "duong_kinh": "0.66 mm",
       "muc_cang": "26/27.6 lbs",
       "danh_gia": {
-        "ATK": 8.0,
-        "Control_Net": 8.6,
-        "Control_Grip": 8.4,
-        "Comfort": 8.4,
-        "Durability": 8.6
-      },
+        "ATK": 8.9,
+        "Control_Net": 8.9,
+        "Control_Grip": 8.8,
+        "Comfort": 8.8,
+        "Durability": 9.0,
+        "Clear_Power": 9.1
+      }
+,
       "loi_choi_phu_hop": "Toàn sân – kiểm soát tốc độ – phản tạt sắc bén; ép góc, drive nhanh, dựng cầu chính xác.",
-      "ghi_chu": "Giảm 1/1.4 lbs giúp tăng trợ lực rõ; FP vẫn giữ độ đanh và âm.",
+      "ghi_chu": "Cấu hình đơn dây tối ưu: repulsion mạnh, tay êm, smash đầm, clear nhẹ. Mặt vợt đanh vừa – phản tạt và điều cầu ổn định, không rung.",
       "thay_the": "Exbolt 65 / Nanogy 98"
     },
     {
