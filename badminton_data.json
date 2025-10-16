@@ -5,13 +5,14 @@
     "muc_cang_tam_thu_nghiem": "Giữ nguyên mức căng gốc",
     "titan_9_chuẩn": "2 cấu hình: Li-Ning No.1 & Yonex BG80"
   },
+
   "bo_cau_hinh_chuẩn": [
     {
       "vot": "Titan 7",
       "cuoc": "Gosen Ryzonic 65",
       "duong_kinh": "0.65 mm",
       "muc_cang": "24.5/25 lbs (Cross = Main + 0.5)",
-      "danh_gia": { "ATK": 4.0, "CTRL": 4.3, "Comfort": 5.0 },
+      "danh_gia": { "ATK": 4.0, "Control_Net": 4.8, "Control_Grip": 4.7, "Comfort": 5.0, "Durability": 4.6 },
       "loi_choi_phu_hop": "Toàn sân – phản công – điều cầu linh hoạt; clear nhẹ tay, smash bật dễ, tay cực êm.",
       "ghi_chu": "Ryzonic 65 đàn tốt và bám cầu, phù hợp tay yếu hoặc chơi đôi tốc độ. Cấu hình chia sẻ êm – dễ kiểm soát, trợ lực cao."
     },
@@ -20,7 +21,7 @@
       "cuoc": "Zymax 66 Fire Power",
       "duong_kinh": "0.66 mm",
       "muc_cang": "26/27.6 lbs",
-      "danh_gia": { "ATK": 4, "CTRL": 4 },
+      "danh_gia": { "ATK": 4.0, "Control_Net": 4.3, "Control_Grip": 4.2, "Comfort": 4.2, "Durability": 4.3 },
       "loi_choi_phu_hop": "Toàn sân – kiểm soát tốc độ – phản tạt sắc bén; ép góc, drive nhanh, dựng cầu chính xác.",
       "ghi_chu": "Giảm 1/1.4 lbs giúp tăng trợ lực rõ; FP vẫn giữ độ đanh và âm.",
       "thay_the": "Exbolt 65 / Nanogy 98"
@@ -30,7 +31,7 @@
       "cuoc": "Li-Ning No.1",
       "duong_kinh": "0.65 mm",
       "muc_cang": "27/27 lbs (Căng đồng)",
-      "danh_gia": { "ATK": 4.8, "CTRL": 4.3 },
+      "danh_gia": { "ATK": 4.8, "Control_Net": 4.4, "Control_Grip": 4.2, "Comfort": 4.4, "Durability": 4.6 },
       "loi_choi_phu_hop": "All-round tốc độ cao – phản công mạnh – smash thoát nhanh – drive chính xác.",
       "ghi_chu": "Cấu hình cân bằng giữa công và tốc độ. No.1 giữ căng tốt, repulsion cao, phù hợp vợt nhẹ đầu thiên công."
     },
@@ -39,7 +40,7 @@
       "cuoc": "Li-Ning L67 (Main) / Venson V3 (Cross)",
       "duong_kinh": "0.67 / 0.63 mm",
       "muc_cang": "27 lbs (Đồng)",
-      "danh_gia": { "ATK": 4, "CTRL": 4 },
+      "danh_gia": { "ATK": 4.0, "Control_Net": 4.4, "Control_Grip": 4.3, "Comfort": 4.5, "Durability": 4.8 },
       "loi_choi_phu_hop": "Tốc độ & Trợ lực – phản tạt/thủ ổn định, smash nhanh; phù hợp đánh đôi.",
       "ghi_chu": "Hybrid cân bằng, độ bền tốt hơn Aerobite. Căng đồng 27 lbs giúp trợ lực tối đa và giữ âm thanh lớn.",
       "thay_thể": "Aerobite / N65 / No.1"
@@ -49,17 +50,16 @@
       "cuoc": "Kizuna Z69T (Main) / Felet Ultramax Turbo Nano 66 (Cross)",
       "duong_kinh": "0.69 / 0.66 mm",
       "muc_cang": "26/27 lbs",
-      "danh_gia": { "ATK": 5, "CTRL": 4 },
+      "danh_gia": { "ATK": 5.0, "Control_Net": 4.1, "Control_Grip": 3.9, "Comfort": 4.2, "Durability": 5.0 },
       "loi_choi_phu_hop": "Thuần công đè nặng – smash tốc độ, drive dày lực, phản công chủ động.",
       "ghi_chu": "Z69T đanh và nén lực, Felet Turbo 66 tăng repulsion; combo công nặng, ổn định, tay êm và bền cao."
-    }
-,
+    },
     {
       "vot": "Titan 1000 xám",
       "cuoc": "BG65 Ti (Main) / Zymax 66FP (Cross)",
       "duong_kinh": "0.70 / 0.66 mm",
       "muc_cang": "26/27.6 lbs",
-      "danh_gia": { "ATK": 5, "CTRL": 4 },
+      "danh_gia": { "ATK": 5.0, "Control_Net": 4.2, "Control_Grip": 4.0, "Comfort": 4.0, "Durability": 4.7 },
       "loi_choi_phu_hop": "CÔNG KIỂM SOÁT TỐI ĐA – Smash đè/tỉa góc, drive tấn công, gài lưới chính xác.",
       "ghi_chu": "Chuyển từ bản hồng cũ sang xám để duy trì cảm giác đanh và dễ kiểm soát."
     },
@@ -68,19 +68,19 @@
       "cuoc": "Kawasaki KSB65 Ti (Main) / Gosen Ryzonic 65 (Cross)",
       "duong_kinh": "0.68 / 0.65 mm",
       "muc_cang": "26/26 lbs (Căng đồng)",
-      "danh_gia": { "ATK": 4.2, "CTRL": 5.0, "Comfort": 4.8, "Durability": 5.0 },
+      "danh_gia": { "ATK": 4.2, "Control_Net": 4.9, "Control_Grip": 5.0, "Comfort": 4.8, "Durability": 5.0 },
       "loi_choi_phu_hop": "Đánh đôi – phản thủ – điều cầu chính xác – phản tạt chủ động. Tay êm, drive chắc, drop/lưới cực chuẩn.",
       "ghi_chu": "KSB65Ti giữ form và phản hồi nhanh; GR65 tăng grip và cảm giác. Cấu hình phòng thủ – kiểm soát tối ưu, cực bền và dễ xoay chuyển."
     }
-
   ],
+
   "bo_cau_hinh_tam_dang_dung": [
     {
       "vot": "Titan 7",
       "cuoc": "Venson V3",
       "duong_kinh": "0.63 mm",
       "muc_cang": "26 lbs",
-      "danh_gia": { "ATK": 2, "CTRL": 4 },
+      "danh_gia": { "ATK": 2.0, "Control_Net": 3.8, "Control_Grip": 3.6, "Comfort": 4.3, "Durability": 4.2 },
       "loi_choi_phu_hop": "Phản tạt – kiểm soát – đầu lưới; bật cổ tay; swing gọn.",
       "ghi_chu": "V3 khô, tốc độ; cảm giác gần R65.",
       "thay_the": "Exbolt 65 / VBS66N"
@@ -90,7 +90,7 @@
       "cuoc": "VBS66 Nano",
       "duong_kinh": "0.66 mm",
       "muc_cang": "26 lbs",
-      "danh_gia": { "ATK": 2, "CTRL": 4 },
+      "danh_gia": { "ATK": 2.0, "Control_Net": 4.4, "Control_Grip": 4.2, "Comfort": 4.5, "Durability": 4.6 },
       "loi_choi_phu_hop": "Toàn sân – điều cầu nhạy – phản tạt chính xác.",
       "ghi_chu": "Cầu êm, điều nhịp tốt.",
       "thay_the": "Exbolt 65 / Nanogy 98"
@@ -100,7 +100,7 @@
       "cuoc": "Zymax 66 Fire Power",
       "duong_kinh": "0.66 mm",
       "muc_cang": "27 lbs",
-      "danh_gia": { "ATK": 4, "CTRL": 4 },
+      "danh_gia": { "ATK": 4.0, "Control_Net": 4.1, "Control_Grip": 4.0, "Comfort": 4.2, "Durability": 4.4 },
       "loi_choi_phu_hop": "All-round thiên công; phản tạt nhanh.",
       "ghi_chu": "Bật mạnh, âm sáng.",
       "thay_the": "Exbolt 65 / Li-Ning No.1"
@@ -110,7 +110,7 @@
       "cuoc": "BG80 Power",
       "duong_kinh": "0.68 mm",
       "muc_cang": "25.6 lbs",
-      "danh_gia": { "ATK": 4, "CTRL": 3 },
+      "danh_gia": { "ATK": 4.0, "Control_Net": 3.6, "Control_Grip": 3.5, "Comfort": 3.8, "Durability": 4.8 },
       "loi_choi_phu_hop": "Công chủ động – drive sau sân – chêm cầu nặng.",
       "ghi_chu": "Đanh, nhám; lực ra tốt dù căng thấp.",
       "thay_the": "BG80 / N98"
@@ -120,19 +120,20 @@
       "cuoc": "BG65 Ti (Main) / Zymax 66FP (Cross)",
       "duong_kinh": "0.70 / 0.66 mm",
       "muc_cang": "28/28 lbs (Đồng)",
-      "danh_gia": { "ATK": 5, "CTRL": 5 },
+      "danh_gia": { "ATK": 4.7, "Control_Net": 5.0, "Control_Grip": 4.2, "Comfort": 4.7, "Durability": 5.0 },
       "loi_choi_phu_hop": "CÔNG KIỂM SOÁT TỐI ĐA – Smash đè/tỉa góc, drive tấn công, gài lưới siêu chính xác.",
-      "ghi_chu": "Căng đồng 28/28 lbs theo thực tế sử dụng hiện tại.",
+      "ghi_chu": "Sau 2 buổi, dây creep ổn định: tay êm, net chuẩn, grip trung bình; cấu hình công–control bền vững.",
       "thay_the": "NBG95 / BG80"
     }
   ],
+
   "bo_cau_hinh_thu_nghiem": [
     {
       "vot": "Blade 8300",
       "cuoc": "Zymax 66 Fire Power (Main) / Li-Ning No.1 (Cross)",
       "duong_kinh": "0.66 / 0.65 mm",
       "muc_cang": "26/27.6 lbs",
-      "danh_gia": { "ATK": 5, "CTRL": 4 },
+      "danh_gia": { "ATK": 5.0, "Control_Net": 4.2, "Control_Grip": 4.1, "Comfort": 4.2, "Durability": 4.3 },
       "loi_choi_phu_hop": "Speed–Control Hybrid — clear thoát nhanh, smash đè, phản tạt tốc độ cao, drive nhẹ tay.",
       "ghi_chu": "Zymax FP giữ form & đanh; No.1 tăng đàn & âm sáng."
     },
@@ -141,12 +142,12 @@
       "cuoc": "Zymax 66 Fire Power (Main) / Gosen Ryzonic 65 (Cross)",
       "duong_kinh": "0.66 / 0.65 mm",
       "muc_cang": "26/27.6 lbs",
-      "danh_gia": { "ATK": 5, "CTRL": 5 },
+      "danh_gia": { "ATK": 5.0, "Control_Net": 4.8, "Control_Grip": 4.9, "Comfort": 4.4, "Durability": 4.5 },
       "loi_choi_phu_hop": "Precision–Grip Hybrid — kiểm soát đường cầu và chém/drop tinh tế, vẫn giữ smash và drive mạnh.",
       "ghi_chu": "Ryzonic 65 tăng đàn & grip, cảm giác tự nhiên, điều cầu sắc."
     }
-
   ],
+
   "bo_thu_nghiem_that_bai": [],
   "theo_doi_qua_trinh": [
     {
@@ -163,7 +164,7 @@
         "cam_giac": "Không còn khô như ban đầu, tay êm, giảm rung đáng kể.",
         "ket_luan": "Cấu hình 28/28 sau khi dây đã giãn nhẹ trở nên dễ chịu và cân bằng; có thể giữ lại theo dõi lâu dài."
       },
-      "danh_gia_lai": { "ATK": 4, "CTRL": 4 },
+      "danh_gia_lai": { "ATK": 4.7, "Control_Net": 5.0, "Control_Grip": 4.2, "Comfort": 4.7, "Durability": 5.0 },
       "trang_thai": "đang theo dõi – sau creep ổn định"
     }
   ]
