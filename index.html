@@ -85,111 +85,182 @@
     };
     const DEFAULT_HEADER_COLOR = { bg: '#4b5563', text: 'text-white' };
 
-    function renderStars(rating) {
-      let stars = '';
-      for (let i = 1; i <= 5; i++) {
-        stars += i <= rating ? '<span class="rating-star">★</span>' : '<span class="text-gray-300">★</span>';
-      }
-      return stars;
+     function renderStars(score) {
+    const maxStars = 5;
+    const fullStars = Math.floor(score);
+    const halfStar = score - fullStars >= 0.5 ? 1 : 0;
+    const emptyStars = maxStars - fullStars - halfStar;
+    let starsHTML = "";
+
+    // Sao đầy
+    for (let i = 0; i < fullStars; i++) {
+      starsHTML += `<span class="text-orange-600">★</span>`;
     }
+
+    // Sao nửa sáng
+    if (halfStar === 1) {
+      starsHTML += `<span class="text-yellow-400">★</span>`;
+    }
+
+    // Sao trống
+    for (let i = 0; i < emptyStars; i++) {
+      starsHTML += `<span class="text-gray-300">★</span>`;
+    }
+
+    return `<span class="tracking-tight">${starsHTML}</span>`;
+  }
 
     function createConfigCard(config) {
-      const racketStyle = RACKET_COLORS[config.vot] || DEFAULT_HEADER_COLOR;
-      return `
-        <div class="config-card bg-white p-6 rounded-xl shadow-md">
-          <div class="p-3 rounded-t-lg -mx-6 -mt-6 mb-4" style="background-color:${racketStyle.bg}">
-            <h3 class="text-xl font-extrabold card-header-text">${config.vot}</h3>
-          </div>
-          <div class="space-y-2">
-            <div class="flex justify-between items-center text-md">
-              <span class="font-bold text-gray-700">Cước:</span>
-              <span class="font-extrabold text-accent-orange">${config.cuoc}</span>
-            </div>
-            <div class="flex justify-between text-sm">
-              <span class="text-gray-500">Đường kính:</span>
-              <span class="font-medium text-gray-700">${config.duong_kinh}</span>
-            </div>
-            <div class="flex justify-between text-sm">
-              <span class="text-gray-500">Mức căng:</span>
-              <span class="font-medium text-gray-700">${config.muc_cang}</span>
-            </div>
-          </div>
-          <div class="flex justify-between text-sm font-medium mt-2 pb-2 border-b">
-            <span class="text-accent-orange">Tấn công (ATK):</span>
-            <div class="text-lg">${renderStars(config.danh_gia?.ATK ?? 0)}</div>
-          </div>
-          <div class="flex justify-between text-sm font-medium pb-2 border-b">
-            <span class="text-accent-green">Kiểm soát (CTRL):</span>
-            <div class="text-lg">${renderStars(config.danh_gia?.CTRL ?? 0)}</div>
-          </div>
-          <div class="mt-4">
-            <p class="text-sm font-semibold text-gray-700">Lối chơi phù hợp:</p>
-            <p class="text-xs text-gray-600 mt-1 italic">${config.loi_choi_phu_hop || '—'}</p>
-          </div>
-          ${config.ghi_chu ? `
-          <div class="mt-3 bg-gray-50 p-2 rounded-lg">
-            <p class="text-sm font-semibold text-gray-700">Ghi chú:</p>
-            <p class="text-xs text-gray-500 italic">${config.ghi_chu}</p>
-          </div>` : ''}
-          ${config.thay_the ? `
-          <div class="mt-3">
-            <p class="text-sm font-semibold text-gray-700">Thay thế:</p>
-            <p class="text-xs text-primary-dark font-medium">${config.thay_the}</p>
-          </div>` : ''}
+    const racketStyle = RACKET_COLORS[config.vot] || DEFAULT_HEADER_COLOR;
+    const dg = config.danh_gia || {};
+    return `
+      <div class="config-card bg-white p-6 rounded-xl shadow-md">
+        <div class="p-3 rounded-t-lg -mx-6 -mt-6 mb-4" style="background-color:${racketStyle.bg}">
+          <h3 class="text-xl font-extrabold card-header-text">${config.vot}</h3>
         </div>
-      `;
-    }
+
+        <div class="space-y-2">
+          <div class="flex justify-between items-center text-md">
+            <span class="font-bold text-gray-700">Cước:</span>
+            <span class="font-extrabold text-accent-orange">${config.cuoc}</span>
+          </div>
+          <div class="flex justify-between text-sm">
+            <span class="text-gray-500">Đường kính:</span>
+            <span class="font-medium text-gray-700">${config.duong_kinh || "—"}</span>
+          </div>
+          <div class="flex justify-between text-sm">
+            <span class="text-gray-500">Mức căng:</span>
+            <span class="font-medium text-gray-700">${config.muc_cang || "—"}</span>
+          </div>
+        </div>
+
+        <!-- 5 chỉ số mới -->
+        <div class="mt-4 grid grid-cols-2 gap-2">
+          <div class="border rounded-lg p-2">
+            <div class="text-xs font-semibold text-gray-500">ATK</div>
+            <div class="text-[13px] font-medium text-gray-800">${dg.ATK ?? "—"}</div>
+            <div class="text-sm mt-0.5">${renderStars(dg.ATK ?? 0)}</div>
+          </div>
+          <div class="border rounded-lg p-2">
+            <div class="text-xs font-semibold text-gray-500">Control • Net</div>
+            <div class="text-[13px] font-medium text-gray-800">${dg.Control_Net ?? (dg.CTRL ?? "—")}</div>
+            <div class="text-sm mt-0.5">${renderStars(dg.Control_Net ?? (dg.CTRL ?? 0))}</div>
+          </div>
+          <div class="border rounded-lg p-2">
+            <div class="text-xs font-semibold text-gray-500">Control • Grip</div>
+            <div class="text-[13px] font-medium text-gray-800">${dg.Control_Grip ?? (dg.CTRL ?? "—")}</div>
+            <div class="text-sm mt-0.5">${renderStars(dg.Control_Grip ?? (dg.CTRL ?? 0))}</div>
+          </div>
+          <div class="border rounded-lg p-2">
+            <div class="text-xs font-semibold text-gray-500">Comfort</div>
+            <div class="text-[13px] font-medium text-gray-800">${dg.Comfort ?? "—"}</div>
+            <div class="text-sm mt-0.5">${renderStars(dg.Comfort ?? 0)}</div>
+          </div>
+          <div class="border rounded-lg p-2 col-span-2 md:col-span-1">
+            <div class="text-xs font-semibold text-gray-500">Durability</div>
+            <div class="text-[13px] font-medium text-gray-800">${dg.Durability ?? "—"}</div>
+            <div class="text-sm mt-0.5">${renderStars(dg.Durability ?? 0)}</div>
+          </div>
+        </div>
+
+        <div class="mt-4">
+          <p class="text-sm font-semibold text-gray-700">Lối chơi phù hợp:</p>
+          <p class="text-xs text-gray-600 mt-1 italic">${config.loi_choi_phu_hop || '—'}</p>
+        </div>
+
+        ${config.ghi_chu ? `
+        <div class="mt-3 bg-gray-50 p-2 rounded-lg">
+          <p class="text-sm font-semibold text-gray-700">Ghi chú:</p>
+          <p class="text-xs text-gray-500 italic">${config.ghi_chu}</p>
+        </div>` : ''}
+
+        ${config.thay_the ? `
+        <div class="mt-3">
+          <p class="text-sm font-semibold text-gray-700">Thay thế:</p>
+          <p class="text-xs text-primary-dark font-medium">${config.thay_the}</p>
+        </div>` : ''}
+      </div>
+    `;
+  }
 
     function createTrackingCard(tracking) {
-      const racketStyle = RACKET_COLORS[tracking.vot] || DEFAULT_HEADER_COLOR;
-      const c = tracking.nhan_xet_thuc_te || {};
-      return `
-        <div class="tracking-card config-card bg-white p-6 rounded-xl shadow-lg">
-          <div class="p-3 rounded-t-lg -mx-6 -mt-6 mb-4" style="background-color:${racketStyle.bg}">
-            <h3 class="text-xl font-extrabold card-header-text">📊 ${tracking.vot} - Theo dõi thực tế</h3>
-            <p class="text-sm card-header-text mt-1">Ngày: ${tracking.ngay}</p>
+    const racketStyle = RACKET_COLORS[tracking.vot] || DEFAULT_HEADER_COLOR;
+    const c = tracking.nhan_xet_thuc_te || {};
+    const dg = tracking.danh_gia_lai || {};
+    // Fallback: nếu chưa có Control_Net/Grip mới, dùng CTRL cũ
+    const ctrlNet  = (dg.Control_Net  ?? dg.CTRL ?? 0);
+    const ctrlGrip = (dg.Control_Grip ?? dg.CTRL ?? 0);
+
+    return `
+      <div class="tracking-card config-card bg-white p-6 rounded-xl shadow-lg">
+        <div class="p-3 rounded-t-lg -mx-6 -mt-6 mb-4" style="background-color:${racketStyle.bg}">
+          <h3 class="text-xl font-extrabold card-header-text">📊 ${tracking.vot} - Theo dõi thực tế</h3>
+          <p class="text-sm card-header-text mt-1">Ngày: ${tracking.ngay}</p>
+        </div>
+
+        <div class="space-y-2 mb-4">
+          <div class="flex justify-between items-center text-md">
+            <span class="font-bold text-gray-700">Cước:</span>
+            <span class="font-extrabold text-accent-orange">${tracking.cuoc}</span>
           </div>
-          <div class="space-y-2 mb-4">
-            <div class="flex justify-between items-center text-md">
-              <span class="font-bold text-gray-700">Cước:</span>
-              <span class="font-extrabold text-accent-orange">${tracking.cuoc}</span>
-            </div>
-            <div class="flex justify-between text-sm">
-              <span class="text-gray-500">Mức căng thực tế:</span>
-              <span class="font-medium text-gray-700">${tracking.muc_cang_thuc_te}</span>
-            </div>
-            <div class="flex items-center justify-between mt-2 px-3 py-2 bg-blue-50 rounded-lg">
-              <span class="text-sm font-semibold text-blue-700">Trạng thái:</span>
-              <span class="text-sm font-bold text-blue-900">${tracking.trang_thai}</span>
-            </div>
+          <div class="flex justify-between text-sm">
+            <span class="text-gray-500">Mức căng thực tế:</span>
+            <span class="font-medium text-gray-700">${tracking.muc_cang_thuc_te || "—"}</span>
           </div>
-          <div class="flex justify-between text-sm font-medium mt-4 pb-2 border-b border-blue-200">
-            <span class="text-accent-orange">ATK (Đánh giá lại):</span>
-            <div class="text-lg">${renderStars(tracking.danh_gia_lai?.ATK ?? 0)}</div>
-          </div>
-          <div class="flex justify-between text-sm font-medium pb-3 border-b border-blue-200">
-            <span class="text-accent-green">CTRL (Đánh giá lại):</span>
-            <div class="text-lg">${renderStars(tracking.danh_gia_lai?.CTRL ?? 0)}</div>
-          </div>
-          <div class="mt-4 space-y-3">
-            <h4 class="text-sm font-bold text-blue-700">Nhận xét thực tế:</h4>
-            ${c.cam_giac_tong_quan ? `<div class="bg-blue-50 p-3 rounded-lg text-xs"><strong class="text-blue-800">Cảm giác tổng quan:</strong> ${c.cam_giac_tong_quan}</div>` : ''}
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-2 text-xs">
-              ${c.be_mat ? `<div class="bg-gray-50 p-2 rounded"><strong class="text-gray-700">Bề mặt:</strong> ${c.be_mat}</div>` : ''}
-              ${c.smash ? `<div class="bg-gray-50 p-2 rounded"><strong class="text-gray-700">Smash:</strong> ${c.smash}</div>` : ''}
-              ${c.bo_nho_sat_luoi ? `<div class="bg-gray-50 p-2 rounded"><strong class="text-gray-700">Bỏ nhỏ/Sát lưới:</strong> ${c.bo_nho_sat_luoi}</div>` : ''}
-              ${c.drive ? `<div class="bg-gray-50 p-2 rounded"><strong class="text-gray-700">Drive:</strong> ${c.drive}</div>` : ''}
-              ${c.cam_giac ? `<div class="bg-gray-50 p-2 rounded"><strong class="text-gray-700">Cảm giác:</strong> ${c.cam_giac}</div>` : ''}
-            </div>
-            ${c.ket_luan ? `
-            <div class="mt-3 p-3 bg-green-50 border-l-4 border-green-500 rounded">
-              <p class="text-sm font-semibold text-green-700">Kết luận:</p>
-              <p class="text-xs text-green-800 italic mt-1">${c.ket_luan}</p>
-            </div>` : ''}
+          <div class="flex items-center justify-between mt-2 px-3 py-2 bg-blue-50 rounded-lg">
+            <span class="text-sm font-semibold text-blue-700">Trạng thái:</span>
+            <span class="text-sm font-bold text-blue-900">${tracking.trang_thai || "—"}</span>
           </div>
         </div>
-      `;
-    }
+
+        <!-- 5 chỉ số mới (đánh giá lại) -->
+        <div class="grid grid-cols-2 gap-2">
+          <div class="border rounded-lg p-2">
+            <div class="text-xs font-semibold text-gray-500">ATK (re)</div>
+            <div class="text-[13px] font-medium text-gray-800">${dg.ATK ?? "—"}</div>
+            <div class="text-sm mt-0.5">${renderStars(dg.ATK ?? 0)}</div>
+          </div>
+          <div class="border rounded-lg p-2">
+            <div class="text-xs font-semibold text-gray-500">Control • Net (re)</div>
+            <div class="text-[13px] font-medium text-gray-800">${ctrlNet || "—"}</div>
+            <div class="text-sm mt-0.5">${renderStars(ctrlNet || 0)}</div>
+          </div>
+          <div class="border rounded-lg p-2">
+            <div class="text-xs font-semibold text-gray-500">Control • Grip (re)</div>
+            <div class="text-[13px] font-medium text-gray-800">${ctrlGrip || "—"}</div>
+            <div class="text-sm mt-0.5">${renderStars(ctrlGrip || 0)}</div>
+          </div>
+          <div class="border rounded-lg p-2">
+            <div class="text-xs font-semibold text-gray-500">Comfort (re)</div>
+            <div class="text-[13px] font-medium text-gray-800">${dg.Comfort ?? "—"}</div>
+            <div class="text-sm mt-0.5">${renderStars(dg.Comfort ?? 0)}</div>
+          </div>
+          <div class="border rounded-lg p-2 col-span-2 md:col-span-1">
+            <div class="text-xs font-semibold text-gray-500">Durability (re)</div>
+            <div class="text-[13px] font-medium text-gray-800">${dg.Durability ?? "—"}</div>
+            <div class="text-sm mt-0.5">${renderStars(dg.Durability ?? 0)}</div>
+          </div>
+        </div>
+
+        <div class="mt-4 space-y-3">
+          <h4 class="text-sm font-bold text-blue-700">Nhận xét thực tế:</h4>
+          ${c.cam_giac_tong_quan ? `<div class="bg-blue-50 p-3 rounded-lg text-xs"><strong class="text-blue-800">Cảm giác tổng quan:</strong> ${c.cam_giac_tong_quan}</div>` : ''}
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-2 text-xs">
+            ${c.be_mat ? `<div class="bg-gray-50 p-2 rounded"><strong class="text-gray-700">Bề mặt:</strong> ${c.be_mat}</div>` : ''}
+            ${c.smash ? `<div class="bg-gray-50 p-2 rounded"><strong class="text-gray-700">Smash:</strong> ${c.smash}</div>` : ''}
+            ${c.bo_nho_sat_luoi ? `<div class="bg-gray-50 p-2 rounded"><strong class="text-gray-700">Bỏ nhỏ/Sát lưới:</strong> ${c.bo_nho_sat_luoi}</div>` : ''}
+            ${c.drive ? `<div class="bg-gray-50 p-2 rounded"><strong class="text-gray-700">Drive:</strong> ${c.drive}</div>` : ''}
+            ${c.cam_giac ? `<div class="bg-gray-50 p-2 rounded"><strong class="text-gray-700">Cảm giác:</strong> ${c.cam_giac}</div>` : ''}
+          </div>
+          ${c.ket_luan ? `
+          <div class="mt-3 p-3 bg-green-50 border-l-4 border-green-500 rounded">
+            <p class="text-sm font-semibold text-green-700">Kết luận:</p>
+            <p class="text-xs text-green-800 italic mt-1">${c.ket_luan}</p>
+          </div>` : ''}
+        </div>
+      </div>
+    `;
+  }
 
     function renderGeneralRules(data) {
       const container = document.getElementById('general-rules');
