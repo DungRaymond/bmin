@@ -65,16 +65,6 @@
       "loi_choi_phu_hop": "CÔNG KIỂM SOÁT TỐI ĐA – Smash đè/tỉa góc, drive tấn công, gài lưới chính xác.",
       "ghi_chu": "Chuyển từ bản hồng cũ sang xám để duy trì cảm giác đanh và dễ kiểm soát.",
       "thay_the": "NBG95 / BG80"
-    },
-    {
-      "vot": "Titan 1000 hồng",
-      "cuoc": "BG80 (Main) / Gosen Ryzonic 65 (Cross)",
-      "duong_kinh": "0.68 / 0.65 mm",
-      "muc_cang": "26/27.6 lbs",
-      "danh_gia": { "ATK": 5, "CTRL": 4 },
-      "loi_choi_phu_hop": "CÔNG–CONTROL CAO CẤP — Smash đè nặng, drive tốc độ, drop/chém 'ăn' cầu, clear sâu dễ.",
-      "ghi_chu": "BG80 đanh & bám, Ryzonic 65 tăng grip/điều cầu; tổng thể đanh–chuẩn–bật vừa đủ.",
-      "thay_the": "BG80/No.1; BG80P/Ryzonic65"
     }
   ],
   "bo_cau_hinh_tam_dang_dung": [
@@ -131,61 +121,6 @@
   ],
   "bo_cau_hinh_thu_nghiem": [
     {
-      "vot": "Titan 1000 hồng",
-      "cuoc": "BG80 (Main) / Li-Ning No.1 (Cross)",
-      "duong_kinh": "0.68 / 0.65 mm",
-      "muc_cang": "26/27.6 lbs",
-      "danh_gia": { "ATK": 5, "CTRL": 4 },
-      "loi_choi_phu_hop": "TẤN CÔNG TOÀN DIỆN – Smash đè, drive tốc độ, phản tạt chính xác, clear sâu dễ.",
-      "ghi_chu": "BG80 tăng đanh; No.1 bù đàn/âm sáng. Tổng thể nhanh – chính xác – kiểm soát."
-    },
-    {
-      "vot": "Titan 1000 hồng",
-      "cuoc": "BG80 Power (Main) / Gosen Ryzonic 65 (Cross)",
-      "duong_kinh": "0.68 / 0.65 mm",
-      "muc_cang": "26/27.6 lbs",
-      "danh_gia": { "ATK": 5, "CTRL": 4 },
-      "loi_choi_phu_hop": "Tốc độ bùng nổ – smash 'pop', drive nhẹ tay, net vẫn ổn.",
-      "ghi_chu": "BG80P bật nhiều hơn BG80; Ryzonic 65 tăng grip/drop."
-    },
-    {
-      "vot": "Titan 1000 hồng",
-      "cuoc": "BG65 Ti (Main) / Zymax 66 Fire Power (Cross)",
-      "duong_kinh": "0.70 / 0.66 mm",
-      "muc_cang": "25/27 lbs (Cross = Main +2)",
-      "danh_gia": { "ATK": 4, "CTRL": 4 },
-      "loi_choi_phu_hop": "Công kiểm soát mềm hơn – smash đầm, drive chắc, phản thủ ổn định.",
-      "ghi_chu": "Bản hạ căng từ cấu hình 28/28; cải thiện độ bật, êm tay hơn."
-    },
-    {
-      "vot": "Titan 1000 hồng",
-      "cuoc": "Yonex NBG95 (Main) / EXBOLT 63 (Cross)",
-      "duong_kinh": "0.69 / 0.63 mm",
-      "muc_cang": "26/27.6 lbs",
-      "danh_gia": { "ATK": 5, "CTRL": 5 },
-      "loi_choi_phu_hop": "Công Kiểm soát Bền bỉ – phông sâu, smash đanh & nhanh, điều cầu chính xác.",
-      "ghi_chu": "Main NBG95 (bền) + Cross EXBOLT 63 (nảy, kiểm soát) — bật cực mạnh, giữ lực tốt."
-    },
-    {
-      "vot": "Titan 9",
-      "cuoc": "Li-Ning L67",
-      "duong_kinh": "0.67 mm",
-      "muc_cang": "27 / 29 lbs",
-      "danh_gia": { "ATK": 5, "CTRL": 4 },
-      "loi_choi_phu_hop": "Công – phản công kiểm soát. Smash đè nặng, drive dày lực, phản tạt chắc, clear sâu ổn định.",
-      "ghi_chu": "Đơn cước tham chiếu chính mới cho Titan 9.",
-      "thay_the": "Felet NPT 66 / BG80"
-    },
-    {
-      "vot": "Titan 9",
-      "cuoc": "Li-Ning L67 (Main) / Li-Ning No.1 (Cross)",
-      "duong_kinh": "0.67 / 0.65 mm",
-      "muc_cang": "26/27.6 lbs",
-      "danh_gia": { "ATK": 5, "CTRL": 4 },
-      "loi_choi_phu_hop": "Speed–Control All-Round — clear sâu nhẹ tay, phản tạt nhanh, smash thoát cầu và ổn định.",
-      "ghi_chu": "L67 main giữ form & đanh; No.1 cross tăng đàn & âm sáng."
-    },
-    {
       "vot": "Blade 8300",
       "cuoc": "Zymax 66 Fire Power (Main) / Li-Ning No.1 (Cross)",
       "duong_kinh": "0.66 / 0.65 mm",
@@ -202,7 +137,17 @@
       "danh_gia": { "ATK": 5, "CTRL": 5 },
       "loi_choi_phu_hop": "Precision–Grip Hybrid — kiểm soát đường cầu và chém/drop tinh tế, vẫn giữ smash và drive mạnh.",
       "ghi_chu": "Ryzonic 65 tăng đàn & grip, cảm giác tự nhiên, điều cầu sắc."
+    },
+    {
+        "vot": "Titan 1000 hồng",
+        "cuoc": "Kawasaki KSB65 Ti (Main) / Gosen Ryzonic 65 (Cross)",
+        "duong_kinh": "0.68 / 0.65 mm",
+        "muc_cang": "26/27.6 lbs",
+        "danh_gia": { "ATK": 4.5, "CTRL": 5 },
+        "loi_choi_phu_hop": "Công–Control cao cấp — smash đè nặng, drive chắc, chém/drop cực chuẩn và giữ cầu tự nhiên.",
+        "ghi_chu": "Main KSB65Ti đanh & phản hồi nhanh; Cross Ryzonic65 tăng grip & điều cầu — combo công-control đỉnh."
     }
+
   ],
   "bo_thu_nghiem_that_bai": [],
   "theo_doi_qua_trinh": [
