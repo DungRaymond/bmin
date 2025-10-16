@@ -48,14 +48,14 @@
     },
     {
       "vot": "Titan 1000 xám",
-      "cuoc": "VBS66 Nano",
-      "duong_kinh": "0.66 mm",
-      "muc_cang": "26/27.6 lbs",
+      "cuoc": "Kizuna Z69T (Main) / Felet Ultramax Turbo Nano 66 (Cross)",
+      "duong_kinh": "0.69 / 0.66 mm",
+      "muc_cang": "26/27 lbs",
       "danh_gia": { "ATK": 5, "CTRL": 4 },
-      "loi_choi_phu_hop": "Công Kiểm soát toàn diện – điều cầu chính xác, gài lưới, smash đè/tỉa góc.",
-      "ghi_chu": "Hạ căng giúp trợ lực rõ rệt, vẫn kiểm soát tốt.",
-      "thay_the": "Nanogy 98 / BG80"
-    },
+      "loi_choi_phu_hop": "Thuần công đè nặng – smash tốc độ, drive dày lực, phản công chủ động.",
+      "ghi_chu": "Z69T đanh và nén lực, Felet Turbo 66 tăng repulsion; combo công nặng, ổn định, tay êm và bền cao."
+    }
+,
     {
       "vot": "Titan 1000 xám",
       "cuoc": "BG65 Ti (Main) / Zymax 66FP (Cross)",
@@ -139,13 +139,13 @@
       "ghi_chu": "Ryzonic 65 tăng đàn & grip, cảm giác tự nhiên, điều cầu sắc."
     },
     {
-        "vot": "Titan 1000 hồng",
-        "cuoc": "Kawasaki KSB65 Ti (Main) / Gosen Ryzonic 65 (Cross)",
-        "duong_kinh": "0.68 / 0.65 mm",
-        "muc_cang": "26/27.6 lbs",
-        "danh_gia": { "ATK": 4.5, "CTRL": 5 },
-        "loi_choi_phu_hop": "Công–Control cao cấp — smash đè nặng, drive chắc, chém/drop cực chuẩn và giữ cầu tự nhiên.",
-        "ghi_chu": "Main KSB65Ti đanh & phản hồi nhanh; Cross Ryzonic65 tăng grip & điều cầu — combo công-control đỉnh."
+      "vot": "Titan 1000 hồng",
+      "cuoc": "Kawasaki KSB65 Ti (Main) / Gosen Ryzonic 65 (Cross)",
+      "duong_kinh": "0.68 / 0.65 mm",
+      "muc_cang": "26/27.6 lbs",
+      "danh_gia": { "ATK": 4.5, "CTRL": 5 },
+      "loi_choi_phu_hop": "Công–Control cao cấp — smash đè nặng, drive chắc, chém/drop cực chuẩn và giữ cầu tự nhiên.",
+      "ghi_chu": "Main KSB65Ti đanh & phản hồi nhanh; Cross Ryzonic65 tăng grip & điều cầu — combo công-control đỉnh."
     }
 
   ],
