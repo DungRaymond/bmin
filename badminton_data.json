@@ -8,13 +8,12 @@
   "bo_cau_hinh_chuẩn": [
     {
       "vot": "Titan 7",
-      "cuoc": "Li-Ning N65",
+      "cuoc": "Gosen Ryzonic 65",
       "duong_kinh": "0.65 mm",
-      "muc_cang": "26/27.6 lbs",
-      "danh_gia": { "ATK": 5, "CTRL": 3 },
-      "loi_choi_phu_hop": "Tấn công tốc độ – phản công bùng nổ, smash nhanh/dồn ép; ưu tiên lực nảy và âm thanh.",
-      "ghi_chu": "Cấu hình Max Speed/Pop. Titan 7 (nhẹ đầu) + N65 (siêu nảy) = Tốc độ tối đa.",
-      "thay_the": "BG66UM / Li-Ning No.1"
+      "muc_cang": "24.5/25 lbs (Cross = Main + 0.5)",
+      "danh_gia": { "ATK": 4.0, "CTRL": 4.3, "Comfort": 5.0 },
+      "loi_choi_phu_hop": "Toàn sân – phản công – điều cầu linh hoạt; clear nhẹ tay, smash bật dễ, tay cực êm.",
+      "ghi_chu": "Ryzonic 65 đàn tốt và bám cầu, phù hợp tay yếu hoặc chơi đôi tốc độ. Cấu hình chia sẻ êm – dễ kiểm soát, trợ lực cao."
     },
     {
       "vot": "Blade 8300",
