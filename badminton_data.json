@@ -8,18 +8,20 @@
   "bo_cau_hinh_chuẩn": [
     {
       "vot": "Titan 7",
-      "cuoc": "Gosen Ryzonic 65",
-      "duong_kinh": "0.65 mm",
-      "muc_cang": "24.5/25 lbs (Cross = Main + 0.5)",
+      "cuoc": "Gosen Ryzonic 65 (Main) / VBS66 Nano (Cross)",
+      "duong_kinh": "0.65 / 0.66 mm",
+      "muc_cang": "25/26 lbs (Cross = Main +1)",
       "danh_gia": {
-        "ATK": 8.0,
-        "Control_Net": 9.6,
-        "Control_Grip": 9.4,
-        "Comfort": 10.0,
-        "Durability": 9.2
+        "ATK": 8.6,
+        "Control_Net": 9.1,
+        "Control_Grip": 9.1,
+        "Comfort": 9.3,
+        "Durability": 9.1,
+        "Clear_Power": 9.2
       },
-      "loi_choi_phu_hop": "Toàn sân – phản công – điều cầu linh hoạt; clear nhẹ tay, smash bật dễ, tay cực êm.",
-      "ghi_chu": "Ryzonic 65 đàn tốt và bám cầu, phù hợp tay yếu hoặc chơi đôi tốc độ. Cấu hình chia sẻ êm – dễ kiểm soát, trợ lực cao."
+      "loi_choi_phu_hop": "Toàn sân – điều cầu linh hoạt – phản công kỹ thuật. Clear nhẹ tay, drop và lưới chính xác, tay cực êm.",
+      "ghi_chu": "Hybrid GR65/VBS66N: main đàn, cross êm và ổn định. Mặt vợt phẳng, phản hồi mượt, repulsion cao, giảm rung rõ rệt so với bản đơn GR65.",
+      "thay_the": "Zymax 66 Fire Power / BG80 / Li-Ning N65"
     },
     {
       "vot": "Blade 8300",
@@ -33,8 +35,7 @@
         "Comfort": 8.8,
         "Durability": 9.0,
         "Clear_Power": 9.1
-      }
-,
+      },
       "loi_choi_phu_hop": "Toàn sân – kiểm soát tốc độ – phản tạt sắc bén; ép góc, drive nhanh, dựng cầu chính xác.",
       "ghi_chu": "Cấu hình đơn dây tối ưu: repulsion mạnh, tay êm, smash đầm, clear nhẹ. Mặt vợt đanh vừa – phản tạt và điều cầu ổn định, không rung.",
       "thay_the": "Exbolt 65 / Nanogy 98"
@@ -49,7 +50,8 @@
         "Control_Net": 8.8,
         "Control_Grip": 8.4,
         "Comfort": 8.8,
-        "Durability": 9.2
+        "Durability": 9.2,
+        "Clear_Power": 9.2
       },
       "loi_choi_phu_hop": "All-round tốc độ cao – phản công mạnh – smash thoát nhanh – drive chính xác.",
       "ghi_chu": "Cấu hình cân bằng giữa công và tốc độ. No.1 giữ căng tốt, repulsion cao, phù hợp vợt nhẹ đầu thiên công."
@@ -81,7 +83,8 @@
         "Control_Net": 8.2,
         "Control_Grip": 7.8,
         "Comfort": 8.4,
-        "Durability": 10.0
+        "Durability": 10.0,
+        "Clear_Power": 9.1
       },
       "loi_choi_phu_hop": "Thuần công đè nặng – smash tốc độ, drive dày lực, phản công chủ động.",
       "ghi_chu": "Z69T đanh và nén lực, Felet Turbo 66 tăng repulsion; combo công nặng, ổn định, tay êm và bền cao."
@@ -96,7 +99,8 @@
         "Control_Net": 8.4,
         "Control_Grip": 8.0,
         "Comfort": 8.0,
-        "Durability": 9.4
+        "Durability": 9.4,
+        "Clear_Power": 9.0
       },
       "loi_choi_phu_hop": "CÔNG KIỂM SOÁT TỐI ĐA – Smash đè/tỉa góc, drive tấn công, gài lưới chính xác.",
       "ghi_chu": "Chuyển từ bản hồng cũ sang xám để duy trì cảm giác đanh và dễ kiểm soát."
@@ -111,7 +115,8 @@
         "Control_Net": 9.8,
         "Control_Grip": 10.0,
         "Comfort": 9.6,
-        "Durability": 10.0
+        "Durability": 10.0,
+        "Clear_Power": 9.1
       },
       "loi_choi_phu_hop": "Đánh đôi – phản thủ – điều cầu chính xác – phản tạt chủ động. Tay êm, drive chắc, drop/lưới cực chuẩn.",
       "ghi_chu": "KSB65Ti giữ form và phản hồi nhanh; GR65 tăng grip và cảm giác. Cấu hình phòng thủ – kiểm soát tối ưu, cực bền và dễ xoay chuyển."
@@ -145,7 +150,8 @@
         "Control_Net": 8.8,
         "Control_Grip": 8.4,
         "Comfort": 9.0,
-        "Durability": 9.2
+        "Durability": 9.2,
+        "Clear_Power": 6.4
       },
       "loi_choi_phu_hop": "Toàn sân – điều cầu nhạy – phản tạt chính xác.",
       "ghi_chu": "Cầu êm, điều nhịp tốt.",
@@ -161,7 +167,8 @@
         "Control_Net": 8.2,
         "Control_Grip": 8.0,
         "Comfort": 8.4,
-        "Durability": 8.8
+        "Durability": 8.8,
+        "Clear_Power": 8.1
       },
       "loi_choi_phu_hop": "All-round thiên công; phản tạt nhanh.",
       "ghi_chu": "Bật mạnh, âm sáng.",
@@ -177,7 +184,8 @@
         "Control_Net": 7.2,
         "Control_Grip": 7.0,
         "Comfort": 7.6,
-        "Durability": 9.6
+        "Durability": 9.6,
+        "Clear_Power": 7.7
       },
       "loi_choi_phu_hop": "Công chủ động – drive sau sân – chêm cầu nặng.",
       "ghi_chu": "Đanh, nhám; lực ra tốt dù căng thấp.",
@@ -193,7 +201,8 @@
         "Control_Net": 10.0,
         "Control_Grip": 8.4,
         "Comfort": 9.4,
-        "Durability": 10.0
+        "Durability": 10.0,
+        "Clear_Power": 9.4
       },
       "loi_choi_phu_hop": "CÔNG KIỂM SOÁT TỐI ĐA – Smash đè/tỉa góc, drive tấn công, gài lưới siêu chính xác.",
       "ghi_chu": "Sau 2 buổi, dây creep ổn định: tay êm, net chuẩn, grip trung bình; cấu hình công–control bền vững.",
@@ -211,7 +220,8 @@
         "Control_Net": 8.4,
         "Control_Grip": 8.2,
         "Comfort": 8.4,
-        "Durability": 8.6
+        "Durability": 8.6,
+        "Clear_Power": 9.2
       },
       "loi_choi_phu_hop": "Speed–Control Hybrid — clear thoát nhanh, smash đè, phản tạt tốc độ cao, drive nhẹ tay.",
       "ghi_chu": "Zymax FP giữ form & đanh; No.1 tăng đàn & âm sáng."
@@ -226,7 +236,8 @@
         "Control_Net": 9.6,
         "Control_Grip": 9.8,
         "Comfort": 8.8,
-        "Durability": 9.0
+        "Durability": 9.0,
+        "Clear_Power": 9.6
       },
       "loi_choi_phu_hop": "Precision–Grip Hybrid — kiểm soát đường cầu và chém/drop tinh tế, vẫn giữ smash và drive mạnh.",
       "ghi_chu": "Ryzonic 65 tăng đàn & grip, cảm giác tự nhiên, điều cầu sắc."
@@ -247,7 +258,6 @@
       "loi_choi_phu_hop": "Tốc độ – công nhẹ – phản tạt chủ động, clear và smash thoát nhanh, tay êm, drive dày lực.",
       "ghi_chu": "Hybrid công–repulsion tối ưu cho Titan 9: Felet Nano Power Tech 66 đàn và bật nhanh, FP cross giữ đanh và ổn định. Cầu thoát xa, tay êm, không rung; smash nổ, clear nhẹ."
     }
-
   ],
   "bo_thu_nghiem_that_bai": [],
   "theo_doi_qua_trinh": [
