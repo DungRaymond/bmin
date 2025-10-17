@@ -25,7 +25,7 @@
       "vot": "Blade 8300",
       "cuoc": "Zymax 66 Fire Power",
       "duong_kinh": "0.66 mm",
-      "muc_cang": "26/27.6 lbs",
+      "muc_cang": "26.6/27.6 lbs",
       "danh_gia": {
         "ATK": 8.9,
         "Control_Net": 8.9,
@@ -56,19 +56,19 @@
     },
     {
       "vot": "Titan 9",
-      "cuoc": "Li-Ning L67 (Main) / Venson V3 (Cross)",
-      "duong_kinh": "0.67 / 0.63 mm",
-      "muc_cang": "27 lbs (Đồng)",
+      "cuoc": "Felet Nano Power Tech 66 (Main) / Zymax 66 Fire Power (Cross)",
+      "duong_kinh": "0.66 / 0.66 mm",
+      "muc_cang": "26/27 lbs (Cross = Main +1)",
       "danh_gia": {
-        "ATK": 8.0,
-        "Control_Net": 8.8,
-        "Control_Grip": 8.6,
-        "Comfort": 9.0,
-        "Durability": 9.6
+        "ATK": 9.0,
+        "Control_Net": 8.9,
+        "Control_Grip": 8.8,
+        "Comfort": 8.9,
+        "Durability": 8.7,
+        "Clear_Power": 9.2
       },
-      "loi_choi_phu_hop": "Tốc độ & Trợ lực – phản tạt/thủ ổn định, smash nhanh; phù hợp đánh đôi.",
-      "ghi_chu": "Hybrid cân bằng, độ bền tốt hơn Aerobite. Căng đồng 27 lbs giúp trợ lực tối đa và giữ âm thanh lớn.",
-      "thay_thể": "Aerobite / N65 / No.1"
+      "loi_choi_phu_hop": "Tốc độ – công nhẹ – phản tạt chủ động, clear và smash thoát nhanh, tay êm, drive dày lực.",
+      "ghi_chu": "Hybrid công–repulsion tối ưu cho Titan 9: Felet Nano Power Tech 66 đàn và bật nhanh, FP cross giữ đanh và ổn định. Cầu thoát xa, tay êm, không rung; smash nổ, clear nhẹ."
     },
     {
       "vot": "Titan 1000 xám",
