@@ -56,19 +56,20 @@
     },
     {
       "vot": "Titan 9",
-      "cuoc": "Felet Nano Power Tech 66 (Main) / Zymax 66 Fire Power (Cross)",
+      "cuoc": "Felet String Ultramax Turbo Nano 66 (Main) / Zymax 66 Fire Power (Cross)",
       "duong_kinh": "0.66 / 0.66 mm",
       "muc_cang": "26/27 lbs (Cross = Main +1)",
       "danh_gia": {
         "ATK": 9.0,
         "Control_Net": 8.9,
-        "Control_Grip": 8.8,
-        "Comfort": 8.9,
-        "Durability": 8.7,
+        "Control_Grip": 8.9,
+        "Comfort": 9.0,
+        "Durability": 8.8,
         "Clear_Power": 9.2
       },
-      "loi_choi_phu_hop": "Tốc độ – công nhẹ – phản tạt chủ động, clear và smash thoát nhanh, tay êm, drive dày lực.",
-      "ghi_chu": "Hybrid công–repulsion tối ưu cho Titan 9: Felet Nano Power Tech 66 đàn và bật nhanh, FP cross giữ đanh và ổn định. Cầu thoát xa, tay êm, không rung; smash nổ, clear nhẹ."
+      "loi_choi_phu_hop": "Công–repulsion tốc độ – phản công mạnh, clear dễ, smash đầm tay, net/drop ổn định.",
+      "ghi_chu": "Felet UTN66 main tăng repulsion và cảm giác êm hơn bản Ryzonic 65; ZM66FP cross giữ đanh và phản tạt chắc. Mặt vợt cân bằng, thoát cầu nhanh, tay dày lực.",
+      "thay_the": "Felet Nano Power Tech 66 / BG80P"
     },
     {
       "vot": "Titan 1000 xám",
@@ -231,20 +232,19 @@
     },
     {
       "vot": "Titan 9",
-      "cuoc": "Felet String Ultramax Turbo Nano 66 (Main) / Zymax 66 Fire Power (Cross)",
+      "cuoc": "Felet Nano Power Tech 66 (Main) / Zymax 66 Fire Power (Cross)",
       "duong_kinh": "0.66 / 0.66 mm",
       "muc_cang": "26/27 lbs (Cross = Main +1)",
       "danh_gia": {
         "ATK": 9.0,
         "Control_Net": 8.9,
-        "Control_Grip": 8.9,
-        "Comfort": 9.0,
-        "Durability": 8.8,
+        "Control_Grip": 8.8,
+        "Comfort": 8.9,
+        "Durability": 8.7,
         "Clear_Power": 9.2
       },
-      "loi_choi_phu_hop": "Công–repulsion tốc độ – phản công mạnh, clear dễ, smash đầm tay, net/drop ổn định.",
-      "ghi_chu": "Felet UTN66 main tăng repulsion và cảm giác êm hơn bản Ryzonic 65; ZM66FP cross giữ đanh và phản tạt chắc. Mặt vợt cân bằng, thoát cầu nhanh, tay dày lực.",
-      "thay_the": "Felet Nano Power Tech 66 / BG80P"
+      "loi_choi_phu_hop": "Tốc độ – công nhẹ – phản tạt chủ động, clear và smash thoát nhanh, tay êm, drive dày lực.",
+      "ghi_chu": "Hybrid công–repulsion tối ưu cho Titan 9: Felet Nano Power Tech 66 đàn và bật nhanh, FP cross giữ đanh và ổn định. Cầu thoát xa, tay êm, không rung; smash nổ, clear nhẹ."
     }
 
   ],
