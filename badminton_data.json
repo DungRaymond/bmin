@@ -125,20 +125,20 @@
   "bo_cau_hinh_tam_dang_dung": [
     {
       "vot": "Titan 7",
-      "cuoc": "Gosen Ryzonic 65 (Main) / VBS66 Nano (Cross)",
-      "duong_kinh": "0.65 / 0.66 mm",
+      "cuoc": "Gosen Ryzonic 65",
+      "duong_kinh": "0.65 mm",
       "muc_cang": "25/26 lbs (Cross = Main +1)",
       "danh_gia": {
-        "ATK": 8.6,
-        "Control_Net": 9.1,
-        "Control_Grip": 9.1,
-        "Comfort": 9.3,
-        "Durability": 9.1,
-        "Clear_Power": 9.2
+        "ATK": 8.2,
+        "Control_Net": 9.0,
+        "Control_Grip": 9.0,
+        "Comfort": 9.5,
+        "Durability": 8.8,
+        "Clear_Power": 9.0
       },
-      "loi_choi_phu_hop": "Toàn sân – điều cầu linh hoạt – phản công kỹ thuật. Clear nhẹ tay, drop và lưới chính xác, tay cực êm.",
-      "ghi_chu": "Hybrid GR65/VBS66N: main đàn, cross êm và ổn định. Mặt vợt phẳng, phản hồi mượt, repulsion cao, giảm rung rõ rệt so với bản đơn GR65.",
-      "thay_the": "Zymax 66 Fire Power / BG80 / Li-Ning N65"
+      "loi_choi_phu_hop": "Thuần comfort – clear nhẹ tay, drop mượt, lưới ổn định, giảm rung tối đa. Phù hợp đánh lâu không mỏi.",
+      "ghi_chu": "Đơn GR65 ở 25/26 lbs: độ êm tối đa, clear và drop dễ, smash bớt đanh hơn hybrid nhưng tay thoải mái và ít rung.",
+      "trang_thai": "đang dùng – bản comfort"
     },
     {
       "vot": "Blade 8300",
