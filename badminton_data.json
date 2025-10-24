@@ -107,19 +107,19 @@
     },
     {
       "vot": "Titan 1000 hồng",
-      "cuoc": "Victor VBS-70 Power (Main) / Felet Ultramax Turbo Nano 66 (Cross)",
-      "duong_kinh": "0.70 / 0.66 mm",
+      "cuoc": "Victor VBS-70 Power (Main) / Li-Ning No.1 (Cross)",
+      "duong_kinh": "0.70 / 0.65 mm",
       "muc_cang": "26/27 lbs (Cross = Main +1)",
       "danh_gia": {
-        "ATK": 9.2,
-        "Control_Net": 9.3,
-        "Control_Grip": 9.1,
-        "Comfort": 8.8,
-        "Durability": 9.5,
-        "Clear_Power": 9.2
+        "ATK": 9.4,
+        "Control_Net": 9.2,
+        "Control_Grip": 8.9,
+        "Comfort": 8.7,
+        "Durability": 9.6,
+        "Clear_Power": 9.3
       },
-      "loi_choi_phu_hop": "Vợt nặng đầu thiên công – smash đầm chắc, drive chính xác, điều cầu ổn định toàn sân.",
-      "ghi_chu": "Main VBS-70P tăng smash và độ bền; Cross UTN66 bổ sung repulsion và kiểm soát. Cấu hình cân bằng công–control, drive tốc độ và chính xác."
+      "loi_choi_phu_hop": "Thiên công đầm chắc nhưng thoát cầu nhanh: smash cực lực, drive tốc độ cao, lưới/drop chính xác.",
+      "ghi_chu": "Main VBS-70P tạo nền smash uy lực và cực bền; Cross No.1 bổ sung repulsion và độ thoát, giúp drive và clear nhanh hơn, lưới/drop sắc nét."
     }
 
   ],
@@ -214,35 +214,19 @@
   "bo_cau_hinh_thu_nghiem": [
     {
       "vot": "Blade 8300",
-      "cuoc": "Zymax 66 Fire Power (Main) / Li-Ning No.1 (Cross)",
-      "duong_kinh": "0.66 / 0.65 mm",
-      "muc_cang": "26/27.6 lbs",
+      "cuoc": "Zymax 66 Fire Power",
+      "duong_kinh": "0.66 mm",
+      "muc_cang": "27/29 lbs (Cross = Main +2)",
       "danh_gia": {
-        "ATK": 10.0,
-        "Control_Net": 8.4,
-        "Control_Grip": 8.2,
-        "Comfort": 8.4,
-        "Durability": 8.6,
-        "Clear_Power": 9.2
+        "ATK": 9.5,
+        "Control_Net": 9.0,
+        "Control_Grip": 8.8,
+        "Comfort": 8.5,
+        "Durability": 8.8,
+        "Clear_Power": 9.3
       },
-      "loi_choi_phu_hop": "Speed–Control Hybrid — clear thoát nhanh, smash đè, phản tạt tốc độ cao, drive nhẹ tay.",
-      "ghi_chu": "Zymax FP giữ form & đanh; No.1 tăng đàn & âm sáng."
-    },
-    {
-      "vot": "Blade 8300",
-      "cuoc": "Zymax 66 Fire Power (Main) / Gosen Ryzonic 65 (Cross)",
-      "duong_kinh": "0.66 / 0.65 mm",
-      "muc_cang": "26/27.6 lbs",
-      "danh_gia": {
-        "ATK": 10.0,
-        "Control_Net": 9.6,
-        "Control_Grip": 9.8,
-        "Comfort": 8.8,
-        "Durability": 9.0,
-        "Clear_Power": 9.6
-      },
-      "loi_choi_phu_hop": "Precision–Grip Hybrid — kiểm soát đường cầu và chém/drop tinh tế, vẫn giữ smash và drive mạnh.",
-      "ghi_chu": "Ryzonic 65 tăng đàn & grip, cảm giác tự nhiên, điều cầu sắc."
+      "loi_choi_phu_hop": "Thiên công tốc độ cao — smash uy lực, drive chính xác, clear thoát nhanh, lưới/drop chắc.",
+      "ghi_chu": "Zymax 66FP căng cao 27/29 cho mặt vợt rất đanh, smash nổ, drive ổn định; cần tay khỏe để khai thác."
     },
     {
       "vot": "Titan 9",
@@ -259,7 +243,41 @@
       },
       "loi_choi_phu_hop": "Tốc độ – công nhẹ – phản tạt chủ động, clear và smash thoát nhanh, tay êm, drive dày lực.",
       "ghi_chu": "Hybrid công–repulsion tối ưu cho Titan 9: Felet Nano Power Tech 66 đàn và bật nhanh, FP cross giữ đanh và ổn định. Cầu thoát xa, tay êm, không rung; smash nổ, clear nhẹ."
+    },
+    {
+      "vot": "Titan 1000 hồng",
+      "cuoc": "Victor VBS-70 Power (Main) / Felet Ultramax Turbo Nano 66 (Cross)",
+      "duong_kinh": "0.70 / 0.66 mm",
+      "muc_cang": "26/27 lbs (Cross = Main +1)",
+      "danh_gia": {
+        "ATK": 9.2,
+        "Control_Net": 9.3,
+        "Control_Grip": 9.1,
+        "Comfort": 8.8,
+        "Durability": 9.5,
+        "Clear_Power": 9.2
+      },
+      "loi_choi_phu_hop": "Công–control cân bằng, smash chắc, drive nhanh và ổn định, lưới/drop chuẩn, bền lâu.",
+      "ghi_chu": "Main VBS-70P tăng smash và độ bền; Cross UTN66 bổ sung repulsion và kiểm soát, combo thiên công nhưng dễ chơi hơn so với No.1."
+    },
+    {
+      "vot": "Titan 1000 hồng",
+      "cuoc": "Kizuna Z69T (Main) / Li-Ning No.1 (Cross)",
+      "duong_kinh": "0.69 / 0.65 mm",
+      "muc_cang": "26/27 lbs (Cross = Main +1)",
+      "danh_gia": {
+        "ATK": 9.6,
+        "Control_Net": 9.1,
+        "Control_Grip": 8.8,
+        "Comfort": 8.7,
+        "Durability": 9.7,
+        "Clear_Power": 9.1
+      },
+      "loi_choi_phu_hop": "Thuần công cực lực – smash uy lực nhất, drive nhanh nhờ No.1, lưới/drop ổn nhưng cần lực tay khỏe.",
+      "ghi_chu": "Main Z69T giữ smash cực nặng và bền; Cross No.1 bổ sung repulsion và tốc độ, tạo combo công nặng nhưng vẫn thoát cầu."
     }
+
+
   ],
   "bo_thu_nghiem_that_bai": [],
   "theo_doi_qua_trinh": [
