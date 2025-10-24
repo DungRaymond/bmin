@@ -162,18 +162,18 @@
       "vot": "Titan 9",
       "cuoc": "Zymax 66 Fire Power",
       "duong_kinh": "0.66 mm",
-      "muc_cang": "27 lbs",
+      "muc_cang": "27 lbs (Căng đồng)",
       "danh_gia": {
         "ATK": 8.0,
         "Control_Net": 8.2,
         "Control_Grip": 8.0,
         "Comfort": 8.4,
         "Durability": 8.8,
-        "Clear_Power": 8.1
+        "Clear_Power": 8.3
       },
-      "loi_choi_phu_hop": "All-round thiên công; phản tạt nhanh.",
-      "ghi_chu": "Bật mạnh, âm sáng.",
-      "thay_the": "Exbolt 65 / Li-Ning No.1"
+      "loi_choi_phu_hop": "All-round thiên công; phản tạt nhanh, smash thoát và drive ổn định.",
+      "ghi_chu": "Zymax 66 Fire Power căng đơn 27 lbs: mặt vợt đanh vừa, clear nhẹ tay, smash nổ rõ, tay êm và kiểm soát ổn định sau vài buổi đầu.",
+      "trang_thai": "đang dùng – sau creep ổn định"
     },
     {
       "vot": "Titan 1000 xám",
