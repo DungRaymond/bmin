@@ -107,20 +107,21 @@
     },
     {
       "vot": "Titan 1000 hồng",
-      "cuoc": "Kawasaki KSB65 Ti (Main) / Gosen Ryzonic 65 (Cross)",
-      "duong_kinh": "0.68 / 0.65 mm",
-      "muc_cang": "26/26 lbs (Căng đồng)",
+      "cuoc": "Victor VBS-70 Power (Main) / Felet Ultramax Turbo Nano 66 (Cross)",
+      "duong_kinh": "0.70 / 0.66 mm",
+      "muc_cang": "26/27 lbs (Cross = Main +1)",
       "danh_gia": {
-        "ATK": 8.4,
-        "Control_Net": 9.8,
-        "Control_Grip": 10.0,
-        "Comfort": 9.6,
-        "Durability": 10.0,
-        "Clear_Power": 9.1
+        "ATK": 9.2,
+        "Control_Net": 9.3,
+        "Control_Grip": 9.1,
+        "Comfort": 8.8,
+        "Durability": 9.5,
+        "Clear_Power": 9.2
       },
-      "loi_choi_phu_hop": "Đánh đôi – phản thủ – điều cầu chính xác – phản tạt chủ động. Tay êm, drive chắc, drop/lưới cực chuẩn.",
-      "ghi_chu": "KSB65Ti giữ form và phản hồi nhanh; GR65 tăng grip và cảm giác. Cấu hình phòng thủ – kiểm soát tối ưu, cực bền và dễ xoay chuyển."
+      "loi_choi_phu_hop": "Vợt nặng đầu thiên công – smash đầm chắc, drive chính xác, điều cầu ổn định toàn sân.",
+      "ghi_chu": "Main VBS-70P tăng smash và độ bền; Cross UTN66 bổ sung repulsion và kiểm soát. Cấu hình cân bằng công–control, drive tốc độ và chính xác."
     }
+
   ],
   "bo_cau_hinh_tam_dang_dung": [
     {
