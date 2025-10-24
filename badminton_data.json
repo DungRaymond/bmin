@@ -44,17 +44,17 @@
       "vot": "Titan 7 Pro",
       "cuoc": "Li-Ning No.1",
       "duong_kinh": "0.65 mm",
-      "muc_cang": "27/27 lbs (Căng đồng)",
+      "muc_cang": "27/28 lbs (Cross = Main +1)",
       "danh_gia": {
-        "ATK": 9.6,
-        "Control_Net": 8.8,
-        "Control_Grip": 8.4,
-        "Comfort": 8.8,
+        "ATK": 9.7,
+        "Control_Net": 9.0,
+        "Control_Grip": 8.5,
+        "Comfort": 8.6,
         "Durability": 9.2,
-        "Clear_Power": 9.2
+        "Clear_Power": 9.3
       },
       "loi_choi_phu_hop": "All-round tốc độ cao – phản công mạnh – smash thoát nhanh – drive chính xác.",
-      "ghi_chu": "Cấu hình cân bằng giữa công và tốc độ. No.1 giữ căng tốt, repulsion cao, phù hợp vợt nhẹ đầu thiên công."
+      "ghi_chu": "Cấu hình công–tốc độ được tối ưu hơn khi cross căng cao hơn 1 lbs, smash đầm tay, lưới và drive ổn định."
     },
     {
       "vot": "Titan 9",
@@ -93,18 +93,17 @@
       "vot": "Titan 1000 xám",
       "cuoc": "BG65 Ti (Main) / Zymax 66 Fire Power (Cross)",
       "duong_kinh": "0.70 / 0.66 mm",
-      "muc_cang": "28/28 lbs (Căng đồng, đã creep nhẹ)",
+      "muc_cang": "27.5/28.5 lbs (Cross = Main +1)",
       "danh_gia": {
-        "ATK": 9.0,
-        "Control_Net": 9.0,
-        "Control_Grip": 8.8,
-        "Comfort": 8.9,
+        "ATK": 9.1,
+        "Control_Net": 9.2,
+        "Control_Grip": 8.9,
+        "Comfort": 9.0,
         "Durability": 9.2,
-        "Clear_Power": 9.1
+        "Clear_Power": 9.2
       },
-      "loi_choi_phu_hop": "Công–control cân bằng, smash chắc, clear ổn định, drive nặng tay. Phù hợp người có swing mạnh và phản tạt kỹ thuật.",
-      "ghi_chu": "Sau 4 buổi, dây creep ổn định; mặt vẫn chắc và phản hồi cứng, smash chính xác, clear thoát. Khi quên cầm chắc vợt, phản lực cao khiến vợt xoay — giúp luyện độ chắc tay rất tốt. Cấu hình công–control bền, đáng tin cậy.",
-      "trang_thai": "đang dùng – hiệu năng ổn định sau creep"
+      "loi_choi_phu_hop": "Công–control cân bằng; smash chắc, lưới/drive ổn định hơn, clear thoát. Phù hợp người có swing mạnh và phản tạt kỹ thuật.",
+      "ghi_chu": "Giảm main 0.5 giúp tay êm và grip hơn; tăng cross 0.5 tăng ổn định mặt vợt, phản tạt và net chính xác hơn."
     },
     {
       "vot": "Titan 1000 hồng",
