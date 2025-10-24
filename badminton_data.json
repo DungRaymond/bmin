@@ -212,22 +212,6 @@
   ],
   "bo_cau_hinh_thu_nghiem": [
     {
-      "vot": "Blade 8300",
-      "cuoc": "Zymax 66 Fire Power",
-      "duong_kinh": "0.66 mm",
-      "muc_cang": "27/29 lbs (Cross = Main +2)",
-      "danh_gia": {
-        "ATK": 9.5,
-        "Control_Net": 9.0,
-        "Control_Grip": 8.8,
-        "Comfort": 8.5,
-        "Durability": 8.8,
-        "Clear_Power": 9.3
-      },
-      "loi_choi_phu_hop": "Thiên công tốc độ cao — smash uy lực, drive chính xác, clear thoát nhanh, lưới/drop chắc.",
-      "ghi_chu": "Zymax 66FP căng cao 27/29 cho mặt vợt rất đanh, smash nổ, drive ổn định; cần tay khỏe để khai thác."
-    },
-    {
       "vot": "Titan 9",
       "cuoc": "Felet Nano Power Tech 66 (Main) / Zymax 66 Fire Power (Cross)",
       "duong_kinh": "0.66 / 0.66 mm",
