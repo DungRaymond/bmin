@@ -27,18 +27,17 @@
       "vot": "Blade 8300",
       "cuoc": "Zymax 66 Fire Power",
       "duong_kinh": "0.66 mm",
-      "muc_cang": "26.6/27.6 lbs",
+      "muc_cang": "27/29 lbs (Cross = Main +2)",
       "danh_gia": {
-        "ATK": 8.9,
-        "Control_Net": 8.9,
+        "ATK": 9.5,
+        "Control_Net": 9.0,
         "Control_Grip": 8.8,
-        "Comfort": 8.8,
-        "Durability": 9.0,
-        "Clear_Power": 9.1
+        "Comfort": 8.5,
+        "Durability": 8.8,
+        "Clear_Power": 9.3
       },
-      "loi_choi_phu_hop": "Toàn sân – kiểm soát tốc độ – phản tạt sắc bén; ép góc, drive nhanh, dựng cầu chính xác.",
-      "ghi_chu": "Cấu hình đơn dây tối ưu: repulsion mạnh, tay êm, smash đầm, clear nhẹ. Mặt vợt đanh vừa – phản tạt và điều cầu ổn định, không rung.",
-      "thay_the": "Exbolt 65 / Nanogy 98"
+      "loi_choi_phu_hop": "Thiên công tốc độ cao — smash uy lực, drive chính xác, clear thoát nhanh, lưới/drop chắc.",
+      "ghi_chu": "Zymax 66FP căng cao 27/29 cho mặt vợt rất đanh, smash nổ, drive ổn định; cần tay khỏe để khai thác."
     },
     {
       "vot": "Titan 7 Pro",
