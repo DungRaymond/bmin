@@ -91,19 +91,20 @@
     },
     {
       "vot": "Titan 1000 xám",
-      "cuoc": "BG65 Ti (Main) / Zymax 66FP (Cross)",
+      "cuoc": "BG65 Ti (Main) / Zymax 66 Fire Power (Cross)",
       "duong_kinh": "0.70 / 0.66 mm",
-      "muc_cang": "26/27.6 lbs",
+      "muc_cang": "28/28 lbs (Căng đồng, đã creep nhẹ)",
       "danh_gia": {
-        "ATK": 10.0,
-        "Control_Net": 8.4,
-        "Control_Grip": 8.0,
-        "Comfort": 8.0,
-        "Durability": 9.4,
-        "Clear_Power": 9.0
+        "ATK": 9.0,
+        "Control_Net": 9.0,
+        "Control_Grip": 8.8,
+        "Comfort": 8.9,
+        "Durability": 9.2,
+        "Clear_Power": 9.1
       },
-      "loi_choi_phu_hop": "CÔNG KIỂM SOÁT TỐI ĐA – Smash đè/tỉa góc, drive tấn công, gài lưới chính xác.",
-      "ghi_chu": "Chuyển từ bản hồng cũ sang xám để duy trì cảm giác đanh và dễ kiểm soát."
+      "loi_choi_phu_hop": "Công–control cân bằng, smash chắc, clear ổn định, drive nặng tay. Phù hợp người có swing mạnh và phản tạt kỹ thuật.",
+      "ghi_chu": "Sau 4 buổi, dây creep ổn định; mặt vẫn chắc và phản hồi cứng, smash chính xác, clear thoát. Khi quên cầm chắc vợt, phản lực cao khiến vợt xoay — giúp luyện độ chắc tay rất tốt. Cấu hình công–control bền, đáng tin cậy.",
+      "trang_thai": "đang dùng – hiệu năng ổn định sau creep"
     },
     {
       "vot": "Titan 1000 hồng",
@@ -193,21 +194,22 @@
     },
     {
       "vot": "Titan 1000 hồng",
-      "cuoc": "BG65 Ti (Main) / Zymax 66FP (Cross)",
+      "cuoc": "BG65 Ti (Main) / Zymax 66 Fire Power (Cross)",
       "duong_kinh": "0.70 / 0.66 mm",
-      "muc_cang": "28/28 lbs (Đồng)",
+      "muc_cang": "28/28 lbs (Căng đồng, đã creep nhẹ)",
       "danh_gia": {
-        "ATK": 9.4,
-        "Control_Net": 10.0,
-        "Control_Grip": 8.4,
-        "Comfort": 9.4,
-        "Durability": 10.0,
-        "Clear_Power": 9.4
+        "ATK": 9.0,
+        "Control_Net": 9.0,
+        "Control_Grip": 8.8,
+        "Comfort": 8.9,
+        "Durability": 9.2,
+        "Clear_Power": 9.1
       },
-      "loi_choi_phu_hop": "CÔNG KIỂM SOÁT TỐI ĐA – Smash đè/tỉa góc, drive tấn công, gài lưới siêu chính xác.",
-      "ghi_chu": "Sau 2 buổi, dây creep ổn định: tay êm, net chuẩn, grip trung bình; cấu hình công–control bền vững.",
-      "thay_the": "NBG95 / BG80"
+      "loi_choi_phu_hop": "Công–control cân bằng, smash chắc, clear ổn định, drive nặng tay. Phù hợp người có swing mạnh và phản tạt kỹ thuật.",
+      "ghi_chu": "Sau 4 buổi, dây creep ổn định; mặt vẫn chắc và phản hồi cứng, smash chính xác, clear thoát. Khi quên cầm chắc vợt, phản lực cao khiến vợt xoay — giúp luyện độ chắc tay rất tốt. Cấu hình công–control bền, đáng tin cậy.",
+      "trang_thai": "đang dùng – hiệu năng ổn định sau creep",
     }
+
   ],
   "bo_cau_hinh_thu_nghiem": [
     {
