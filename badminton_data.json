@@ -75,17 +75,17 @@
       "vot": "Titan 1000 xám",
       "cuoc": "Ashaway Zymax 66 Fire Power",
       "duong_kinh": "0.66 mm",
-      "muc_cang": "27/28 lbs (Cross = Main +1)",
+      "muc_cang": "27/29 lbs (Cross = Main +2)",
       "danh_gia": {
-        "ATK": 9.3,
+        "ATK": 9.5,
         "Control_Net": 9.0,
-        "Control_Grip": 8.7,
-        "Comfort": 8.4,
-        "Durability": 8.9,
-        "Clear_Power": 9.2
+        "Control_Grip": 8.8,
+        "Comfort": 8.5,
+        "Durability": 8.8,
+        "Clear_Power": 9.3
       },
-      "loi_choi_phu_hop": "Công–tốc độ: smash nổ, clear thoát nhanh, drive chắc; cảm giác crisp đanh-vừa.",
-      "ghi_chu": "ZM66FP thiên repulsion; cross 28 giúp mặt ổn định, ít gắt tay hơn 27/29 nhưng vẫn rất công."
+      "loi_choi_phu_hop": "Thiên công tốc độ cao: smash cực nổ, drive sắc bén, clear thoát nhanh. Hợp người tay khỏe, ưu tiên sát thương.",
+      "ghi_chu": "ZM66FP căng 27/29 cho Titan 1000 mặt vợt rất đanh, repulsion cao. Công mạnh nhưng tay sẽ cứng hơn 27/28; phù hợp nếu muốn công tối đa."
     },
     {
       "vot": "Titan 1000 hồng",
