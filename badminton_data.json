@@ -56,36 +56,36 @@
     },
     {
       "vot": "Titan 9",
-      "cuoc": "Felet String Ultramax Turbo Nano 66 (Main) / Zymax 66 Fire Power (Cross)",
-      "duong_kinh": "0.66 / 0.66 mm",
-      "muc_cang": "26/27 lbs (Cross = Main +1)",
+      "cuoc": "BG65 Ti (Main) / Ashaway Zymax 66 Fire Power (Cross)",
+      "duong_kinh": "0.70 / 0.66 mm",
+      "muc_cang": "27/28 lbs (Cross = Main +1)",
       "danh_gia": {
-        "ATK": 9.0,
-        "Control_Net": 8.9,
-        "Control_Grip": 8.9,
-        "Comfort": 9.0,
-        "Durability": 8.8,
-        "Clear_Power": 9.2
+        "ATK": 9.3,
+        "Control_Net": 9.0,
+        "Control_Grip": 8.7,
+        "Comfort": 8.4,
+        "Durability": 9.3,
+        "Clear_Power": 9.1
       },
-      "loi_choi_phu_hop": "Công–repulsion tốc độ – phản công mạnh, clear dễ, smash đầm tay, net/drop ổn định.",
-      "ghi_chu": "Felet UTN66 main tăng repulsion và cảm giác êm hơn bản Ryzonic 65; ZM66FP cross giữ đanh và phản tạt chắc. Mặt vợt cân bằng, thoát cầu nhanh, tay dày lực.",
-      "thay_the": "Felet Nano Power Tech 66 / BG80P"
+      "loi_choi_phu_hop": "Công tốc độ – smash đầm, nổ; clear thoát, drive chắc. Hợp khi muốn Titan 9 sát thương hơn bản 26/27.",
+      "ghi_chu": "BG65Ti main tạo nền đầm & bền; ZM66FP cross 28 tăng repulsion và ổn định mặt vợt. Cảm giác crisp hơn, tay gắt hơn 26/27.",
+      "trang_thai": "sẽ thử"
     },
     {
       "vot": "Titan 1000 xám",
-      "cuoc": "Kizuna Z69T (Main) / Felet Ultramax Turbo Nano 66 (Cross)",
-      "duong_kinh": "0.69 / 0.66 mm",
-      "muc_cang": "26/27 lbs",
+      "cuoc": "Ashaway Zymax 66 Fire Power",
+      "duong_kinh": "0.66 mm",
+      "muc_cang": "27/28 lbs (Cross = Main +1)",
       "danh_gia": {
-        "ATK": 10.0,
-        "Control_Net": 8.2,
-        "Control_Grip": 7.8,
+        "ATK": 9.3,
+        "Control_Net": 9.0,
+        "Control_Grip": 8.7,
         "Comfort": 8.4,
-        "Durability": 10.0,
-        "Clear_Power": 9.1
+        "Durability": 8.9,
+        "Clear_Power": 9.2
       },
-      "loi_choi_phu_hop": "Thuần công đè nặng – smash tốc độ, drive dày lực, phản công chủ động.",
-      "ghi_chu": "Z69T đanh và nén lực, Felet Turbo 66 tăng repulsion; combo công nặng, ổn định, tay êm và bền cao."
+      "loi_choi_phu_hop": "Công–tốc độ: smash nổ, clear thoát nhanh, drive chắc; cảm giác crisp đanh-vừa.",
+      "ghi_chu": "ZM66FP thiên repulsion; cross 28 giúp mặt ổn định, ít gắt tay hơn 27/29 nhưng vẫn rất công."
     },
     {
       "vot": "Titan 1000 hồng",
@@ -277,23 +277,6 @@
       "trang_thai": "đang thử"
     },
     {
-      "vot": "Titan 9",
-      "cuoc": "BG65 Ti (Main) / Ashaway Zymax 66 Fire Power (Cross)",
-      "duong_kinh": "0.70 / 0.66 mm",
-      "muc_cang": "27/28 lbs (Cross = Main +1)",
-      "danh_gia": {
-        "ATK": 9.3,
-        "Control_Net": 9.0,
-        "Control_Grip": 8.7,
-        "Comfort": 8.4,
-        "Durability": 9.3,
-        "Clear_Power": 9.1
-      },
-      "loi_choi_phu_hop": "Công tốc độ – smash đầm, nổ; clear thoát, drive chắc. Hợp khi muốn Titan 9 sát thương hơn bản 26/27.",
-      "ghi_chu": "BG65Ti main tạo nền đầm & bền; ZM66FP cross 28 tăng repulsion và ổn định mặt vợt. Cảm giác crisp hơn, tay gắt hơn 26/27.",
-      "trang_thai": "sẽ thử"
-    },
-    {
       "vot": "Titan 1000 xám",
       "cuoc": "Ashaway Zymax 66 Fire Power",
       "duong_kinh": "0.66 mm",
@@ -307,24 +290,7 @@
         "Clear_Power": 9.2
       },
       "loi_choi_phu_hop": "Công–tốc độ: smash nổ, clear thoát nhanh, drive chắc; cảm giác crisp đanh-vừa.",
-      "ghi_chu": "ZM66FP thiên repulsion; cross 28 giúp mặt ổn định, ít gắt tay hơn 27/29 nhưng vẫn rất công.",
-      "trang_thai": "đang thử"
-    },
-    {
-      "vot": "Titan 1000 hồng",
-      "cuoc": "Victor VBS-70 Power (Main) / Felet Ultramax Turbo Nano 66 (Cross)",
-      "duong_kinh": "0.70 / 0.66 mm",
-      "muc_cang": "26/27 lbs (Cross = Main +1)",
-      "danh_gia": {
-        "ATK": 9.2,
-        "Control_Net": 9.3,
-        "Control_Grip": 9.1,
-        "Comfort": 8.8,
-        "Durability": 9.5,
-        "Clear_Power": 9.2
-      },
-      "loi_choi_phu_hop": "Công–control cân bằng, smash chắc, drive nhanh và ổn định, lưới/drop chuẩn, bền lâu.",
-      "ghi_chu": "Main VBS-70P tăng smash và độ bền; Cross UTN66 bổ sung repulsion và kiểm soát, combo thiên công nhưng dễ chơi hơn so với No.1."
+      "ghi_chu": "ZM66FP thiên repulsion; cross 28 giúp mặt ổn định, ít gắt tay hơn 27/29 nhưng vẫn rất công."
     },
     {
       "vot": "Titan 1000 hồng",
