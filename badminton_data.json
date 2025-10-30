@@ -124,20 +124,20 @@
   "bo_cau_hinh_tam_dang_dung": [
     {
       "vot": "Titan 7",
-      "cuoc": "Gosen Ryzonic 65",
-      "duong_kinh": "0.65 mm",
-      "muc_cang": "25/26 lbs (Cross = Main +1)",
+      "cuoc": "Venson V3",
+      "duong_kinh": "0.63 mm",
+      "muc_cang": "26/26 lbs (Căng đồng)",
       "danh_gia": {
-        "ATK": 8.2,
-        "Control_Net": 9.0,
-        "Control_Grip": 9.0,
-        "Comfort": 9.5,
-        "Durability": 8.8,
-        "Clear_Power": 9.0
+        "ATK": 8.7,
+        "Control_Net": 8.6,
+        "Control_Grip": 8.3,
+        "Comfort": 8.0,
+        "Durability": 8.9,
+        "Clear_Power": 8.7
       },
-      "loi_choi_phu_hop": "Thuần comfort – clear nhẹ tay, drop mượt, lưới ổn định, giảm rung tối đa. Phù hợp đánh lâu không mỏi.",
-      "ghi_chu": "Đơn GR65 ở 25/26 lbs: độ êm tối đa, clear và drop dễ, smash bớt đanh hơn hybrid nhưng tay thoải mái và ít rung.",
-      "trang_thai": "đang dùng – bản comfort"
+      "loi_choi_phu_hop": "Thiên công tốc độ – smash nhanh, clear nảy, drive sắc bén. Hợp tay khỏe muốn tăng tốc độ trên Titan 7.",
+      "ghi_chu": "V3 có hard feel, bật nhanh, ít êm hơn GR65 nhưng công sát thương hơn. Ở 26/26 giữ cân bằng giữa nảy và ổn định.",
+      "trang_thai": "đang thử"
     },
     {
       "vot": "Blade 8300",
@@ -172,6 +172,23 @@
       "loi_choi_phu_hop": "All-round thiên công; phản tạt nhanh, smash thoát và drive ổn định.",
       "ghi_chu": "Zymax 66 Fire Power căng đơn 27 lbs: mặt vợt đanh vừa, clear nhẹ tay, smash nổ rõ, tay êm và kiểm soát ổn định sau vài buổi đầu.",
       "trang_thai": "đang dùng – sau creep ổn định"
+    },
+    {
+      "vot": "Venson Infinity Edge 001",
+      "cuoc": "Ashaway Zymax 66 Fire Power",
+      "duong_kinh": "0.66 mm",
+      "muc_cang": "25/26 lbs (Cross = Main +1)",
+      "danh_gia": {
+        "ATK": 8.9,
+        "Control_Net": 8.7,
+        "Control_Grip": 8.6,
+        "Comfort": 8.4,
+        "Durability": 8.9,
+        "Clear_Power": 9.1
+      },
+      "loi_choi_phu_hop": "Công–tốc độ: clear nảy, smash thoát nhanh, phản tạt gọn; lưới/drop vẫn ổn định.",
+      "ghi_chu": "ZM66FP cho repulsion cao, feel crisp đanh-vừa ở 25/26; nảy và tốc độ hơn Venson V5, comfort kém hơn chút.",
+      "trang_thai": "đang thử"
     },
     {
       "vot": "Titan 1000 xám",
