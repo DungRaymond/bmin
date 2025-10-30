@@ -177,20 +177,20 @@
     },
     {
       "vot": "Titan 1000 xám",
-      "cuoc": "BG80 Power",
+      "cuoc": "Yonex BG80 Power",
       "duong_kinh": "0.68 mm",
       "muc_cang": "25.6 lbs",
       "danh_gia": {
-        "ATK": 8.0,
-        "Control_Net": 7.2,
-        "Control_Grip": 7.0,
-        "Comfort": 7.6,
-        "Durability": 9.6,
-        "Clear_Power": 7.7
+        "ATK": 9.6,
+        "Control_Net": 8.2,
+        "Control_Grip": 8.7,
+        "Comfort": 7.8,
+        "Durability": 8.0,
+        "Clear_Power": 9.3,
+        "Hitting_Sound": 9.5
       },
-      "loi_choi_phu_hop": "Công chủ động – drive sau sân – chêm cầu nặng.",
-      "ghi_chu": "Đanh, nhám; lực ra tốt dù căng thấp.",
-      "thay_the": "BG80 / N98"
+      "loi_choi_phu_hop": "Thiên Công mạnh mẽ (Power Attacking). Phù hợp cho người chơi có lực cổ tay Trung bình Khá trở lên, thích cảm giác đập uy lực, cầu cắm và tiếng nổ lớn. Rất phù hợp cho vị trí cầu sau trong đánh đôi.",
+      "ghi_chu": "Cấu hình cường độ cao. BG80 Power giúp Titan 1000 phát huy tối đa sức mạnh tấn công. Cần cổ tay khỏe để kiểm soát đầu vợt nặng và cước cứng."
     },
     {
       "vot": "Titan 1000 hồng",
