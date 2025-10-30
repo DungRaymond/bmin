@@ -89,20 +89,21 @@
     },
     {
       "vot": "Titan 1000 hồng",
-      "cuoc": "Victor VBS-70 Power (Main) / Li-Ning No.1 (Cross)",
-      "duong_kinh": "0.70 / 0.65 mm",
+      "cuoc": "Kizuna Z69T (Main) / Li-Ning No.1 (Cross)",
+      "duong_kinh": "0.69 / 0.65 mm",
       "muc_cang": "26/27 lbs (Cross = Main +1)",
       "danh_gia": {
-        "ATK": 9.4,
-        "Control_Net": 9.2,
-        "Control_Grip": 8.9,
+        "ATK": 9.6,
+        "Control_Net": 9.1,
+        "Control_Grip": 8.8,
         "Comfort": 8.7,
-        "Durability": 9.6,
-        "Clear_Power": 9.3
+        "Durability": 9.7,
+        "Clear_Power": 9.1
       },
-      "loi_choi_phu_hop": "Thiên công đầm chắc nhưng thoát cầu nhanh: smash cực lực, drive tốc độ cao, lưới/drop chính xác.",
-      "ghi_chu": "Main VBS-70P tạo nền smash uy lực và cực bền; Cross No.1 bổ sung repulsion và độ thoát, giúp drive và clear nhanh hơn, lưới/drop sắc nét."
+      "loi_choi_phu_hop": "Thuần công cực lực – smash uy lực nhất, drive nhanh nhờ No.1, lưới/drop ổn nhưng cần lực tay khỏe.",
+      "ghi_chu": "Main Z69T giữ smash cực nặng và bền; Cross No.1 bổ sung repulsion và tốc độ, tạo combo công nặng nhưng vẫn thoát cầu."
     }
+    
 
   ],
   "bo_cau_hinh_tam_dang_dung": [
@@ -294,20 +295,21 @@
     },
     {
       "vot": "Titan 1000 hồng",
-      "cuoc": "Kizuna Z69T (Main) / Li-Ning No.1 (Cross)",
-      "duong_kinh": "0.69 / 0.65 mm",
+      "cuoc": "Victor VBS-70 Power (Main) / Li-Ning No.1 (Cross)",
+      "duong_kinh": "0.70 / 0.65 mm",
       "muc_cang": "26/27 lbs (Cross = Main +1)",
       "danh_gia": {
-        "ATK": 9.6,
-        "Control_Net": 9.1,
-        "Control_Grip": 8.8,
+        "ATK": 9.4,
+        "Control_Net": 9.2,
+        "Control_Grip": 8.9,
         "Comfort": 8.7,
-        "Durability": 9.7,
-        "Clear_Power": 9.1
+        "Durability": 9.6,
+        "Clear_Power": 9.3
       },
-      "loi_choi_phu_hop": "Thuần công cực lực – smash uy lực nhất, drive nhanh nhờ No.1, lưới/drop ổn nhưng cần lực tay khỏe.",
-      "ghi_chu": "Main Z69T giữ smash cực nặng và bền; Cross No.1 bổ sung repulsion và tốc độ, tạo combo công nặng nhưng vẫn thoát cầu."
+      "loi_choi_phu_hop": "Thiên công đầm chắc nhưng thoát cầu nhanh: smash cực lực, drive tốc độ cao, lưới/drop chính xác.",
+      "ghi_chu": "Main VBS-70P tạo nền smash uy lực và cực bền; Cross No.1 bổ sung repulsion và độ thoát, giúp drive và clear nhanh hơn, lưới/drop sắc nét."
     }
+    
 
 
   ],
