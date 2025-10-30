@@ -278,38 +278,6 @@
     },
     {
       "vot": "Titan 9",
-      "cuoc": "Felet Nano Power Tech 66 (Main) / Zymax 66 Fire Power (Cross)",
-      "duong_kinh": "0.66 / 0.66 mm",
-      "muc_cang": "26/27 lbs (Cross = Main +1)",
-      "danh_gia": {
-        "ATK": 9.0,
-        "Control_Net": 8.9,
-        "Control_Grip": 8.8,
-        "Comfort": 8.9,
-        "Durability": 8.7,
-        "Clear_Power": 9.2
-      },
-      "loi_choi_phu_hop": "Tốc độ – công nhẹ – phản tạt chủ động, clear và smash thoát nhanh, tay êm, drive dày lực.",
-      "ghi_chu": "Hybrid công–repulsion tối ưu cho Titan 9: Felet Nano Power Tech 66 đàn và bật nhanh, FP cross giữ đanh và ổn định. Cầu thoát xa, tay êm, không rung; smash nổ, clear nhẹ."
-    },
-    {
-      "vot": "Titan 9",
-      "cuoc": "Venson V5",
-      "duong_kinh": "0.65–0.66 mm",
-      "muc_cang": "26/27 lbs (Cross = Main +1)",
-      "danh_gia": {
-        "ATK": 8.9,
-        "Control_Net": 8.8,
-        "Control_Grip": 8.6,
-        "Comfort": 8.5,
-        "Durability": 9.2,
-        "Clear_Power": 8.9
-      },
-      "loi_choi_phu_hop": "Công–tốc độ cân bằng: smash đanh, drive nhanh, net/drop ổn định; bền hơn dây 0.65 mềm.",
-      "ghi_chu": "V5 hơi nhám, feel crisp hơn GR65; 26/27 tối ưu cho Titan 9 thiên công, tăng đà smash/clear mà vẫn giữ kiểm soát."
-    },
-    {
-      "vot": "Titan 9",
       "cuoc": "BG65 Ti (Main) / Ashaway Zymax 66 Fire Power (Cross)",
       "duong_kinh": "0.70 / 0.66 mm",
       "muc_cang": "27/28 lbs (Cross = Main +1)",
