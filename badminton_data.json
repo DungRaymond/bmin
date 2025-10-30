@@ -243,6 +243,23 @@
       "ghi_chu": "Hybrid công–repulsion tối ưu cho Titan 9: Felet Nano Power Tech 66 đàn và bật nhanh, FP cross giữ đanh và ổn định. Cầu thoát xa, tay êm, không rung; smash nổ, clear nhẹ."
     },
     {
+      "vot": "Titan 1000 xám",
+      "cuoc": "Ashaway Zymax 66 Fire Power",
+      "duong_kinh": "0.66 mm",
+      "muc_cang": "27/28 lbs (Cross = Main +1)",
+      "danh_gia": {
+        "ATK": 9.3,
+        "Control_Net": 9.0,
+        "Control_Grip": 8.7,
+        "Comfort": 8.4,
+        "Durability": 8.9,
+        "Clear_Power": 9.2
+      },
+      "loi_choi_phu_hop": "Công–tốc độ: smash nổ, clear thoát nhanh, drive chắc; cảm giác crisp đanh-vừa.",
+      "ghi_chu": "ZM66FP thiên repulsion; cross 28 giúp mặt ổn định, ít gắt tay hơn 27/29 nhưng vẫn rất công.",
+      "trang_thai": "đang thử"
+    },
+    {
       "vot": "Titan 1000 hồng",
       "cuoc": "Victor VBS-70 Power (Main) / Felet Ultramax Turbo Nano 66 (Cross)",
       "duong_kinh": "0.70 / 0.66 mm",
