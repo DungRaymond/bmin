@@ -24,19 +24,19 @@
     },
     {
       "vot": "Blade 8300",
-      "cuoc": "Zymax 66 Fire Power",
+      "cuoc": "Ashaway Zymax 66 Fire Power",
       "duong_kinh": "0.66 mm",
-      "muc_cang": "27/29 lbs (Cross = Main +2)",
+      "muc_cang": "27/28 lbs (Cross = Main +1)",
       "danh_gia": {
-        "ATK": 9.5,
+        "ATK": 9.4,
         "Control_Net": 9.0,
-        "Control_Grip": 8.8,
-        "Comfort": 8.5,
+        "Control_Grip": 8.7,
+        "Comfort": 8.6,
         "Durability": 8.8,
-        "Clear_Power": 9.3
+        "Clear_Power": 9.2
       },
-      "loi_choi_phu_hop": "Thiên công tốc độ cao — smash uy lực, drive chính xác, clear thoát nhanh, lưới/drop chắc.",
-      "ghi_chu": "Zymax 66FP căng cao 27/29 cho mặt vợt rất đanh, smash nổ, drive ổn định; cần tay khỏe để khai thác."
+      "loi_choi_phu_hop": "Thiên công tốc độ cao — smash nổ, clear thoát, drive sắc bén; net/drop chuẩn.",
+      "ghi_chu": "ZM66FP ở 27/28 cho mặt đanh-vừa, repulsion mạnh; dễ chịu tay hơn 27/29 một chút nhưng vẫn công tốc độ."
     },
     {
       "vot": "Titan 7 Pro",
@@ -211,21 +211,22 @@
 
   ],
   "bo_cau_hinh_thu_nghiem": [
+    
     {
       "vot": "Blade 8300",
-      "cuoc": "Ashaway Zymax 66 Fire Power",
+      "cuoc": "Zymax 66 Fire Power",
       "duong_kinh": "0.66 mm",
-      "muc_cang": "27/28 lbs (Cross = Main +1)",
+      "muc_cang": "27/29 lbs (Cross = Main +2)",
       "danh_gia": {
-        "ATK": 9.4,
+        "ATK": 9.5,
         "Control_Net": 9.0,
-        "Control_Grip": 8.7,
-        "Comfort": 8.6,
+        "Control_Grip": 8.8,
+        "Comfort": 8.5,
         "Durability": 8.8,
-        "Clear_Power": 9.2
+        "Clear_Power": 9.3
       },
-      "loi_choi_phu_hop": "Thiên công tốc độ cao — smash nổ, clear thoát, drive sắc bén; net/drop chuẩn.",
-      "ghi_chu": "ZM66FP ở 27/28 cho mặt đanh-vừa, repulsion mạnh; dễ chịu tay hơn 27/29 một chút nhưng vẫn công tốc độ."
+      "loi_choi_phu_hop": "Thiên công tốc độ cao — smash uy lực, drive chính xác, clear thoát nhanh, lưới/drop chắc.",
+      "ghi_chu": "Zymax 66FP căng cao 27/29 cho mặt vợt rất đanh, smash nổ, drive ổn định; cần tay khỏe để khai thác."
     },
     {
       "vot": "Venson Infinity Edge 001",
