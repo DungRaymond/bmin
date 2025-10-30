@@ -297,6 +297,23 @@
     },
     {
       "vot": "Titan 1000 xám",
+      "cuoc": "Ashaway Zymax 66 Fire Power",
+      "duong_kinh": "0.66 mm",
+      "muc_cang": "26 lbs (Dọc) / 27 lbs (Ngang)",
+      "danh_gia": {
+        "ATK": 9.6,
+        "Control_Net": 8.5,
+        "Control_Grip": 8.8,
+        "Comfort": 7.8,
+        "Durability": 7.2,
+        "Clear_Power": 9.3,
+        "Hitting_Sound": 9.8
+      },
+      "loi_choi_phu_hop": "Thiên Công Toàn Diện Tốc Độ. Phù hợp cho người chơi Khá - Giỏi, muốn tối đa hóa Lực Đẩy (Power Repulsion) và Tốc độ đầu cầu, đồng thời cần kiểm soát lưới tốt và cảm giác êm ái hơn so với cước BG80 Power.",
+      "ghi_chu": "Đây là mức căng lý tưởng cho Zymax 66FP để cân bằng giữa Tốc độ và Độ bền. Cước $0.66\text{ mm}$ kết hợp mức căng này tạo ra âm thanh cực đại và lực nảy bùng nổ, dễ tạo lực hơn BG80 Power ở cùng mức căng."
+    },
+    {
+      "vot": "Titan 1000 xám",
       "cuoc": "Yonex BG80 Power",
       "duong_kinh": "0.68 mm",
       "muc_cang": "26 lbs (Dọc) / 27 lbs (Ngang)",
