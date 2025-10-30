@@ -145,16 +145,15 @@
       "duong_kinh": "0.66 mm",
       "muc_cang": "26 lbs",
       "danh_gia": {
-        "ATK": 4.0,
-        "Control_Net": 8.8,
-        "Control_Grip": 8.4,
-        "Comfort": 9.0,
+        "ATK": 8.2,
+        "Control_Net": 9.1,
+        "Control_Grip": 8.7,
+        "Comfort": 9.1,
         "Durability": 9.2,
-        "Clear_Power": 6.4
+        "Clear_Power": 8.5
       },
-      "loi_choi_phu_hop": "Toàn sân – điều cầu nhạy – phản tạt chính xác.",
-      "ghi_chu": "Cầu êm, điều nhịp tốt.",
-      "thay_the": "Exbolt 65 / Nanogy 98"
+      "loi_choi_phu_hop": "Toàn sân – điều cầu nhạy – phản tạt chính xác - smash thoát cầu - clear êm tay",
+      "ghi_chu": "Cầu êm, điều nhịp tốt."
     },
     {
       "vot": "Titan 9",
