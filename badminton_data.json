@@ -108,20 +108,37 @@
     },
     {
       "vot": "Venson Infinity Edge 001",
-      "cuoc": "Venson V5 (Căng toàn bộ)",
+      "cuoc": "Zymax 66 Fire Power",
+      "duong_kinh": "0.66 mm",
+      "muc_cang": "25.5/26.5 lbs (Cross = Main +1)",
+      "danh_gia": {
+        "ATK": 8.8,
+        "Control_Net": 9.0,
+        "Control_Grip": 8.9,
+        "Comfort": 9.0,
+        "Durability": 7.8,
+        "Clear_Power": 8.8,
+        "Hitting_Sound": 9.4
+      },
+      "loi_choi_phu_hop": "Lối chơi toàn diện, tốc độ và phản xạ nhanh. Có thể tùy biến sang công hoặc kiểm soát bằng cách đổi dây.",
+      "ghi_chu": "Zymax 66 FP kết hợp với IE001 ở mức 25.5/26.5 lbs cho cảm giác linh hoạt, sweet-spot lớn, bật nhanh và dễ điều khiển. Cấu hình rất cân bằng, phù hợp cả đánh đôi lẫn đơn kỹ thuật."
+    },
+    {
+      "vot": "Venson Infinity Edge 001",
+      "cuoc": "Venson V5",
       "duong_kinh": "0.65 mm",
-      "muc_cang": "25 lbs (Dọc) / 27 lbs (Ngang)",
+      "muc_cang": "25.5/26.5 lbs (Cross = Main +1)",
       "danh_gia": {
         "ATK": 9.0,
-        "Control_Net": 8.3,
-        "Control_Grip": 8.5,
-        "Comfort": 9.5,
-        "Durability": 8.5,
-        "Clear_Power": 9.8,
-        "Hitting_Sound": 9.5
+        "Control_Net": 8.8,
+        "Control_Grip": 8.7,
+        "Comfort": 8.6,
+        "Durability": 7.3,
+        "Clear_Power": 9.0,
+        "Hitting_Sound": 9.7
       },
-      "loi_choi_phu_hop": "Tấn Công Linh Hoạt & Trợ Lực Tối Đa. Phù hợp cho người chơi có lực tay trung bình hoặc người chơi cần tối ưu hóa khả năng phông cầu sâu và các pha tấn công từ giữa sân. Cảm giác đánh rất êm, giúp giảm mệt mỏi.",
-      "ghi_chu": "Mức căng 25/27 lbs là sự kết hợp hoàn hảo giữa cước nảy và thân vợt dẻo. Nó mang lại khả năng trợ lực gần như tuyệt đối, giúp dễ dàng đưa cầu sâu cuối sân mà không cần dùng nhiều sức, trong khi độ căng cao ở dây ngang vẫn giữ được một phần kiểm soát cần thiết."
+      "loi_choi_phu_hop": "Tấn công tốc độ cao, smash sắc, phản cầu mạnh. Phù hợp cho người thích cảm giác nảy, âm thanh lớn và lối đánh chủ động.",
+      "ghi_chu": "Venson V5 trên IE001 ở mức 25.5/26.5 lbs cho cảm giác công mạnh, tốc độ, tiếng 'pop' lớn. Ít trợ lực hơn Zymax 66 FP nhưng đẩy nhanh pha tấn công, hơi khô tay khi đánh lâu."
     }
     
 
