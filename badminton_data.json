@@ -58,22 +58,22 @@
       "ghi_chu": "Cấu hình công–tốc độ được tối ưu hơn khi cross căng cao hơn 1 lbs, smash đầm tay, lưới và drive ổn định."
     },
     {
-      "vot": "Titan 9",
-      "cuoc": "BG65 Ti (Main) / Ashaway Zymax 66 Fire Power (Cross)",
-      "duong_kinh": "0.70 / 0.66 mm",
-      "muc_cang": "27/28 lbs (Cross = Main +1)",
+      "vot": "Venson Titan 9",
+      "cuoc": "Hybrid: BG65Ti (Main) + Zymax 66 Fire Power (Cross)",
+      "muc_cang": "25/26 lbs (Cross = Main +1)",
       "danh_gia": {
-        "ATK": 9.3,
+        "ATK": 9.2,
         "Control_Net": 9.0,
-        "Control_Grip": 8.7,
-        "Comfort": 8.4,
-        "Durability": 9.3,
-        "Clear_Power": 9.1
+        "Control_Grip": 8.8,
+        "Comfort": 8.7,
+        "Durability": 8.0,
+        "Clear_Power": 9.3,
+        "Hitting_Sound": 9.6
       },
-      "loi_choi_phu_hop": "Công tốc độ – smash đầm, nổ; clear thoát, drive chắc. Hợp khi muốn Titan 9 sát thương hơn bản 26/27.",
-      "ghi_chu": "BG65Ti main tạo nền đầm & bền; ZM66FP cross 28 tăng repulsion và ổn định mặt vợt. Cảm giác crisp hơn, tay gắt hơn 26/27.",
-      "trang_thai": "sẽ thử"
-    },
+      "loi_choi_phu_hop": "Tấn công tốc độ và smash mạnh, phản cầu nhanh, kiểm soát khá. Hợp người có lực cổ tay trung bình – khá.",
+      "ghi_chu": "BG65Ti giữ lực và êm, Zymax 66 FP tăng bật và âm sáng. Cấu hình hybrid lý tưởng cho Titan 9 ở vùng 25/26 lbs để đạt độ nảy và âm thanh tốt nhất."
+    }
+,
     {
       "vot": "Titan 1000 xám",
       "cuoc": "Ashaway Zymax 66 Fire Power",
@@ -250,22 +250,6 @@
   "bo_cau_hinh_thu_nghiem": [
     
     {
-      "vot": "Blade 8300",
-      "cuoc": "Zymax 66 Fire Power",
-      "duong_kinh": "0.66 mm",
-      "muc_cang": "27/29 lbs (Cross = Main +2)",
-      "danh_gia": {
-        "ATK": 9.5,
-        "Control_Net": 9.0,
-        "Control_Grip": 8.8,
-        "Comfort": 8.5,
-        "Durability": 8.8,
-        "Clear_Power": 9.3
-      },
-      "loi_choi_phu_hop": "Thiên công tốc độ cao — smash uy lực, drive chính xác, clear thoát nhanh, lưới/drop chắc.",
-      "ghi_chu": "Zymax 66FP căng cao 27/29 cho mặt vợt rất đanh, smash nổ, drive ổn định; cần tay khỏe để khai thác."
-    },
-    {
       "vot": "Venson Infinity Edge 001",
       "cuoc": "Venson V3",
       "duong_kinh": "0.63 mm",
@@ -297,6 +281,23 @@
       "loi_choi_phu_hop": "Công–control đầm chắc — smash nặng, drive ổn định, clear an toàn; bền cao, hợp rally dài.",
       "ghi_chu": "L67 dày, chắc, bền; ở 27/28 cho Titan 9 smash đầm và ổn định, clear không quá nảy nhưng rất kiểm soát.",
       "trang_thai": "đang thử"
+    },
+    {
+      "vot": "Venson Titan 9",
+      "cuoc": "Hybrid: BG65Ti (Main) + Venson V5 (Cross)",
+      "duong_kinh": "0.70 mm / 0.65 mm",
+      "muc_cang": "25/26 lbs (Cross = Main +1)",
+      "danh_gia": {
+        "ATK": 9.3,
+        "Control_Net": 8.8,
+        "Control_Grip": 8.7,
+        "Comfort": 8.3,
+        "Durability": 7.6,
+        "Clear_Power": 9.2,
+        "Hitting_Sound": 9.8
+      },
+      "loi_choi_phu_hop": "Tấn công bạo lực, smash nhanh và âm nổ cực lớn. Phù hợp người chơi có lực cổ tay khỏe, thích phản cầu tốc độ và cú đánh dứt điểm mạnh.",
+      "ghi_chu": "BG65Ti làm main giúp mặt vợt đầm và bền, Venson V5 làm cross tăng bật và tạo âm thanh metallic rất rõ. Ở 25/26 lbs, cấu hình này cho hiệu ứng 'pop' cực mạnh, nhưng comfort giảm nhẹ do thân Titan 9 cứng và dây cross hard-feel."
     },
     {
       "vot": "Titan 1000 đen",
@@ -348,22 +349,6 @@
       },
       "loi_choi_phu_hop": "Thiên Công Kiểm Soát (Power & Control). Phù hợp cho người chơi có lực cổ tay Khỏe (Advanced), yêu thích sự cân bằng giữa sức mạnh smash và độ chính xác cao khi gài lưới.",
       "ghi_chu": "Mức căng chênh lệch giúp tối ưu kiểm soát lưới. Cảm giác đánh sẽ cứng và sắc nét hơn đáng kể so với 25.6 lbs. Yêu cầu kỹ thuật đánh trúng điểm ngọt cao hơn."
-    },
-    {
-      "vot": "Titan 1000 hồng",
-      "cuoc": "Victor VBS-70 Power (Main) / Li-Ning No.1 (Cross)",
-      "duong_kinh": "0.70 / 0.65 mm",
-      "muc_cang": "26/27 lbs (Cross = Main +1)",
-      "danh_gia": {
-        "ATK": 9.4,
-        "Control_Net": 9.2,
-        "Control_Grip": 8.9,
-        "Comfort": 8.7,
-        "Durability": 9.6,
-        "Clear_Power": 9.3
-      },
-      "loi_choi_phu_hop": "Thiên công đầm chắc nhưng thoát cầu nhanh: smash cực lực, drive tốc độ cao, lưới/drop chính xác.",
-      "ghi_chu": "Main VBS-70P tạo nền smash uy lực và cực bền; Cross No.1 bổ sung repulsion và độ thoát, giúp drive và clear nhanh hơn, lưới/drop sắc nét."
     }
     
 
