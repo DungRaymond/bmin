@@ -10,35 +10,37 @@
       "vot": "Titan 7",
       "cuoc": "Venson V5",
       "duong_kinh": "0.65 mm",
-      "muc_cang": "25/26 lbs (Cross = Main +1)",
+      "muc_cang": "26/27 lbs (Cross = Main +1)",
       "danh_gia": {
-        "ATK": 8.5,
-        "Control_Net": 8.5,
-        "Control_Grip": 8.5,
-        "Comfort": 9.2,
-        "Durability": 7.5,
-        "Clear_Power": 9.5,
-        "Hitting_Sound": 9.8
+        "ATK": 9.0,
+        "Control_Net": 9.0,
+        "Control_Grip": 9.0,
+        "Comfort": 8.8,
+        "Durability": 7.0,
+        "Clear_Power": 9.2,
+        "Hitting_Sound": 9.9
       },
-      "loi_choi_phu_hop": "Tối đa hóa trợ lực và âm thanh nổ. Phông cầu sâu dễ dàng, đập cầu uy lực, cảm giác cầu mềm và nảy.",
-      "ghi_chu": "Đơn V5 ở 25/26 lbs: Đạt độ nảy và âm thanh nổ tối đa (đặc trưng của V5). Lực smash tăng nhưng khả năng giữ căng (Durability) giảm nhẹ so với GR65."
+      "loi_choi_phu_hop": "Tấn công Sắc nét & Kiểm soát. Phù hợp cho người chơi có kỹ thuật tốt, lực cổ tay khỏe, muốn tăng tốc độ đập cầu và độ chính xác khi gài cầu, đồng thời giữ được âm thanh nổ lớn.",
+      "ghi_chu": "Cấu hình 26/27 lbs là một bước tiến về hiệu suất cao: Tăng cường Kiểm soát, Tốc độ, và Âm thanh. Tuy nhiên, nó sẽ **kém trợ lực** và **giảm độ bền** so với 25/26 lbs. Đây là mức căng lý tưởng để chuyển từ trợ lực sang lối chơi kiểm soát tấn công bằng tốc độ."
     },
     {
       "vot": "Blade 8300",
-      "cuoc": "Ashaway Zymax 66 Fire Power",
+      "cuoc": "Zymax 66 Fire Power",
       "duong_kinh": "0.66 mm",
       "muc_cang": "27/28 lbs (Cross = Main +1)",
       "danh_gia": {
-        "ATK": 9.4,
-        "Control_Net": 9.0,
-        "Control_Grip": 8.7,
-        "Comfort": 8.6,
-        "Durability": 8.8,
-        "Clear_Power": 9.2
+        "ATK": 9.3,
+        "Control_Net": 9.4,
+        "Control_Grip": 9.0,
+        "Comfort": 8.0,
+        "Durability": 6.8,
+        "Clear_Power": 9.1,
+        "Hitting_Sound": 9.8
       },
-      "loi_choi_phu_hop": "Thiên công tốc độ cao — smash nổ, clear thoát, drive sắc bén; net/drop chuẩn.",
-      "ghi_chu": "ZM66FP ở 27/28 cho mặt đanh-vừa, repulsion mạnh; dễ chịu tay hơn 27/29 một chút nhưng vẫn công tốc độ."
-    },
+      "loi_choi_phu_hop": "Tấn công tốc độ cao, phản tạt và gài cầu nhanh. Phù hợp người có lực tay khỏe, timing chuẩn, thích âm thanh 'pop' mạnh và phản hồi nhanh.",
+      "ghi_chu": "Cấu hình 27/28 lbs khiến mặt vợt Blade 8300 trở nên cực nhạy và cứng. Độ kiểm soát và âm thanh rất cao, nhưng comfort giảm mạnh và sweet-spot nhỏ — chỉ nên dùng khi bạn đánh ổn định, cổ tay khỏe."
+    }
+,
     {
       "vot": "Titan 7 Pro",
       "cuoc": "Li-Ning No.1",
