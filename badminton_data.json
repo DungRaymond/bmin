@@ -103,6 +103,23 @@
       },
       "loi_choi_phu_hop": "Thuần công cực lực – smash uy lực nhất, drive nhanh nhờ No.1, lưới/drop ổn nhưng cần lực tay khỏe.",
       "ghi_chu": "Main Z69T giữ smash cực nặng và bền; Cross No.1 bổ sung repulsion và tốc độ, tạo combo công nặng nhưng vẫn thoát cầu."
+    },
+    {
+      "vot": "Venson Infinity Edge 001 (4U, Hơi nặng đầu, Thân Dẻo Trung Bình)",
+      "cuoc": "Venson V5 (Căng toàn bộ)",
+      "duong_kinh": "0.65 mm",
+      "muc_cang": "25 lbs (Dọc) / 27 lbs (Ngang)",
+      "danh_gia": {
+        "ATK": 9.0,
+        "Control_Net": 8.3,
+        "Control_Grip": 8.5,
+        "Comfort": 9.5,
+        "Durability": 8.5,
+        "Clear_Power": 9.8,
+        "Hitting_Sound": 9.5
+      },
+      "loi_choi_phu_hop": "Tấn Công Linh Hoạt & Trợ Lực Tối Đa. Phù hợp cho người chơi có lực tay trung bình hoặc người chơi cần tối ưu hóa khả năng phông cầu sâu và các pha tấn công từ giữa sân. Cảm giác đánh rất êm, giúp giảm mệt mỏi.",
+      "ghi_chu": "Mức căng 25/27 lbs là sự kết hợp hoàn hảo giữa cước nảy và thân vợt dẻo. Nó mang lại khả năng trợ lực gần như tuyệt đối, giúp dễ dàng đưa cầu sâu cuối sân mà không cần dùng nhiều sức, trong khi độ căng cao ở dây ngang vẫn giữ được một phần kiểm soát cần thiết."
     }
     
 
@@ -280,22 +297,22 @@
       "trang_thai": "đang thử"
     },
     {
-  "vot": "Titan 1000 đen",
-  "cuoc": "Hybrid Venson V5 + Zymax 66 Fire Power",
-  "duong_kinh": "0.65 mm (Dọc) / 0.66 mm (Ngang)",
-  "muc_cang": "26 lbs (Dọc) / 28 lbs (Ngang)",
-  "danh_gia": {
-    "ATK": 9.8,
-    "Control_Net": 9.3,
-    "Control_Grip": 9.2,
-    "Comfort": 7.8,
-    "Durability": 6.5,
-    "Clear_Power": 9.6,
-    "Hitting_Sound": 10.0
-  },
-  "loi_choi_phu_hop": "Hybrid Tốc Độ & Kiểm Soát Tối Đa. Phù hợp cho người chơi có kỹ thuật tốt, lực cổ tay khỏe và yêu thích lối đánh tấn công tốc độ, đòi hỏi độ sắc nét và tiếng nổ lớn. Lý tưởng cho các trận đấu cần độ bùng nổ cao.",
-  "ghi_chu": "Cấu hình này là sự lựa chọn **hiệu suất cao** (High Performance). Âm thanh khi đánh sẽ lớn và cảm giác cầu nảy rất nhanh. Tuy nhiên, độ bền là điểm yếu nhất; cước sẽ có tuổi thọ ngắn hơn đáng kể so với hai cây vợt còn lại. Cần lực cổ tay mạnh để sử dụng hiệu quả ở mức căng này."
-},
+      "vot": "Titan 1000 đen",
+      "cuoc": "Hybrid Venson V5 + Zymax 66 Fire Power",
+      "duong_kinh": "0.65 mm (Dọc) / 0.66 mm (Ngang)",
+      "muc_cang": "26 lbs (Dọc) / 28 lbs (Ngang)",
+      "danh_gia": {
+        "ATK": 9.8,
+        "Control_Net": 9.3,
+        "Control_Grip": 9.2,
+        "Comfort": 7.8,
+        "Durability": 6.5,
+        "Clear_Power": 9.6,
+        "Hitting_Sound": 10.0
+      },
+      "loi_choi_phu_hop": "Hybrid Tốc Độ & Kiểm Soát Tối Đa. Phù hợp cho người chơi có kỹ thuật tốt, lực cổ tay khỏe và yêu thích lối đánh tấn công tốc độ, đòi hỏi độ sắc nét và tiếng nổ lớn. Lý tưởng cho các trận đấu cần độ bùng nổ cao.",
+      "ghi_chu": "Cấu hình này là sự lựa chọn **hiệu suất cao** (High Performance). Âm thanh khi đánh sẽ lớn và cảm giác cầu nảy rất nhanh. Tuy nhiên, độ bền là điểm yếu nhất; cước sẽ có tuổi thọ ngắn hơn đáng kể so với hai cây vợt còn lại. Cần lực cổ tay mạnh để sử dụng hiệu quả ở mức căng này."
+    },
     {
       "vot": "Titan 1000 xám",
       "cuoc": "Ashaway Zymax 66 Fire Power",
