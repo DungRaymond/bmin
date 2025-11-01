@@ -280,21 +280,22 @@
       "trang_thai": "đang thử"
     },
     {
-      "vot": "Titan 1000 xám",
-      "cuoc": "Ashaway Zymax 66 Fire Power",
-      "duong_kinh": "0.66 mm",
-      "muc_cang": "27/28 lbs (Cross = Main +1)",
-      "danh_gia": {
-        "ATK": 9.3,
-        "Control_Net": 9.0,
-        "Control_Grip": 8.7,
-        "Comfort": 8.4,
-        "Durability": 8.9,
-        "Clear_Power": 9.2
-      },
-      "loi_choi_phu_hop": "Công–tốc độ: smash nổ, clear thoát nhanh, drive chắc; cảm giác crisp đanh-vừa.",
-      "ghi_chu": "ZM66FP thiên repulsion; cross 28 giúp mặt ổn định, ít gắt tay hơn 27/29 nhưng vẫn rất công."
-    },
+  "vot": "Titan 1000 đen",
+  "cuoc": "Hybrid Venson V5 + Zymax 66 Fire Power",
+  "duong_kinh": "0.65 mm (Dọc) / 0.66 mm (Ngang)",
+  "muc_cang": "26 lbs (Dọc) / 28 lbs (Ngang)",
+  "danh_gia": {
+    "ATK": 9.8,
+    "Control_Net": 9.3,
+    "Control_Grip": 9.2,
+    "Comfort": 7.8,
+    "Durability": 6.5,
+    "Clear_Power": 9.6,
+    "Hitting_Sound": 10.0
+  },
+  "loi_choi_phu_hop": "Hybrid Tốc Độ & Kiểm Soát Tối Đa. Phù hợp cho người chơi có kỹ thuật tốt, lực cổ tay khỏe và yêu thích lối đánh tấn công tốc độ, đòi hỏi độ sắc nét và tiếng nổ lớn. Lý tưởng cho các trận đấu cần độ bùng nổ cao.",
+  "ghi_chu": "Cấu hình này là sự lựa chọn **hiệu suất cao** (High Performance). Âm thanh khi đánh sẽ lớn và cảm giác cầu nảy rất nhanh. Tuy nhiên, độ bền là điểm yếu nhất; cước sẽ có tuổi thọ ngắn hơn đáng kể so với hai cây vợt còn lại. Cần lực cổ tay mạnh để sử dụng hiệu quả ở mức căng này."
+},
     {
       "vot": "Titan 1000 xám",
       "cuoc": "Ashaway Zymax 66 Fire Power",
