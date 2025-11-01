@@ -92,19 +92,37 @@
     },
     {
       "vot": "Titan 1000 hồng",
-      "cuoc": "Kizuna Z69T (Main) / Li-Ning No.1 (Cross)",
-      "duong_kinh": "0.69 / 0.65 mm",
-      "muc_cang": "26/27 lbs (Cross = Main +1)",
+      "cuoc": "Yonex BG80 Power",
+      "duong_kinh": "0.68 mm",
+      "muc_cang": "26 lbs (Dọc) / 27 lbs (Ngang)",
+      "danh_gia": {
+        "ATK": 9.4,
+        "Control_Net": 8.8,
+        "Control_Grip": 9.0,
+        "Comfort": 7.2,
+        "Durability": 7.5,
+        "Clear_Power": 9.0,
+        "Hitting_Sound": 9.7
+      },
+      "loi_choi_phu_hop": "Thiên Công Kiểm Soát (Power & Control). Phù hợp cho người chơi có lực cổ tay Khỏe (Advanced), yêu thích sự cân bằng giữa sức mạnh smash và độ chính xác cao khi gài lưới.",
+      "ghi_chu": "Mức căng chênh lệch giúp tối ưu kiểm soát lưới. Cảm giác đánh sẽ cứng và sắc nét hơn đáng kể so với 25.6 lbs. Yêu cầu kỹ thuật đánh trúng điểm ngọt cao hơn."
+    },
+    {
+      "vot": "Titan 1000 đen",
+      "cuoc": "Hybrid Venson V5 (Main) + Zymax 66 Fire Power (Cross)",
+      "duong_kinh": "0.65 mm / 0.66 mm",
+      "muc_cang": "26 lbs (Main) / 27 lbs (Cross)",
       "danh_gia": {
         "ATK": 9.6,
-        "Control_Net": 9.1,
-        "Control_Grip": 8.8,
-        "Comfort": 8.7,
-        "Durability": 9.7,
-        "Clear_Power": 9.1
+        "Control_Net": 9.2,
+        "Control_Grip": 9.1,
+        "Comfort": 8.1,
+        "Durability": 7.0,
+        "Clear_Power": 9.4,
+        "Hitting_Sound": 9.7
       },
-      "loi_choi_phu_hop": "Thuần công cực lực – smash uy lực nhất, drive nhanh nhờ No.1, lưới/drop ổn nhưng cần lực tay khỏe.",
-      "ghi_chu": "Main Z69T giữ smash cực nặng và bền; Cross No.1 bổ sung repulsion và tốc độ, tạo combo công nặng nhưng vẫn thoát cầu."
+      "loi_choi_phu_hop": "Tấn công tốc độ, phản cầu nhanh, smash mạnh nhưng dễ kiểm soát hơn bản 26/28. Âm thanh vẫn to, cảm giác mặt vợt linh hoạt và bền hơn.",
+      "ghi_chu": "Giảm Cross xuống 27 lbs giúp hybrid V5 + Zymax 66 FP cân bằng hơn: giữ hiệu suất cao nhưng tăng comfort và độ bền. Phù hợp cho thi đấu thực tế dài hơi thay vì chỉ test hiệu năng cực hạn."
     },
     {
       "vot": "Infinity Edge 001",
@@ -301,20 +319,20 @@
     },
     {
       "vot": "Titan 1000 đen",
-      "cuoc": "Hybrid Venson V5 + Zymax 66 Fire Power",
-      "duong_kinh": "0.65 mm (Dọc) / 0.66 mm (Ngang)",
-      "muc_cang": "26 lbs (Dọc) / 28 lbs (Ngang)",
+      "cuoc": "Hybrid Venson V5 (Main) + Zymax 66 Fire Power (Cross)",
+      "duong_kinh": "0.65 mm / 0.66 mm",
+      "muc_cang": "26 lbs (Main) / 27 lbs (Cross)",
       "danh_gia": {
-        "ATK": 9.8,
-        "Control_Net": 9.3,
-        "Control_Grip": 9.2,
-        "Comfort": 7.8,
-        "Durability": 6.5,
-        "Clear_Power": 9.6,
-        "Hitting_Sound": 10.0
+        "ATK": 9.6,
+        "Control_Net": 9.2,
+        "Control_Grip": 9.1,
+        "Comfort": 8.1,
+        "Durability": 7.0,
+        "Clear_Power": 9.4,
+        "Hitting_Sound": 9.7
       },
-      "loi_choi_phu_hop": "Hybrid Tốc Độ & Kiểm Soát Tối Đa. Phù hợp cho người chơi có kỹ thuật tốt, lực cổ tay khỏe và yêu thích lối đánh tấn công tốc độ, đòi hỏi độ sắc nét và tiếng nổ lớn. Lý tưởng cho các trận đấu cần độ bùng nổ cao.",
-      "ghi_chu": "Cấu hình này là sự lựa chọn **hiệu suất cao** (High Performance). Âm thanh khi đánh sẽ lớn và cảm giác cầu nảy rất nhanh. Tuy nhiên, độ bền là điểm yếu nhất; cước sẽ có tuổi thọ ngắn hơn đáng kể so với hai cây vợt còn lại. Cần lực cổ tay mạnh để sử dụng hiệu quả ở mức căng này."
+      "loi_choi_phu_hop": "Tấn công tốc độ, phản cầu nhanh, smash mạnh nhưng dễ kiểm soát hơn bản 26/28. Âm thanh vẫn to, cảm giác mặt vợt linh hoạt và bền hơn.",
+      "ghi_chu": "Giảm Cross xuống 27 lbs giúp hybrid V5 + Zymax 66 FP cân bằng hơn: giữ hiệu suất cao nhưng tăng comfort và độ bền. Phù hợp cho thi đấu thực tế dài hơi thay vì chỉ test hiệu năng cực hạn."
     },
     {
       "vot": "Titan 1000 xám",
@@ -332,23 +350,6 @@
       },
       "loi_choi_phu_hop": "Thiên Công Toàn Diện Tốc Độ. Phù hợp cho người chơi Khá - Giỏi, muốn tối đa hóa Lực Đẩy (Power Repulsion) và Tốc độ đầu cầu, đồng thời cần kiểm soát lưới tốt và cảm giác êm ái hơn so với cước BG80 Power.",
       "ghi_chu": "Đây là mức căng lý tưởng cho Zymax 66FP để cân bằng giữa Tốc độ và Độ bền. Cước $0.66\text{ mm}$ kết hợp mức căng này tạo ra âm thanh cực đại và lực nảy bùng nổ, dễ tạo lực hơn BG80 Power ở cùng mức căng."
-    },
-    {
-      "vot": "Titan 1000 xám",
-      "cuoc": "Yonex BG80 Power",
-      "duong_kinh": "0.68 mm",
-      "muc_cang": "26 lbs (Dọc) / 27 lbs (Ngang)",
-      "danh_gia": {
-        "ATK": 9.4,
-        "Control_Net": 8.8,
-        "Control_Grip": 9.0,
-        "Comfort": 7.2,
-        "Durability": 7.5,
-        "Clear_Power": 9.0,
-        "Hitting_Sound": 9.7
-      },
-      "loi_choi_phu_hop": "Thiên Công Kiểm Soát (Power & Control). Phù hợp cho người chơi có lực cổ tay Khỏe (Advanced), yêu thích sự cân bằng giữa sức mạnh smash và độ chính xác cao khi gài lưới.",
-      "ghi_chu": "Mức căng chênh lệch giúp tối ưu kiểm soát lưới. Cảm giác đánh sẽ cứng và sắc nét hơn đáng kể so với 25.6 lbs. Yêu cầu kỹ thuật đánh trúng điểm ngọt cao hơn."
     }
     
 
