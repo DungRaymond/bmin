@@ -8,21 +8,22 @@
   "bo_cau_hinh_chuẩn": [
     {
       "vot": "Titan 7",
-      "cuoc": "Venson V5",
-      "duong_kinh": "0.65 mm",
-      "muc_cang": "26/27 lbs (Cross = Main +1)",
+      "cuoc": "Hybrid: Venson V5 (Main) + Zymax 66 Fire Power (Cross)",
+      "duong_kinh": "0.65 mm / 0.66 mm",
+      "muc_cang": "25 lbs (Main) / 26 lbs (Cross)",
       "danh_gia": {
-        "ATK": 9.0,
-        "Control_Net": 9.0,
-        "Control_Grip": 9.0,
-        "Comfort": 8.8,
-        "Durability": 7.0,
-        "Clear_Power": 9.2,
-        "Hitting_Sound": 9.9
+        "ATK": 8.9,
+        "Control_Net": 9.3,
+        "Control_Grip": 9.2,
+        "Comfort": 8.6,
+        "Durability": 7.2,
+        "Clear_Power": 9.0,
+        "Hitting_Sound": 9.4
       },
-      "loi_choi_phu_hop": "Tấn công Sắc nét & Kiểm soát. Phù hợp cho người chơi có kỹ thuật tốt, lực cổ tay khỏe, muốn tăng tốc độ đập cầu và độ chính xác khi gài cầu, đồng thời giữ được âm thanh nổ lớn.",
-      "ghi_chu": "Cấu hình 26/27 lbs là một bước tiến về hiệu suất cao: Tăng cường Kiểm soát, Tốc độ, và Âm thanh. Tuy nhiên, nó sẽ **kém trợ lực** và **giảm độ bền** so với 25/26 lbs. Đây là mức căng lý tưởng để chuyển từ trợ lực sang lối chơi kiểm soát tấn công bằng tốc độ."
-    },
+      "loi_choi_phu_hop": "Phản tạt tốc độ, gài cầu nhanh, clear sâu, smash chọn lọc. Mặt vợt bật nhanh, âm sáng, dễ điều khiển trong đôi tốc độ.",
+      "ghi_chu": "Cấu hình hybrid này giúp Titan 7 có phản hồi cực nhanh mà vẫn giữ comfort. Cross Zymax 66 FP bù softness cho V5 main, tăng cảm giác ăn cầu và giảm rung."
+    }
+,
     {
       "vot": "Blade 8300",
       "cuoc": "Zymax 66 Fire Power",
