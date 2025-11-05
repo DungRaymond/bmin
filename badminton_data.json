@@ -126,21 +126,21 @@
       "ghi_chu": "Giảm Cross xuống 27 lbs giúp hybrid V5 + Zymax 66 FP cân bằng hơn: giữ hiệu suất cao nhưng tăng comfort và độ bền. Phù hợp cho thi đấu thực tế dài hơi thay vì chỉ test hiệu năng cực hạn."
     },
     {
-      "vot": "Infinity Edge 001",
-      "cuoc": "Zymax 66 Fire Power",
-      "duong_kinh": "0.66 mm",
-      "muc_cang": "25.5/26.5 lbs (Cross = Main +1)",
+      "vot": "Venson Youlong",
+      "cuoc": "Hybrid Venson V5 + Zymax 66 Fire Power",
+      "duong_kinh": "0.65 mm (Dọc) / 0.66 mm (Ngang)",
+      "muc_cang": "26 lbs (Dọc) / 27 lbs (Ngang)",
       "danh_gia": {
-        "ATK": 8.8,
-        "Control_Net": 9.0,
+        "ATK": 9.7,
+        "Control_Net": 8.8,
         "Control_Grip": 8.9,
-        "Comfort": 9.0,
-        "Durability": 7.8,
-        "Clear_Power": 8.8,
-        "Hitting_Sound": 9.4
+        "Comfort": 8.5,
+        "Durability": 7.2,
+        "Clear_Power": 9.6,
+        "Hitting_Sound": 10.0
       },
-      "loi_choi_phu_hop": "Lối chơi toàn diện, tốc độ và phản xạ nhanh. Có thể tùy biến sang công hoặc kiểm soát bằng cách đổi dây.",
-      "ghi_chu": "Zymax 66 FP kết hợp với IE001 ở mức 25.5/26.5 lbs cho cảm giác linh hoạt, sweet-spot lớn, bật nhanh và dễ điều khiển. Cấu hình rất cân bằng, phù hợp cả đánh đôi lẫn đơn kỹ thuật."
+      "loi_choi_phu_hop": "Tấn Công Uy Lực Tối Đa & Âm Thanh. Phù hợp cho người chơi có lối đánh tấn công mạnh mẽ, muốn khai thác tối đa lợi thế nặng đầu của Youlong và độ bùng nổ của cước Hybrid V5/66FP. Lý tưởng cho người chơi trung bình khá trở lên.",
+      "ghi_chu": "Sự kết hợp này tập trung vào **sức mạnh (nặng đầu) và tốc độ (cước nảy)**, tạo ra một 'cây búa tốc độ'. Nhờ thân vợt Trung bình, Youlong dễ dàng trợ lực hơn Titan 1000 (thân cứng hơn), giúp cú smash mạnh mẽ và phông cầu sâu dễ dàng (Clear Power 9.6). Tiếng nổ sẽ là điểm mạnh vượt trội."
     },
     {
       "vot": "Infinity Edge 001",
@@ -317,23 +317,6 @@
       },
       "loi_choi_phu_hop": "Tấn công bạo lực, smash nhanh và âm nổ cực lớn. Phù hợp người chơi có lực cổ tay khỏe, thích phản cầu tốc độ và cú đánh dứt điểm mạnh.",
       "ghi_chu": "BG65Ti làm main giúp mặt vợt đầm và bền, Venson V5 làm cross tăng bật và tạo âm thanh metallic rất rõ. Ở 25/26 lbs, cấu hình này cho hiệu ứng 'pop' cực mạnh, nhưng comfort giảm nhẹ do thân Titan 9 cứng và dây cross hard-feel."
-    },
-    {
-      "vot": "Titan 1000 đen",
-      "cuoc": "Hybrid Venson V5 (Main) + Zymax 66 Fire Power (Cross)",
-      "duong_kinh": "0.65 mm / 0.66 mm",
-      "muc_cang": "26 lbs (Main) / 27 lbs (Cross)",
-      "danh_gia": {
-        "ATK": 9.6,
-        "Control_Net": 9.2,
-        "Control_Grip": 9.1,
-        "Comfort": 8.1,
-        "Durability": 7.0,
-        "Clear_Power": 9.4,
-        "Hitting_Sound": 9.7
-      },
-      "loi_choi_phu_hop": "Tấn công tốc độ, phản cầu nhanh, smash mạnh nhưng dễ kiểm soát hơn bản 26/28. Âm thanh vẫn to, cảm giác mặt vợt linh hoạt và bền hơn.",
-      "ghi_chu": "Giảm Cross xuống 27 lbs giúp hybrid V5 + Zymax 66 FP cân bằng hơn: giữ hiệu suất cao nhưng tăng comfort và độ bền. Phù hợp cho thi đấu thực tế dài hơi thay vì chỉ test hiệu năng cực hạn."
     },
     {
       "vot": "Titan 1000 xám",
