@@ -141,23 +141,6 @@
       },
       "loi_choi_phu_hop": "Tấn Công Uy Lực Tối Đa & Âm Thanh. Phù hợp cho người chơi có lối đánh tấn công mạnh mẽ, muốn khai thác tối đa lợi thế nặng đầu của Youlong và độ bùng nổ của cước Hybrid V5/66FP. Lý tưởng cho người chơi trung bình khá trở lên.",
       "ghi_chu": "Sự kết hợp này tập trung vào **sức mạnh (nặng đầu) và tốc độ (cước nảy)**, tạo ra một 'cây búa tốc độ'. Nhờ thân vợt Trung bình, Youlong dễ dàng trợ lực hơn Titan 1000 (thân cứng hơn), giúp cú smash mạnh mẽ và phông cầu sâu dễ dàng (Clear Power 9.6). Tiếng nổ sẽ là điểm mạnh vượt trội."
-    },
-    {
-      "vot": "Infinity Edge 001",
-      "cuoc": "Venson V5",
-      "duong_kinh": "0.65 mm",
-      "muc_cang": "25.5/26.5 lbs (Cross = Main +1)",
-      "danh_gia": {
-        "ATK": 9.0,
-        "Control_Net": 8.8,
-        "Control_Grip": 8.7,
-        "Comfort": 8.6,
-        "Durability": 7.3,
-        "Clear_Power": 9.0,
-        "Hitting_Sound": 9.7
-      },
-      "loi_choi_phu_hop": "Tấn công tốc độ cao, smash sắc, phản cầu mạnh. Phù hợp cho người thích cảm giác nảy, âm thanh lớn và lối đánh chủ động.",
-      "ghi_chu": "Venson V5 trên IE001 ở mức 25.5/26.5 lbs cho cảm giác công mạnh, tốc độ, tiếng 'pop' lớn. Ít trợ lực hơn Zymax 66 FP nhưng đẩy nhanh pha tấn công, hơi khô tay khi đánh lâu."
     }
     
 
@@ -212,23 +195,6 @@
       "loi_choi_phu_hop": "All-round thiên công; phản tạt nhanh, smash thoát và drive ổn định.",
       "ghi_chu": "Zymax 66 Fire Power căng đơn 27 lbs: mặt vợt đanh vừa, clear nhẹ tay, smash nổ rõ, tay êm và kiểm soát ổn định sau vài buổi đầu.",
       "trang_thai": "đang dùng – sau creep ổn định"
-    },
-    {
-      "vot": "Infinity Edge 001",
-      "cuoc": "Ashaway Zymax 66 Fire Power",
-      "duong_kinh": "0.66 mm",
-      "muc_cang": "25/26 lbs (Cross = Main +1)",
-      "danh_gia": {
-        "ATK": 8.9,
-        "Control_Net": 8.7,
-        "Control_Grip": 8.6,
-        "Comfort": 8.4,
-        "Durability": 8.9,
-        "Clear_Power": 9.1
-      },
-      "loi_choi_phu_hop": "Công–tốc độ: clear nảy, smash thoát nhanh, phản tạt gọn; lưới/drop vẫn ổn định.",
-      "ghi_chu": "ZM66FP cho repulsion cao, feel crisp đanh-vừa ở 25/26; nảy và tốc độ hơn Venson V5, comfort kém hơn chút.",
-      "trang_thai": "đang thử"
     },
     {
       "vot": "Titan 1000 xám",
@@ -286,7 +252,7 @@
   "bo_cau_hinh_thu_nghiem": [
     
     {
-      "vot": "Venson Youlong (4U, Nặng đầu, Thân Trung Bình)",
+      "vot": "Venson Youlong",
       "cuoc": "Hybrid PA 2055 + Zymax 66 Fire Power",
       "duong_kinh": "0.68 mm (Dọc) / 0.66 mm (Ngang)",
       "muc_cang": "26 lbs (Dọc) / 27 lbs (Ngang)",
