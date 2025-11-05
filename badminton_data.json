@@ -263,6 +263,23 @@
       "loi_choi_phu_hop": "Công–control cân bằng, smash chắc, clear ổn định, drive nặng tay. Phù hợp người có swing mạnh và phản tạt kỹ thuật.",
       "ghi_chu": "Sau 4 buổi, dây creep ổn định; mặt vẫn chắc và phản hồi cứng, smash chính xác, clear thoát. Khi quên cầm chắc vợt, phản lực cao khiến vợt xoay — giúp luyện độ chắc tay rất tốt. Cấu hình công–control bền, đáng tin cậy.",
       "trang_thai": "đang dùng – hiệu năng ổn định sau creep"
+    },
+    {
+      "vot": "Venson Youlong (4U, Nặng đầu, Thân Trung Bình)",
+      "cuoc": "Victor PA 2055 (Đơn)",
+      "duong_kinh": "0.68 mm",
+      "muc_cang": "24 lbs",
+      "danh_gia": {
+        "ATK": 9.2,
+        "Control_Net": 8.5,
+        "Control_Grip": 8.7,
+        "Comfort": 9.4,
+        "Durability": 8.9,
+        "Clear_Power": 9.8,
+        "Hitting_Sound": 9.0
+      },
+      "loi_choi_phu_hop": "Tấn Công và Trợ Lực Tối Đa. Phù hợp cho người chơi tìm kiếm một cấu hình cực kỳ dễ đánh, trợ lực tuyệt vời, phông cầu cuối sân không tốn sức, và độ bền cước cao, giảm thiểu nguy cơ đứt dây.",
+      "ghi_chu": "Mức căng 24 lbs khai thác tối đa độ nảy của cước 0.68 mm, khiến PA 2055 hoạt động như một cước trợ lực có độ bền cao. Sức mạnh đến từ Youlong (Nặng đầu) và độ nảy từ cước (căng thấp). Tuy nhiên, cảm giác cầu ở mức 24 lbs sẽ **không sắc nét** bằng cấu hình 26/27 lbs trước đó, và âm thanh sẽ **giảm**."
     }
 
   ],
