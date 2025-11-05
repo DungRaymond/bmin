@@ -286,20 +286,21 @@
   "bo_cau_hinh_thu_nghiem": [
     
     {
-      "vot": "Infinity Edge 001",
-      "cuoc": "Venson V3",
-      "duong_kinh": "0.63 mm",
-      "muc_cang": "25/26 lbs (Cross = Main +1)",
+      "vot": "Venson Youlong (4U, Nặng đầu, Thân Trung Bình)",
+      "cuoc": "Hybrid PA 2055 + Zymax 66 Fire Power",
+      "duong_kinh": "0.68 mm (Dọc) / 0.66 mm (Ngang)",
+      "muc_cang": "26 lbs (Dọc) / 27 lbs (Ngang)",
       "danh_gia": {
-        "ATK": 8.6,
-        "Control_Net": 8.8,
-        "Control_Grip": 8.5,
-        "Comfort": 8.5,
-        "Durability": 8.7,
-        "Clear_Power": 8.9
+        "ATK": 9.5,
+        "Control_Net": 9.1,
+        "Control_Grip": 9.2,
+        "Comfort": 8.7,
+        "Durability": 8.2,
+        "Clear_Power": 9.4,
+        "Hitting_Sound": 9.8
       },
-      "loi_choi_phu_hop": "Công–tốc độ cân bằng: clear thoát hơn, smash nhanh, net/drop ổn; vẫn giữ cảm giác crisp vừa phải.",
-      "ghi_chu": "V3 hard-feel nhưng repulsion tốt; ở 25/26 cho tốc độ rõ rệt hơn, phù hợp công tốc độ nhẹ."
+      "loi_choi_phu_hop": "Tấn Công Cân Bằng (Balanced Offensive). Phù hợp cho người chơi muốn kết hợp uy lực nặng đầu của Youlong với khả năng kiểm soát tốt và tốc độ của cước Hybrid. Đây là cấu hình ổn định hơn, mang lại cả Tấn công, Kiểm soát và Độ bền tốt (trên 8.0).",
+      "ghi_chu": "Cấu hình này là sự lựa chọn tối ưu nếu bạn muốn **tăng cường Kiểm soát và Độ bền** so với cấu hình V5/66FP, nhưng vẫn giữ được tốc độ và tiếng nổ lớn nhờ Zymax 66FP ở dây ngang. PA 2055 ở $26\text{ lbs}$ sẽ cung cấp cảm giác **chắc chắn** hơn khi chạm cầu so với $24\text{ lbs}$."
     },
     {
       "vot": "Titan 9",
