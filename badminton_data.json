@@ -269,6 +269,39 @@
       "ghi_chu": "Cấu hình này là sự lựa chọn tối ưu nếu bạn muốn **tăng cường Kiểm soát và Độ bền** so với cấu hình V5/66FP, nhưng vẫn giữ được tốc độ và tiếng nổ lớn nhờ Zymax 66FP ở dây ngang. PA 2055 ở $26\text{ lbs}$ sẽ cung cấp cảm giác **chắc chắn** hơn khi chạm cầu so với $24\text{ lbs}$."
     },
     {
+      "racket": "Venson Youlong",
+      "setup_id": "youlong_z69t_no1_26x27",
+      "strings": {
+        "main": {"name": "Kizuna Z69T", "gauge_mm": 0.69, "tension_lbs": 26},
+        "cross": {"name": "Li-Ning No.1", "gauge_mm": 0.65, "tension_lbs": 27}
+      },
+      "estimates": {
+        "ATK": 8.6,
+        "CTRL": 7.7,
+        "repulsion": 8.8,
+        "feel": 7.6,
+        "comfort": 7.3,
+        "durability": 8.0,
+        "vibration_damp": 7.4,
+        "tension_holding": 7.7,
+        "sweetspot_tolerance": 6.8,
+        "sound": 9.0
+      },
+      "shots": {
+        "clear_power": 8.9,
+        "smash": 8.6,
+        "drive": 8.9,
+        "net": 7.5,
+        "defense": 8.1,
+        "drop_slice": 8.2
+      },
+      "notes": [
+        "Hybrid tốc độ mạnh: Z69T trụ lực, No.1 bơm tốc.",
+        "Phù hợp đánh đôi tốc độ, drive & phản cầu.",
+        "Cần tay ổn định để kiểm soát net không bị bay."
+      ]
+    },
+    {
       "vot": "Titan 9",
       "cuoc": "Li-Ning L67",
       "duong_kinh": "0.67 mm",
