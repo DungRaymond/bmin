@@ -77,15 +77,15 @@
   <script>
     // ---- UI helpers & constants ----
     const RACKET_COLORS = {
-      "Titan 1000 xám": { bg: "#636369", text: "text-white" }, 
-      "Titan 1000 hồng": { bg: "#f7b2ca", text: "text-white" },
-      "Titan 1000 đen": { bg: "#000000", text: "text-white" },
-      "Titan 9": { bg: "#BF092F", text: "text-white" },
-      "Titan 7": { bg: "#F4631E", text: "text-white" },
-      "Titan 7 Pro": { bg: "#6420AA", text: "text-white" },
-      "Blade 8300": { bg: "#559900", text: "text-white" },
+      "Titan 1000 xám": { bg: "linear-gradient(30deg,rgba(46,43,49,1)30%,rgba(30,140,150,1)49%,rgba(153,152,159,1)68%)", text: "text-white" }, 
+      "Titan 1000 hồng": { bg: "#fd3db5", text: "text-white" },
+      "Titan 1000 đen": { bg: "linear-gradient(30deg,rgba(6,7,10,1)32%,rgba(107,107,107,1)51%)", text: "text-white" },
+      "Titan 9": { bg: "linear-gradient(30deg,rgba(178,34,34,1)0%,rgba(26,15,9,1)78%)", text: "text-white" },
+      "Titan 7": { bg: "#6420AA", text: "text-white" },
+      "Titan 7 Pro": { bg: "linear-gradient(30deg,rgba(209,96,4,1)30%,rgba(0,0,0,1)75%)", text: "text-white" },
+      "Blade 8300": { bg: "linear-gradient(30deg,rgba(40,177,229,1)47%,rgba(254,68,193,1)84%)", text: "text-white" },
       // "Infinity Edge 001": { bg: "#6420AA", text: "text-white" },
-      "Venson Youlong": { bg: "#174239", text: "text-white" },
+      "Venson Youlong": { bg: "linear-gradient(30deg,rgba(21,62,56,1)45%,rgba(95,224,209,1)85%)", text: "text-white" },
     };
     const DEFAULT_HEADER_COLOR = { bg: '#4b5563', text: 'text-white' };
 
@@ -119,7 +119,7 @@
     const dg = config.danh_gia || {};
     return `
       <div class="config-card bg-white p-6 rounded-xl shadow-md">
-        <div class="p-3 rounded-t-lg -mx-6 -mt-6 mb-4" style="background-color:${racketStyle.bg}">
+        <div class="p-3 rounded-t-lg -mx-6 -mt-6 mb-4" style="background:${racketStyle.bg}">
           <h3 class="text-xl font-extrabold card-header-text">${config.vot}</h3>
         </div>
 
