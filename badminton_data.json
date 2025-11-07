@@ -253,53 +253,20 @@
     
     {
       "vot": "Venson Youlong",
-      "cuoc": "Hybrid PA 2055 + Zymax 66 Fire Power",
-      "duong_kinh": "0.68 mm (Dọc) / 0.66 mm (Ngang)",
-      "muc_cang": "26 lbs (Dọc) / 27 lbs (Ngang)",
+      "cuoc": "Hybrid Kizuna Z69T + Zymax 66 Fire Power",
+      "duong_kinh": "0.69 mm (Dọc) / 0.66 mm (Ngang)",
+      "muc_cang": "27 lbs (Dọc) / 28 lbs (Ngang)",
       "danh_gia": {
-        "ATK": 9.5,
-        "Control_Net": 9.1,
-        "Control_Grip": 9.2,
-        "Comfort": 8.7,
-        "Durability": 8.2,
-        "Clear_Power": 9.4,
-        "Hitting_Sound": 9.8
+        "ATK": 9.3,
+        "Control_Net": 9.5,
+        "Control_Grip": 9.6,
+        "Comfort": 8.0,
+        "Durability": 9.5,
+        "Clear_Power": 9.2,
+        "Hitting_Sound": 9.5
       },
-      "loi_choi_phu_hop": "Tấn Công Cân Bằng (Balanced Offensive). Phù hợp cho người chơi muốn kết hợp uy lực nặng đầu của Youlong với khả năng kiểm soát tốt và tốc độ của cước Hybrid. Đây là cấu hình ổn định hơn, mang lại cả Tấn công, Kiểm soát và Độ bền tốt (trên 8.0).",
-      "ghi_chu": "Cấu hình này là sự lựa chọn tối ưu nếu bạn muốn **tăng cường Kiểm soát và Độ bền** so với cấu hình V5/66FP, nhưng vẫn giữ được tốc độ và tiếng nổ lớn nhờ Zymax 66FP ở dây ngang. PA 2055 ở $26\text{ lbs}$ sẽ cung cấp cảm giác **chắc chắn** hơn khi chạm cầu so với $24\text{ lbs}$."
-    },
-    {
-      "racket": "Venson Youlong",
-      "setup_id": "youlong_z69t_no1_26x27",
-      "strings": {
-        "main": {"name": "Kizuna Z69T", "gauge_mm": 0.69, "tension_lbs": 26},
-        "cross": {"name": "Li-Ning No.1", "gauge_mm": 0.65, "tension_lbs": 27}
-      },
-      "estimates": {
-        "ATK": 8.6,
-        "CTRL": 7.7,
-        "repulsion": 8.8,
-        "feel": 7.6,
-        "comfort": 7.3,
-        "durability": 8.0,
-        "vibration_damp": 7.4,
-        "tension_holding": 7.7,
-        "sweetspot_tolerance": 6.8,
-        "sound": 9.0
-      },
-      "shots": {
-        "clear_power": 8.9,
-        "smash": 8.6,
-        "drive": 8.9,
-        "net": 7.5,
-        "defense": 8.1,
-        "drop_slice": 8.2
-      },
-      "notes": [
-        "Hybrid tốc độ mạnh: Z69T trụ lực, No.1 bơm tốc.",
-        "Phù hợp đánh đôi tốc độ, drive & phản cầu.",
-        "Cần tay ổn định để kiểm soát net không bị bay."
-      ]
+      "loi_choi_phu_hop": "Kiểm Soát Tấn Công (Controlling Offensive). Phù hợp cho người chơi muốn tối đa hóa Độ Bền và Khả Năng Kiểm Soát (nhờ Z69T và mức căng cao) trong khi vẫn giữ được sức mạnh tấn công và tiếng nổ lớn nhờ Zymax 66FP. Đòi hỏi lực cổ tay tốt hơn so với cấu hình cũ.",
+      "ghi_chu": "Cấu hình này là sự lựa chọn tối ưu nếu bạn muốn **Tăng Độ Bền và Kiểm Soát Lưới/Điều Cầu Lên Mức Tối Đa** so với cấu hình trước. Z69T $0.69\\text{ mm}$ ở $27\\text{ lbs}$ sẽ mang lại cảm giác **rất chắc chắn, đanh, chính xác** nhưng đòi hỏi lực cổ tay tốt hơn."
     },
     {
       "vot": "Titan 9",
