@@ -127,20 +127,19 @@
     },
     {
       "vot": "Venson Youlong",
-      "cuoc": "Hybrid Venson V5 + Zymax 66 Fire Power",
-      "duong_kinh": "0.65 mm (Dọc) / 0.66 mm (Ngang)",
-      "muc_cang": "26 lbs (Dọc) / 27 lbs (Ngang)",
+      "cuoc": "Kizuna Z69T (Dọc) + Ashaway Zymax 66FP (Ngang)",
+      "duong_kinh": "0.69 mm (Dọc) / 0.66 mm (Ngang)",
+      "muc_cang": "27/28.5 lbs (Cross = Main + 1.5 lbs)",
       "danh_gia": {
-        "ATK": 9.7,
-        "Control_Net": 8.8,
-        "Control_Grip": 8.9,
-        "Comfort": 8.5,
-        "Durability": 7.2,
-        "Clear_Power": 9.6,
-        "Hitting_Sound": 10.0
+        "ATK": 9.8,
+        "Control_Net": 9.5,
+        "Control_Grip": 9.2,
+        "Comfort": 5.5,
+        "Durability": 3.0,
+        "Clear_Power": 8.0
       },
-      "loi_choi_phu_hop": "Tấn Công Uy Lực Tối Đa & Âm Thanh. Phù hợp cho người chơi có lối đánh tấn công mạnh mẽ, muốn khai thác tối đa lợi thế nặng đầu của Youlong và độ bùng nổ của cước Hybrid V5/66FP. Lý tưởng cho người chơi trung bình khá trở lên.",
-      "ghi_chu": "Sự kết hợp này tập trung vào **sức mạnh (nặng đầu) và tốc độ (cước nảy)**, tạo ra một 'cây búa tốc độ'. Nhờ thân vợt Trung bình, Youlong dễ dàng trợ lực hơn Titan 1000 (thân cứng hơn), giúp cú smash mạnh mẽ và phông cầu sâu dễ dàng (Clear Power 9.6). Tiếng nổ sẽ là điểm mạnh vượt trội."
+      "loi_choi_phu_hop": "Tấn công Tốc độ Tối đa – Drive bùng nổ – Smash uy lực – Kiểm soát tức thời. (Dành cho VĐV có lực khỏe).",
+      "ghi_chu": "Cấu hình High-End Tension, tối ưu hóa tốc độ và độ đanh ngang lưới (28.5 lbs). Yêu cầu kỹ thuật cao, chấp nhận rủi ro lớn về độ bền và giảm chấn."
     }
     
 
@@ -162,6 +161,22 @@
       "loi_choi_phu_hop": "Thiên công tốc độ – smash nhanh, clear nảy, drive sắc bén. Hợp tay khỏe muốn tăng tốc độ trên Titan 7.",
       "ghi_chu": "V3 có hard feel, bật nhanh, ít êm hơn GR65 nhưng công sát thương hơn. Ở 26/26 giữ cân bằng giữa nảy và ổn định.",
       "trang_thai": "đang thử"
+    },
+    {
+      "vot": "Titan 7 Pro",
+      "cuoc": "Li-Ning No.1",
+      "duong_kinh": "0.65 mm",
+      "muc_cang": "27/28 lbs (Cross = Main +1)",
+      "danh_gia": {
+        "ATK": 9.7,
+        "Control_Net": 9.0,
+        "Control_Grip": 8.5,
+        "Comfort": 8.6,
+        "Durability": 9.2,
+        "Clear_Power": 9.3
+      },
+      "loi_choi_phu_hop": "All-round tốc độ cao – phản công mạnh – smash thoát nhanh – drive chính xác.",
+      "ghi_chu": "Cấu hình công–tốc độ được tối ưu hơn khi cross căng cao hơn 1 lbs, smash đầm tay, lưới và drive ổn định."
     },
     {
       "vot": "Blade 8300",
@@ -232,20 +247,19 @@
     },
     {
       "vot": "Venson Youlong",
-      "cuoc": "Victor PA 2055 (Đơn)",
-      "duong_kinh": "0.68 mm",
-      "muc_cang": "24 lbs",
+      "cuoc": "Kizuna Z69T (Dọc) + Ashaway Zymax 66FP (Ngang)",
+      "duong_kinh": "0.69 mm (Dọc) / 0.66 mm (Ngang)",
+      "muc_cang": "27/28.5 lbs (Cross = Main + 1.5 lbs)",
       "danh_gia": {
-        "ATK": 9.2,
-        "Control_Net": 8.5,
-        "Control_Grip": 8.7,
-        "Comfort": 9.4,
-        "Durability": 8.9,
-        "Clear_Power": 9.8,
-        "Hitting_Sound": 9.0
+        "ATK": 9.8,
+        "Control_Net": 9.5,
+        "Control_Grip": 9.2,
+        "Comfort": 5.5,
+        "Durability": 3.0,
+        "Clear_Power": 8.0
       },
-      "loi_choi_phu_hop": "Tấn Công và Trợ Lực Tối Đa. Phù hợp cho người chơi tìm kiếm một cấu hình cực kỳ dễ đánh, trợ lực tuyệt vời, phông cầu cuối sân không tốn sức, và độ bền cước cao, giảm thiểu nguy cơ đứt dây.",
-      "ghi_chu": "Mức căng 24 lbs khai thác tối đa độ nảy của cước 0.68 mm, khiến PA 2055 hoạt động như một cước trợ lực có độ bền cao. Sức mạnh đến từ Youlong (Nặng đầu) và độ nảy từ cước (căng thấp). Tuy nhiên, cảm giác cầu ở mức 24 lbs sẽ **không sắc nét** bằng cấu hình 26/27 lbs trước đó, và âm thanh sẽ **giảm**."
+      "loi_choi_phu_hop": "Tấn công Tốc độ Tối đa – Drive bùng nổ – Smash uy lực – Kiểm soát tức thời. (Dành cho VĐV có lực khỏe).",
+      "ghi_chu": "Cấu hình High-End Tension, tối ưu hóa tốc độ và độ đanh ngang lưới (28.5 lbs). Yêu cầu kỹ thuật cao, chấp nhận rủi ro lớn về độ bền và giảm chấn."
     }
 
   ],
@@ -267,23 +281,6 @@
       },
       "loi_choi_phu_hop": "Kiểm Soát Tấn Công (Controlling Offensive). Phù hợp cho người chơi muốn tối đa hóa Độ Bền và Khả Năng Kiểm Soát (nhờ Z69T và mức căng cao) trong khi vẫn giữ được sức mạnh tấn công và tiếng nổ lớn nhờ Zymax 66FP. Đòi hỏi lực cổ tay tốt hơn so với cấu hình cũ.",
       "ghi_chu": "Cấu hình này là sự lựa chọn tối ưu nếu bạn muốn **Tăng Độ Bền và Kiểm Soát Lưới/Điều Cầu Lên Mức Tối Đa** so với cấu hình trước. Z69T $0.69\\text{ mm}$ ở $27\\text{ lbs}$ sẽ mang lại cảm giác **rất chắc chắn, đanh, chính xác** nhưng đòi hỏi lực cổ tay tốt hơn."
-    },
-    {
-      "vot": "Titan 9",
-      "cuoc": "Li-Ning L67",
-      "duong_kinh": "0.67 mm",
-      "muc_cang": "27/28 lbs (Cross = Main +1)",
-      "danh_gia": {
-        "ATK": 9.1,
-        "Control_Net": 8.9,
-        "Control_Grip": 8.6,
-        "Comfort": 8.6,
-        "Durability": 9.6,
-        "Clear_Power": 8.8
-      },
-      "loi_choi_phu_hop": "Công–control đầm chắc — smash nặng, drive ổn định, clear an toàn; bền cao, hợp rally dài.",
-      "ghi_chu": "L67 dày, chắc, bền; ở 27/28 cho Titan 9 smash đầm và ổn định, clear không quá nảy nhưng rất kiểm soát.",
-      "trang_thai": "đang thử"
     },
     {
       "vot": "Titan 9",
