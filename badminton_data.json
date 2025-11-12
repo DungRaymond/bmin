@@ -300,6 +300,38 @@
       "ghi_chu": "Cấu hình này là sự lựa chọn tối ưu nếu bạn muốn **Tăng Độ Bền và Kiểm Soát Lưới/Điều Cầu Lên Mức Tối Đa** so với cấu hình trước. Z69T $0.69\\text{ mm}$ ở $27\\text{ lbs}$ sẽ mang lại cảm giác **rất chắc chắn, đanh, chính xác** nhưng đòi hỏi lực cổ tay tốt hơn."
     },
     {
+      "cuoc": "Hybrid Lining L67 (Main) + Venson V5 (Cross)",
+      "duong_kinh": "0.67 mm / 0.65 mm",
+      "muc_cang": "27 lbs (Main) / 28 lbs (Cross)",
+      "danh_gia": {
+        "ATK": 9.4,
+        "Control_Net": 8.7,
+        "Control_Grip": 8.8,
+        "Comfort": 7.5,
+        "Durability": 7.5,
+        "Clear_Power": 9.2,
+        "Hitting_Sound": 9.5
+      },
+      "loi_choi_phu_hop": "Cấu hình thiên về tấn công mạnh mẽ nhưng vẫn dễ kiểm soát. Main L67 tạo lực đẩy tốt, cross Venson V5 căng hơn giúp mặt vợt chắc, phản hồi nhanh, phù hợp người chơi thích smash và xử lý lưới linh hoạt.",
+      "ghi_chu": "Căng cross cao hơn main (28>27) tăng độ ổn định nhưng giảm một chút repulsion từ cross. Phù hợp chơi tấn công + điều cầu nhanh, vẫn giữ comfort và độ bền tương đối."
+    },
+    {
+      "cuoc": "Hybrid Lining L67 (Main) + Venson V5 (Cross)",
+      "duong_kinh": "0.67 mm / 0.65 mm",
+      "muc_cang": "27 lbs (Main) / 28 lbs (Cross)",
+      "danh_gia": {
+        "ATK": 9.4,
+        "Control_Net": 8.7,
+        "Control_Grip": 8.8,
+        "Comfort": 7.5,
+        "Durability": 7.5,
+        "Clear_Power": 9.2,
+        "Hitting_Sound": 9.5
+      },
+      "loi_choi_phu_hop": "Cấu hình thiên về tấn công mạnh mẽ nhưng vẫn dễ kiểm soát. Main L67 tạo lực đẩy tốt, cross Venson V5 căng hơn giúp mặt vợt chắc, phản hồi nhanh, phù hợp người chơi thích smash và xử lý lưới linh hoạt.",
+      "ghi_chu": "Căng cross cao hơn main (28>27) tăng độ ổn định nhưng giảm một chút repulsion từ cross. Phù hợp chơi tấn công + điều cầu nhanh, vẫn giữ comfort và độ bền tương đối."
+    },
+    {
       "vot": "Titan 9",
       "cuoc": "Hybrid: BG65Ti (Main) + Venson V5 (Cross)",
       "duong_kinh": "0.70 mm / 0.65 mm",
