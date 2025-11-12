@@ -110,20 +110,37 @@
     },
     {
       "vot": "Titan 1000 đen",
-      "cuoc": "Hybrid Venson V5 (Main) + Zymax 66 Fire Power (Cross)",
-      "duong_kinh": "0.65 mm / 0.66 mm",
-      "muc_cang": "26 lbs (Main) / 27 lbs (Cross)",
+      "cuoc": "Hybrid BG80 (Main) + Li-Ning No.1 (Cross)",
+      "duong_kinh": "0.68 mm / 0.65 mm",
+      "muc_cang": "27 lbs (Main) / 28 lbs (Cross)",
       "danh_gia": {
-        "ATK": 9.6,
-        "Control_Net": 9.2,
-        "Control_Grip": 9.1,
-        "Comfort": 8.1,
-        "Durability": 7.0,
-        "Clear_Power": 9.4,
-        "Hitting_Sound": 9.7
+        "ATK": 9.7,
+        "Control_Net": 9.0,
+        "Control_Grip": 8.9,
+        "Comfort": 7.5,
+        "Durability": 7.2,
+        "Clear_Power": 9.5,
+        "Hitting_Sound": 9.8
       },
-      "loi_choi_phu_hop": "Tấn công tốc độ, phản cầu nhanh, smash mạnh nhưng dễ kiểm soát hơn bản 26/28. Âm thanh vẫn to, cảm giác mặt vợt linh hoạt và bền hơn.",
-      "ghi_chu": "Giảm Cross xuống 27 lbs giúp hybrid V5 + Zymax 66 FP cân bằng hơn: giữ hiệu suất cao nhưng tăng comfort và độ bền. Phù hợp cho thi đấu thực tế dài hơi thay vì chỉ test hiệu năng cực hạn."
+      "loi_choi_phu_hop": "Thiên về công mạnh, smash sắc nét và bật tốt, phù hợp với người chơi đã có lực cổ tay khá. BG80 main giúp tận dụng khung Titan 1000 trợ lực, No.1 cross bổ sung repulsion rất cao.",
+      "ghi_chu": "BG80 có đường kính 0.68 mm và lõi Vectran™ + multifilament giúp repulsion tốt. :contentReference[oaicite:3]{index=3} Vì cross No.1 mảnh và căng 28 lbs nên cần chuẩn bị thay dây thường xuyên nếu bạn đánh nhiều góc khung."
+    },
+    {
+      "vot": "Titan 1000 đen",
+      "cuoc": "Hybrid BG80P (Main) + Li-Ning No.1 (Cross)",
+      "duong_kinh": "0.68 mm / 0.65 mm",
+      "muc_cang": "27 lbs (Main) / 28 lbs (Cross)",
+      "danh_gia": {
+        "ATK": 9.8,
+        "Control_Net": 8.8,
+        "Control_Grip": 8.7,
+        "Comfort": 7.2,
+        "Durability": 6.9,
+        "Clear_Power": 9.6,
+        "Hitting_Sound": 9.9
+      },
+      "loi_choi_phu_hop": "Dành cho người muốn smash cực mạnh, nhanh và chính xác. BG80P main (27 lbs) kết hợp với No.1 cross (28 lbs) tạo ra bộ dây thiên công có repulsion và âm thanh mạnh mẽ, đồng thời cross căng cao tăng cảm giác control ở lưới và ổn định mặt vợt khi xử lý pha nhỏ.",
+      "ghi_chu": "Lưu ý: đặt cross căng hơn main (28>27) sẽ cho control lưới và cảm giác mặt ‘chắc’ hơn nhưng làm tổng thể bộ dây hơi cứng hơn — có thể gây mỏi tay nếu thi đấu dài. Với Titan 1000 (head-heavy) nên kiểm tra độ chịu lực của khung và cân nhắc giảm 1 lb cho cross nếu thấy quá harsh."
     },
     {
       "vot": "Venson Youlong",
