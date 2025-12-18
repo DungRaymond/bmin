@@ -229,7 +229,7 @@
       "trang_thai": "đang dùng – sau creep ổn định"
     },
     {
-      "vot": "Titan 1000 xám",
+      "vot": "Titan 1000 hồng",
       "cuoc": "Yonex BG65 Titanium (Main) / Kizuna Z69T (Cross)",
       "duong_kinh": "0.70 / 0.69 mm",
       "muc_cang": "28/29 lbs (Cross = Main +1)",
@@ -243,7 +243,24 @@
       },
       "loi_choi_phu_hop": "Công–control đầm chắc: smash nặng, net/drop rất chuẩn, clear an toàn; bền cực cao.",
       "ghi_chu": "BG65Ti main & Z69T cross căng cao cho cảm giác chắc, ổn định, độ bền top; không bật nhanh như dây mỏng repulsion.",
-      "trang_thai": "đang thử"
+      "trang_thai": "sẽ thử"
+    },
+    {
+      "vot": "Titan 1000 xám",
+      "cuoc": "Ashaway Zymax 66 Fire Power",
+      "duong_kinh": "0.66 mm",
+      "muc_cang": "26.6/27.6 lbs (Cross = Main +1.0)",
+      "danh_gia": {
+        "ATK": 9.0,
+        "Control_Net": 8.6,
+        "Control_Grip": 8.7,
+        "Comfort": 8.1,
+        "Durability": 8.3,
+        "Clear_Power": 8.8
+      },
+       "loi_choi_phu_hop": "Công nhanh – cầu đi gắt: ép/drive tốc độ cao, phản tạt nhanh, smash bùng nổ khi vung đủ lực; chuyển trạng thái công–thủ linh hoạt.",
+        "ghi_chu": "Zymax66FP thiên về cảm giác crisp và độ bật tốt ở mức căng này; cho cầu đi nhanh, nảy, nhưng độ êm và độ bền không bằng dây dày (BG65Ti). Hợp với timing chuẩn và pronation tốt để khai thác lực tối đa.",
+        "trang_thai": "chờ căng"
     },
     {
       "vot": "Titan 1000 hồng",
