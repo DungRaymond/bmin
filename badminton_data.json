@@ -230,20 +230,20 @@
     },
     {
       "vot": "Titan 1000 xám",
-      "cuoc": "Yonex BG80 Power",
-      "duong_kinh": "0.68 mm",
-      "muc_cang": "25.6 lbs",
+      "cuoc": "Yonex BG65 Titanium (Main) / Kizuna Z69T (Cross)",
+      "duong_kinh": "0.70 / 0.69 mm",
+      "muc_cang": "28/29 lbs (Cross = Main +1)",
       "danh_gia": {
-        "ATK": 9.6,
-        "Control_Net": 8.2,
-        "Control_Grip": 8.7,
-        "Comfort": 7.8,
-        "Durability": 8.0,
-        "Clear_Power": 9.3,
-        "Hitting_Sound": 9.5
+        "ATK": 9.1,
+        "Control_Net": 9.2,
+        "Control_Grip": 9.0,
+        "Comfort": 8.9,
+        "Durability": 9.8,
+        "Clear_Power": 8.8
       },
-      "loi_choi_phu_hop": "Thiên Công mạnh mẽ (Power Attacking). Phù hợp cho người chơi có lực cổ tay Trung bình Khá trở lên, thích cảm giác đập uy lực, cầu cắm và tiếng nổ lớn. Rất phù hợp cho vị trí cầu sau trong đánh đôi.",
-      "ghi_chu": "Cấu hình cường độ cao. BG80 Power giúp Titan 1000 phát huy tối đa sức mạnh tấn công. Cần cổ tay khỏe để kiểm soát đầu vợt nặng và cước cứng."
+      "loi_choi_phu_hop": "Công–control đầm chắc: smash nặng, net/drop rất chuẩn, clear an toàn; bền cực cao.",
+      "ghi_chu": "BG65Ti main & Z69T cross căng cao cho cảm giác chắc, ổn định, độ bền top; không bật nhanh như dây mỏng repulsion.",
+      "trang_thai": "đang thử"
     },
     {
       "vot": "Titan 1000 hồng",
