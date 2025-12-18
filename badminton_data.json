@@ -298,7 +298,40 @@
 
   ],
   "bo_cau_hinh_thu_nghiem": [
-    
+    {
+      "vot": "Venson Youlong (4U, Nặng đầu, Thân Trung Bình)",
+      "cuoc": "Ashaway Zymax 66 Fire Power (Thuần)",
+      "duong_kinh": "0.66 mm",
+      "muc_cang": "26.5 lbs (Dọc) / 27.5 lbs (Ngang)",
+      "danh_gia": {
+        "ATK": 9.8,
+        "Control_Net": 9.3,
+        "Control_Grip": 9.4,
+        "Comfort": 8.0,
+        "Durability": 6.8,
+        "Clear_Power": 9.5,
+        "Hitting_Sound": 10.0
+      },
+      "loi_choi_phu_hop": "Tấn Công Bùng Nổ & Tốc Độ (Explosive Offensive). Phù hợp cho người chơi có cổ tay linh hoạt, ưa thích những cú đập cầu sấm sét với tiếng nổ uy lực. Khả năng phản tạt và đẩy cầu ngang cũng rất xuất sắc nhờ sự kết hợp giữa mức căng cao và cước nảy.",
+      "ghi_chu": "Đây là cấu hình 'đỉnh' nhất về mặt âm thanh và tốc độ ra cầu. Zymax 66FP nổi tiếng với tiếng nổ như pháo. Tuy nhiên, vì cước mỏng ($0.66\text{ mm}$) và căng cao ($27.5\text{ lbs}$), độ bền sẽ không quá cao (Durability 6.8). Bạn cần kiểm soát lực tốt để tránh đứt cước khi đánh lệch tâm."
+    },
+    {
+      "vot": "Titan 1000 (4U, Nặng đầu, Thân Cứng/Hơi cứng)",
+      "cuoc": "Ashaway Zymax 66 Fire Power (Thuần)",
+      "duong_kinh": "0.66 mm",
+      "muc_cang": "26.5 lbs (Dọc) / 27.5 lbs (Ngang)",
+      "danh_gia": {
+        "ATK": 9.6,
+        "Control_Net": 9.6,
+        "Control_Grip": 9.6,
+        "Comfort": 7.5,
+        "Durability": 6.8,
+        "Clear_Power": 8.7,
+        "Hitting_Sound": 10.0
+      },
+      "loi_choi_phu_hop": "Tấn Công Kỹ Thuật & Tốc Độ. Dành cho người chơi có lối đánh dồn dập, ép cầu, và thích kiểm soát trận đấu bằng những cú đánh chính xác cao. Rất mạnh trong các pha đập cầu gõ và phản tạt ngang mặt lưới.",
+      "ghi_chu": "Cấu hình này biến Titan 1000 thành một thanh kiếm sắc lẹm. Tiếng nổ cực kỳ đanh thép. Tuy nhiên, nó sẽ **kén người chơi** hơn Youlong; nếu bạn đang mệt hoặc cổ tay không đủ khỏe, bạn sẽ cảm thấy khó phông cầu sâu cuối sân."
+    },
     {
       "vot": "Venson Youlong",
       "cuoc": "Hybrid Kizuna Z69T + Zymax 66 Fire Power",
